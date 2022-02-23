@@ -15,3 +15,4 @@ If you don't have eclipse, modify the code in the src folder and run recompile b
 # Licensing
 
 RetroMCP is used to create the workspace, get it from here: https://github.com/MCPHackers/RetroMCP
+The original Minecraft source code belongs to Mojang.
