@@ -1,0 +1,358 @@
+# If this log is to be used for incremental obfuscation / patch generation, 
+# add any '.class', '.method', '.field' and '.attribute' restrictions here:
+
+
+#-DO-NOT-EDIT-BELOW-THIS-LINE------------------DO-NOT-EDIT-BELOW-THIS-LINE--
+#
+# RetroGuard MCP v3.6.6
+#
+# Logfile created on Wed Feb 23 12:20:19 EET 2022
+#
+# Jar file to be obfuscated:           minecraft.jar
+# Target Jar file for obfuscated code: minecraft_rg.jar
+# RetroGuard Script file used:         retroguard.cfg
+#
+#
+# Memory in use after class data structure built: 2288048 bytes
+# Total memory available                        : 128974848 bytes
+#
+#
+# Names reserved from obfuscation:
+#
+.class com/mojang/minecraft/MinecraftApplet
+.class com/mojang/minecraft/RubyDung
+.method com/mojang/minecraft/RubyDung/main ([Ljava/lang/String;)V
+#
+#
+# Obfuscated name mappings (some of these may be unchanged due to polymorphism constraints):
+#
+.package_map com/mojang/minecraft/character character
+.class_map com/mojang/minecraft/character/Vertex Vertex
+.field_map com/mojang/minecraft/character/Vertex/pos pos
+.field_map com/mojang/minecraft/character/Vertex/u u
+.field_map com/mojang/minecraft/character/Vertex/v v
+.method_map com/mojang/minecraft/character/Vertex/remap (FF)Lcom/mojang/minecraft/character/Vertex; remap
+.class_map com/mojang/minecraft/character/Cube Cube
+.field_map com/mojang/minecraft/character/Cube/xTexOffs xTexOffs
+.field_map com/mojang/minecraft/character/Cube/yTexOffs yTexOffs
+.field_map com/mojang/minecraft/character/Cube/compiled compiled
+.field_map com/mojang/minecraft/character/Cube/vertices vertices
+.field_map com/mojang/minecraft/character/Cube/polygons polygons
+.field_map com/mojang/minecraft/character/Cube/zRot zRot
+.field_map com/mojang/minecraft/character/Cube/yRot yRot
+.field_map com/mojang/minecraft/character/Cube/x x
+.field_map com/mojang/minecraft/character/Cube/xRot xRot
+.field_map com/mojang/minecraft/character/Cube/y y
+.field_map com/mojang/minecraft/character/Cube/z z
+.field_map com/mojang/minecraft/character/Cube/list list
+.method_map com/mojang/minecraft/character/Cube/setPos (FFF)V setPos
+.method_map com/mojang/minecraft/character/Cube/addBox (FFFIII)V addBox
+.method_map com/mojang/minecraft/character/Cube/compile ()V compile
+.method_map com/mojang/minecraft/character/Cube/render ()V render
+.method_map com/mojang/minecraft/character/Cube/setTexOffs (II)V setTexOffs
+.class_map com/mojang/minecraft/character/Zombie Zombie
+.field_map com/mojang/minecraft/character/Zombie/rot rot
+.field_map com/mojang/minecraft/character/Zombie/zombieModel zombieModel
+.field_map com/mojang/minecraft/character/Zombie/timeOffs timeOffs
+.field_map com/mojang/minecraft/character/Zombie/speed speed
+.field_map com/mojang/minecraft/character/Zombie/rotA rotA
+.method_map com/mojang/minecraft/character/Zombie/render (F)V render
+.method_map com/mojang/minecraft/character/Zombie/tick ()V tick
+.class_map com/mojang/minecraft/character/Vec3 Vec3
+.field_map com/mojang/minecraft/character/Vec3/x x
+.field_map com/mojang/minecraft/character/Vec3/y y
+.field_map com/mojang/minecraft/character/Vec3/z z
+.method_map com/mojang/minecraft/character/Vec3/interpolateTo (Lcom/mojang/minecraft/character/Vec3;F)Lcom/mojang/minecraft/character/Vec3; interpolateTo
+.method_map com/mojang/minecraft/character/Vec3/set (FFF)V set
+.class_map com/mojang/minecraft/character/Polygon Polygon
+.field_map com/mojang/minecraft/character/Polygon/vertices vertices
+.field_map com/mojang/minecraft/character/Polygon/vertexCount vertexCount
+.method_map com/mojang/minecraft/character/Polygon/render ()V render
+.class_map com/mojang/minecraft/character/ZombieModel ZombieModel
+.field_map com/mojang/minecraft/character/ZombieModel/head head
+.field_map com/mojang/minecraft/character/ZombieModel/leg0 leg0
+.field_map com/mojang/minecraft/character/ZombieModel/leg1 leg1
+.field_map com/mojang/minecraft/character/ZombieModel/arm1 arm1
+.field_map com/mojang/minecraft/character/ZombieModel/arm0 arm0
+.field_map com/mojang/minecraft/character/ZombieModel/body body
+.method_map com/mojang/minecraft/character/ZombieModel/render (F)V render
+.package_map com/mojang/minecraft/level level
+.package_map com/mojang/minecraft/level/tile tile
+.class_map com/mojang/minecraft/level/tile/GrassTile GrassTile
+.method_map com/mojang/minecraft/level/tile/GrassTile/getTexture (I)I getTexture
+.method_map com/mojang/minecraft/level/tile/GrassTile/tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V tick
+.class_map com/mojang/minecraft/level/tile/DirtTile DirtTile
+.class_map com/mojang/minecraft/level/tile/Bush Bush
+.method_map com/mojang/minecraft/level/tile/Bush/getAABB (III)Lcom/mojang/minecraft/phys/AABB; getAABB
+.method_map com/mojang/minecraft/level/tile/Bush/render (Lcom/mojang/minecraft/level/Tesselator;Lcom/mojang/minecraft/level/Level;IIII)V render
+.method_map com/mojang/minecraft/level/tile/Bush/blocksLight ()Z blocksLight
+.method_map com/mojang/minecraft/level/tile/Bush/tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V tick
+.method_map com/mojang/minecraft/level/tile/Bush/isSolid ()Z isSolid
+.class_map com/mojang/minecraft/level/tile/Tile Tile
+.field_map com/mojang/minecraft/level/tile/Tile/rock rock
+.field_map com/mojang/minecraft/level/tile/Tile/tiles tiles
+.field_map com/mojang/minecraft/level/tile/Tile/grass grass
+.field_map com/mojang/minecraft/level/tile/Tile/bush bush
+.field_map com/mojang/minecraft/level/tile/Tile/tex tex
+.field_map com/mojang/minecraft/level/tile/Tile/dirt dirt
+.field_map com/mojang/minecraft/level/tile/Tile/wood wood
+.field_map com/mojang/minecraft/level/tile/Tile/id id
+.field_map com/mojang/minecraft/level/tile/Tile/stoneBrick stoneBrick
+.field_map com/mojang/minecraft/level/tile/Tile/empty empty
+.method_map com/mojang/minecraft/level/tile/Tile/getAABB (III)Lcom/mojang/minecraft/phys/AABB; getAABB
+.method_map com/mojang/minecraft/level/tile/Tile/render (Lcom/mojang/minecraft/level/Tesselator;Lcom/mojang/minecraft/level/Level;IIII)V render
+.method_map com/mojang/minecraft/level/tile/Tile/blocksLight ()Z blocksLight
+.method_map com/mojang/minecraft/level/tile/Tile/shouldRenderFace (Lcom/mojang/minecraft/level/Level;IIII)Z shouldRenderFace
+.method_map com/mojang/minecraft/level/tile/Tile/getTexture (I)I getTexture
+.method_map com/mojang/minecraft/level/tile/Tile/renderFaceNoTexture (Lcom/mojang/minecraft/level/Tesselator;IIII)V renderFaceNoTexture
+.method_map com/mojang/minecraft/level/tile/Tile/isSolid ()Z isSolid
+.method_map com/mojang/minecraft/level/tile/Tile/tick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V tick
+.method_map com/mojang/minecraft/level/tile/Tile/getTileAABB (III)Lcom/mojang/minecraft/phys/AABB; getTileAABB
+.method_map com/mojang/minecraft/level/tile/Tile/renderFace (Lcom/mojang/minecraft/level/Tesselator;IIII)V renderFace
+.method_map com/mojang/minecraft/level/tile/Tile/destroy (Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/ParticleEngine;)V destroy
+.class_map com/mojang/minecraft/level/Frustum Frustum
+.field_map com/mojang/minecraft/level/Frustum/A A
+.field_map com/mojang/minecraft/level/Frustum/B B
+.field_map com/mojang/minecraft/level/Frustum/C C
+.field_map com/mojang/minecraft/level/Frustum/LEFT LEFT
+.field_map com/mojang/minecraft/level/Frustum/D D
+.field_map com/mojang/minecraft/level/Frustum/_modl _modl
+.field_map com/mojang/minecraft/level/Frustum/m_Frustum m_Frustum
+.field_map com/mojang/minecraft/level/Frustum/_clip _clip
+.field_map com/mojang/minecraft/level/Frustum/frustum frustum
+.field_map com/mojang/minecraft/level/Frustum/FRONT FRONT
+.field_map com/mojang/minecraft/level/Frustum/proj proj
+.field_map com/mojang/minecraft/level/Frustum/BOTTOM BOTTOM
+.field_map com/mojang/minecraft/level/Frustum/_proj _proj
+.field_map com/mojang/minecraft/level/Frustum/TOP TOP
+.field_map com/mojang/minecraft/level/Frustum/RIGHT RIGHT
+.field_map com/mojang/minecraft/level/Frustum/BACK BACK
+.field_map com/mojang/minecraft/level/Frustum/modl modl
+.field_map com/mojang/minecraft/level/Frustum/clip clip
+.method_map com/mojang/minecraft/level/Frustum/cubeFullyInFrustum (FFFFFF)Z cubeFullyInFrustum
+.method_map com/mojang/minecraft/level/Frustum/getFrustum ()Lcom/mojang/minecraft/level/Frustum; getFrustum
+.method_map com/mojang/minecraft/level/Frustum/cubeInFrustum (FFFFFF)Z cubeInFrustum
+.method_map com/mojang/minecraft/level/Frustum/pointInFrustum (FFF)Z pointInFrustum
+.method_map com/mojang/minecraft/level/Frustum/calculateFrustum ()V calculateFrustum
+.method_map com/mojang/minecraft/level/Frustum/isVisible (Lcom/mojang/minecraft/phys/AABB;)Z isVisible
+.method_map com/mojang/minecraft/level/Frustum/sphereInFrustum (FFFF)Z sphereInFrustum
+.method_map com/mojang/minecraft/level/Frustum/normalizePlane ([[FI)V normalizePlane
+.class_map com/mojang/minecraft/level/PerlinNoiseFilter PerlinNoiseFilter
+.field_map com/mojang/minecraft/level/PerlinNoiseFilter/random random
+.field_map com/mojang/minecraft/level/PerlinNoiseFilter/seed seed
+.field_map com/mojang/minecraft/level/PerlinNoiseFilter/levels levels
+.field_map com/mojang/minecraft/level/PerlinNoiseFilter/fuzz fuzz
+.method_map com/mojang/minecraft/level/PerlinNoiseFilter/read (II)[I read
+.class_map com/mojang/minecraft/level/DirtyChunkSorter DirtyChunkSorter
+.field_map com/mojang/minecraft/level/DirtyChunkSorter/now now
+.field_map com/mojang/minecraft/level/DirtyChunkSorter/frustum frustum
+.field_map com/mojang/minecraft/level/DirtyChunkSorter/player player
+.method_map com/mojang/minecraft/level/DirtyChunkSorter/compare (Ljava/lang/Object;Ljava/lang/Object;)I compare
+.method_map com/mojang/minecraft/level/DirtyChunkSorter/compare (Lcom/mojang/minecraft/level/Chunk;Lcom/mojang/minecraft/level/Chunk;)I compare
+.class_map com/mojang/minecraft/level/Level Level
+.field_map com/mojang/minecraft/level/Level/random random
+.field_map com/mojang/minecraft/level/Level/levelListeners levelListeners
+.field_map com/mojang/minecraft/level/Level/depth depth
+.field_map com/mojang/minecraft/level/Level/TILE_UPDATE_INTERVAL TILE_UPDATE_INTERVAL
+.field_map com/mojang/minecraft/level/Level/blocks blocks
+.field_map com/mojang/minecraft/level/Level/unprocessed unprocessed
+.field_map com/mojang/minecraft/level/Level/width width
+.field_map com/mojang/minecraft/level/Level/lightDepths lightDepths
+.field_map com/mojang/minecraft/level/Level/height height
+.method_map com/mojang/minecraft/level/Level/calcLightDepths (IIII)V calcLightDepths
+.method_map com/mojang/minecraft/level/Level/isSolidTile (III)Z isSolidTile
+.method_map com/mojang/minecraft/level/Level/generateMap ()V generateMap
+.method_map com/mojang/minecraft/level/Level/isLightBlocker (III)Z isLightBlocker
+.method_map com/mojang/minecraft/level/Level/removeListener (Lcom/mojang/minecraft/level/LevelListener;)V removeListener
+.method_map com/mojang/minecraft/level/Level/getCubes (Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList; getCubes
+.method_map com/mojang/minecraft/level/Level/setTile (IIII)Z setTile
+.method_map com/mojang/minecraft/level/Level/isLit (III)Z isLit
+.method_map com/mojang/minecraft/level/Level/getTile (III)I getTile
+.method_map com/mojang/minecraft/level/Level/save ()V save
+.method_map com/mojang/minecraft/level/Level/addListener (Lcom/mojang/minecraft/level/LevelListener;)V addListener
+.method_map com/mojang/minecraft/level/Level/load ()Z load
+.method_map com/mojang/minecraft/level/Level/tick ()V tick
+.class_map com/mojang/minecraft/level/Tesselator Tesselator
+.field_map com/mojang/minecraft/level/Tesselator/hasTexture hasTexture
+.field_map com/mojang/minecraft/level/Tesselator/b b
+.field_map com/mojang/minecraft/level/Tesselator/instance instance
+.field_map com/mojang/minecraft/level/Tesselator/vertices vertices
+.field_map com/mojang/minecraft/level/Tesselator/MAX_FLOATS MAX_FLOATS
+.field_map com/mojang/minecraft/level/Tesselator/g g
+.field_map com/mojang/minecraft/level/Tesselator/p p
+.field_map com/mojang/minecraft/level/Tesselator/hasColor hasColor
+.field_map com/mojang/minecraft/level/Tesselator/r r
+.field_map com/mojang/minecraft/level/Tesselator/len len
+.field_map com/mojang/minecraft/level/Tesselator/array array
+.field_map com/mojang/minecraft/level/Tesselator/u u
+.field_map com/mojang/minecraft/level/Tesselator/v v
+.field_map com/mojang/minecraft/level/Tesselator/buffer buffer
+.field_map com/mojang/minecraft/level/Tesselator/MAX_MEMORY_USE MAX_MEMORY_USE
+.method_map com/mojang/minecraft/level/Tesselator/clear ()V clear
+.method_map com/mojang/minecraft/level/Tesselator/color (FFF)V color
+.method_map com/mojang/minecraft/level/Tesselator/flush ()V flush
+.method_map com/mojang/minecraft/level/Tesselator/init ()V init
+.method_map com/mojang/minecraft/level/Tesselator/tex (FF)V tex
+.method_map com/mojang/minecraft/level/Tesselator/vertexUV (FFFFF)V vertexUV
+.method_map com/mojang/minecraft/level/Tesselator/vertex (FFF)V vertex
+.class_map com/mojang/minecraft/level/Chunk Chunk
+.field_map com/mojang/minecraft/level/Chunk/dirty dirty
+.field_map com/mojang/minecraft/level/Chunk/level level
+.field_map com/mojang/minecraft/level/Chunk/totalTime totalTime
+.field_map com/mojang/minecraft/level/Chunk/dirtiedTime dirtiedTime
+.field_map com/mojang/minecraft/level/Chunk/updates updates
+.field_map com/mojang/minecraft/level/Chunk/aabb aabb
+.field_map com/mojang/minecraft/level/Chunk/t t
+.field_map com/mojang/minecraft/level/Chunk/z0 z0
+.field_map com/mojang/minecraft/level/Chunk/lists lists
+.field_map com/mojang/minecraft/level/Chunk/y0 y0
+.field_map com/mojang/minecraft/level/Chunk/z1 z1
+.field_map com/mojang/minecraft/level/Chunk/x0 x0
+.field_map com/mojang/minecraft/level/Chunk/y1 y1
+.field_map com/mojang/minecraft/level/Chunk/x x
+.field_map com/mojang/minecraft/level/Chunk/x1 x1
+.field_map com/mojang/minecraft/level/Chunk/y y
+.field_map com/mojang/minecraft/level/Chunk/z z
+.field_map com/mojang/minecraft/level/Chunk/totalUpdates totalUpdates
+.method_map com/mojang/minecraft/level/Chunk/rebuild (I)V rebuild
+.method_map com/mojang/minecraft/level/Chunk/render (I)V render
+.method_map com/mojang/minecraft/level/Chunk/rebuild ()V rebuild
+.method_map com/mojang/minecraft/level/Chunk/distanceToSqr (Lcom/mojang/minecraft/Player;)F distanceToSqr
+.method_map com/mojang/minecraft/level/Chunk/setDirty ()V setDirty
+.method_map com/mojang/minecraft/level/Chunk/isDirty ()Z isDirty
+.class_map com/mojang/minecraft/level/LevelRenderer LevelRenderer
+.field_map com/mojang/minecraft/level/LevelRenderer/MAX_REBUILDS_PER_FRAME MAX_REBUILDS_PER_FRAME
+.field_map com/mojang/minecraft/level/LevelRenderer/level level
+.field_map com/mojang/minecraft/level/LevelRenderer/chunks chunks
+.field_map com/mojang/minecraft/level/LevelRenderer/yChunks yChunks
+.field_map com/mojang/minecraft/level/LevelRenderer/CHUNK_SIZE CHUNK_SIZE
+.field_map com/mojang/minecraft/level/LevelRenderer/zChunks zChunks
+.field_map com/mojang/minecraft/level/LevelRenderer/xChunks xChunks
+.method_map com/mojang/minecraft/level/LevelRenderer/tileChanged (III)V tileChanged
+.method_map com/mojang/minecraft/level/LevelRenderer/updateDirtyChunks (Lcom/mojang/minecraft/Player;)V updateDirtyChunks
+.method_map com/mojang/minecraft/level/LevelRenderer/allChanged ()V allChanged
+.method_map com/mojang/minecraft/level/LevelRenderer/lightColumnChanged (IIII)V lightColumnChanged
+.method_map com/mojang/minecraft/level/LevelRenderer/getAllDirtyChunks ()Ljava/util/List; getAllDirtyChunks
+.method_map com/mojang/minecraft/level/LevelRenderer/render (Lcom/mojang/minecraft/Player;I)V render
+.method_map com/mojang/minecraft/level/LevelRenderer/renderHit (Lcom/mojang/minecraft/HitResult;)V renderHit
+.method_map com/mojang/minecraft/level/LevelRenderer/pick (Lcom/mojang/minecraft/Player;Lcom/mojang/minecraft/level/Frustum;)V pick
+.method_map com/mojang/minecraft/level/LevelRenderer/setDirty (IIIIII)V setDirty
+.class_map com/mojang/minecraft/level/LevelListener LevelListener
+.method_map com/mojang/minecraft/level/LevelListener/tileChanged (III)V tileChanged
+.method_map com/mojang/minecraft/level/LevelListener/allChanged ()V allChanged
+.method_map com/mojang/minecraft/level/LevelListener/lightColumnChanged (IIII)V lightColumnChanged
+.package_map com/mojang/minecraft/phys phys
+.class_map com/mojang/minecraft/phys/AABB AABB
+.field_map com/mojang/minecraft/phys/AABB/epsilon epsilon
+.field_map com/mojang/minecraft/phys/AABB/z0 z0
+.field_map com/mojang/minecraft/phys/AABB/y0 y0
+.field_map com/mojang/minecraft/phys/AABB/z1 z1
+.field_map com/mojang/minecraft/phys/AABB/x0 x0
+.field_map com/mojang/minecraft/phys/AABB/y1 y1
+.field_map com/mojang/minecraft/phys/AABB/x1 x1
+.method_map com/mojang/minecraft/phys/AABB/clipZCollide (Lcom/mojang/minecraft/phys/AABB;F)F clipZCollide
+.method_map com/mojang/minecraft/phys/AABB/clipYCollide (Lcom/mojang/minecraft/phys/AABB;F)F clipYCollide
+.method_map com/mojang/minecraft/phys/AABB/move (FFF)V move
+.method_map com/mojang/minecraft/phys/AABB/intersects (Lcom/mojang/minecraft/phys/AABB;)Z intersects
+.method_map com/mojang/minecraft/phys/AABB/grow (FFF)Lcom/mojang/minecraft/phys/AABB; grow
+.method_map com/mojang/minecraft/phys/AABB/clipXCollide (Lcom/mojang/minecraft/phys/AABB;F)F clipXCollide
+.method_map com/mojang/minecraft/phys/AABB/expand (FFF)Lcom/mojang/minecraft/phys/AABB; expand
+.package_map com/mojang/minecraft/particle particle
+.class_map com/mojang/minecraft/particle/Particle Particle
+.field_map com/mojang/minecraft/particle/Particle/size size
+.field_map com/mojang/minecraft/particle/Particle/tex tex
+.field_map com/mojang/minecraft/particle/Particle/lifetime lifetime
+.field_map com/mojang/minecraft/particle/Particle/vo vo
+.field_map com/mojang/minecraft/particle/Particle/zd zd
+.field_map com/mojang/minecraft/particle/Particle/uo uo
+.field_map com/mojang/minecraft/particle/Particle/yd yd
+.field_map com/mojang/minecraft/particle/Particle/xd xd
+.field_map com/mojang/minecraft/particle/Particle/age age
+.method_map com/mojang/minecraft/particle/Particle/render (Lcom/mojang/minecraft/level/Tesselator;FFFFFF)V render
+.method_map com/mojang/minecraft/particle/Particle/tick ()V tick
+.class_map com/mojang/minecraft/particle/ParticleEngine ParticleEngine
+.field_map com/mojang/minecraft/particle/ParticleEngine/level level
+.field_map com/mojang/minecraft/particle/ParticleEngine/particles particles
+.method_map com/mojang/minecraft/particle/ParticleEngine/render (Lcom/mojang/minecraft/Player;FI)V render
+.method_map com/mojang/minecraft/particle/ParticleEngine/add (Lcom/mojang/minecraft/particle/Particle;)V add
+.method_map com/mojang/minecraft/particle/ParticleEngine/tick ()V tick
+.class_map com/mojang/minecraft/HitResult HitResult
+.field_map com/mojang/minecraft/HitResult/f f
+.field_map com/mojang/minecraft/HitResult/x x
+.field_map com/mojang/minecraft/HitResult/y y
+.field_map com/mojang/minecraft/HitResult/z z
+.field_map com/mojang/minecraft/HitResult/type type
+.class_map com/mojang/minecraft/Entity Entity
+.field_map com/mojang/minecraft/Entity/bb bb
+.field_map com/mojang/minecraft/Entity/level level
+.field_map com/mojang/minecraft/Entity/yRot yRot
+.field_map com/mojang/minecraft/Entity/xRot xRot
+.field_map com/mojang/minecraft/Entity/zd zd
+.field_map com/mojang/minecraft/Entity/yd yd
+.field_map com/mojang/minecraft/Entity/xd xd
+.field_map com/mojang/minecraft/Entity/heightOffset heightOffset
+.field_map com/mojang/minecraft/Entity/onGround onGround
+.field_map com/mojang/minecraft/Entity/removed removed
+.field_map com/mojang/minecraft/Entity/bbHeight bbHeight
+.field_map com/mojang/minecraft/Entity/zo zo
+.field_map com/mojang/minecraft/Entity/yo yo
+.field_map com/mojang/minecraft/Entity/xo xo
+.field_map com/mojang/minecraft/Entity/x x
+.field_map com/mojang/minecraft/Entity/y y
+.field_map com/mojang/minecraft/Entity/z z
+.field_map com/mojang/minecraft/Entity/bbWidth bbWidth
+.method_map com/mojang/minecraft/Entity/setPos (FFF)V setPos
+.method_map com/mojang/minecraft/Entity/setSize (FF)V setSize
+.method_map com/mojang/minecraft/Entity/move (FFF)V move
+.method_map com/mojang/minecraft/Entity/turn (FF)V turn
+.method_map com/mojang/minecraft/Entity/moveRelative (FFF)V moveRelative
+.method_map com/mojang/minecraft/Entity/isLit ()Z isLit
+.method_map com/mojang/minecraft/Entity/tick ()V tick
+.method_map com/mojang/minecraft/Entity/resetPos ()V resetPos
+.method_map com/mojang/minecraft/Entity/remove ()V remove
+.class_map com/mojang/minecraft/Player Player
+.method_map com/mojang/minecraft/Player/tick ()V tick
+.class_map com/mojang/minecraft/Timer Timer
+.field_map com/mojang/minecraft/Timer/lastTime lastTime
+.field_map com/mojang/minecraft/Timer/a a
+.field_map com/mojang/minecraft/Timer/timeScale timeScale
+.field_map com/mojang/minecraft/Timer/MAX_TICKS_PER_UPDATE MAX_TICKS_PER_UPDATE
+.field_map com/mojang/minecraft/Timer/ticks ticks
+.field_map com/mojang/minecraft/Timer/NS_PER_SECOND NS_PER_SECOND
+.field_map com/mojang/minecraft/Timer/fps fps
+.field_map com/mojang/minecraft/Timer/passedTime passedTime
+.field_map com/mojang/minecraft/Timer/MAX_NS_PER_UPDATE MAX_NS_PER_UPDATE
+.field_map com/mojang/minecraft/Timer/ticksPerSecond ticksPerSecond
+.method_map com/mojang/minecraft/Timer/advanceTime ()V advanceTime
+.field_map com/mojang/minecraft/RubyDung/fogColor1 fogColor1
+.field_map com/mojang/minecraft/RubyDung/viewportBuffer viewportBuffer
+.field_map com/mojang/minecraft/RubyDung/level level
+.field_map com/mojang/minecraft/RubyDung/fogColor0 fogColor0
+.field_map com/mojang/minecraft/RubyDung/FULLSCREEN_MODE FULLSCREEN_MODE
+.field_map com/mojang/minecraft/RubyDung/timer timer
+.field_map com/mojang/minecraft/RubyDung/lb lb
+.field_map com/mojang/minecraft/RubyDung/selectBuffer selectBuffer
+.field_map com/mojang/minecraft/RubyDung/width width
+.field_map com/mojang/minecraft/RubyDung/paintTexture paintTexture
+.field_map com/mojang/minecraft/RubyDung/particleEngine particleEngine
+.field_map com/mojang/minecraft/RubyDung/levelRenderer levelRenderer
+.field_map com/mojang/minecraft/RubyDung/zombies zombies
+.field_map com/mojang/minecraft/RubyDung/hitResult hitResult
+.field_map com/mojang/minecraft/RubyDung/height height
+.field_map com/mojang/minecraft/RubyDung/player player
+.method_map com/mojang/minecraft/RubyDung/run ()V run
+.method_map com/mojang/minecraft/RubyDung/drawGui (F)V drawGui
+.method_map com/mojang/minecraft/RubyDung/setupPickCamera (FII)V setupPickCamera
+.method_map com/mojang/minecraft/RubyDung/init ()V init
+.method_map com/mojang/minecraft/RubyDung/moveCameraToPlayer (F)V moveCameraToPlayer
+.method_map com/mojang/minecraft/RubyDung/setupCamera (F)V setupCamera
+.method_map com/mojang/minecraft/RubyDung/pick (F)V pick
+.method_map com/mojang/minecraft/RubyDung/render (F)V render
+.method_map com/mojang/minecraft/RubyDung/getBuffer (FFFF)Ljava/nio/FloatBuffer; getBuffer
+.method_map com/mojang/minecraft/RubyDung/checkError ()V checkError
+.method_map com/mojang/minecraft/RubyDung/setupFog (I)V setupFog
+.method_map com/mojang/minecraft/RubyDung/tick ()V tick
+.method_map com/mojang/minecraft/RubyDung/destroy ()V destroy
+.class_map com/mojang/minecraft/Textures Textures
+.field_map com/mojang/minecraft/Textures/idMap idMap
+.method_map com/mojang/minecraft/Textures/loadTexture (Ljava/lang/String;I)I loadTexture

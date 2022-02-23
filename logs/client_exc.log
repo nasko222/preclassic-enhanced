@@ -1,0 +1,3229 @@
+INFO: Copying META-INF/MOJANG_C.DSA
+INFO: Copying 2char.png
+INFO: Copying char.png
+INFO: Copying clouds.png
+INFO: Copying default.gif
+INFO: Copying default.png
+INFO: Copying dirt.png
+INFO: Copying grass.png
+INFO: Copying null
+INFO: Copying particles.png
+INFO: Copying rain.png
+INFO: Copying rock.png
+INFO: Copying shadow.png
+INFO: Copying terrain.png
+INFO: Copying water.png
+INFO: Processing util/MathHelper.class
+FINE: Class: util/MathHelper Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: sin Desc: (F)F
+FINER: Name: cos Desc: (F)F
+FINER: Name: sqrt_float Desc: (F)F
+FINER: Name: floor_float Desc: (F)I
+FINER: Name: floor_double Desc: (D)I
+FINER: Name: abs Desc: (F)F
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 675 -> 664
+INFO: Processing util/IProgressUpdate.class
+FINE: Class: util/IProgressUpdate Extends: java/lang/Object
+FINER: Name: displayProgressMessage Desc: (Ljava/lang/String;)V
+FINER: Name: displayLoadingString Desc: (Ljava/lang/String;)V
+FINER: Name: setLoadingProgress Desc: (I)V
+INFO: Processed 204 -> 196
+INFO: Copying armor/chain_1.png
+INFO: Copying armor/chain_2.png
+INFO: Copying armor/cloth_1.png
+INFO: Copying armor/cloth_2.png
+INFO: Copying armor/diamond_1.png
+INFO: Copying armor/diamond_2.png
+INFO: Copying armor/gold_1.png
+INFO: Copying armor/gold_2.png
+INFO: Copying armor/iron_1.png
+INFO: Copying armor/iron_2.png
+INFO: Copying art/kz.png
+INFO: Copying gui/container.png
+INFO: Copying gui/crafting.png
+INFO: Copying gui/furnace.png
+INFO: Copying gui/gui.png
+INFO: Copying gui/icons.png
+INFO: Copying gui/inventory.png
+INFO: Copying gui/items.png
+INFO: Copying gui/logo.png
+INFO: Copying item/arrows.png
+INFO: Copying item/sign.png
+INFO: Copying misc/gear.png
+INFO: Copying misc/gearmiddle.png
+INFO: Copying mob/creeper.png
+INFO: Copying mob/pig.png
+INFO: Copying mob/sheep.png
+INFO: Copying mob/sheep_fur.png
+INFO: Copying mob/skeleton.png
+INFO: Copying mob/spider.png
+INFO: Copying mob/spider_eyes.png
+INFO: Copying mob/zombie.png
+INFO: Copying terrain/moon.png
+INFO: Copying terrain/sun.png
+INFO: Processing paulscode/sound/Channel.class
+FINE: Class: paulscode/sound/Channel Extends: java/lang/Object
+FINER: Name: <init> Desc: (I)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: preLoadBuffers Desc: (Ljava/util/LinkedList;)Z
+FINER: Name: queueBuffer Desc: ([B)Z
+FINER: Name: feedRawAudioData Desc: ([B)I
+FINER: Name: buffersProcessed Desc: ()I
+FINER: Name: processBuffer Desc: ()Z
+FINER: Name: setAudioFormat Desc: (Ljavax/sound/sampled/AudioFormat;)V
+FINER: Name: flush Desc: ()V
+FINER: Name: close Desc: ()V
+FINER: Name: play Desc: ()V
+FINER: Name: pause Desc: ()V
+FINER: Name: stop Desc: ()V
+FINER: Name: rewind Desc: ()V
+FINER: Name: playing Desc: ()Z
+FINER: Name: getClassName Desc: ()Ljava/lang/String;
+FINER: Name: message Desc: (Ljava/lang/String;)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+INFO: Processed 2139 -> 2131
+INFO: Processing paulscode/sound/CommandObject.class
+FINE: Class: paulscode/sound/CommandObject Extends: java/lang/Object
+FINER: Name: <init> Desc: (I)V
+FINER: Name: <init> Desc: (II)V
+FINER: Name: <init> Desc: (ILjava/lang/Class;)V
+FINER: Name: <init> Desc: (IF)V
+FINER: Name: <init> Desc: (ILjava/lang/String;)V
+FINER: Name: <init> Desc: (ILjava/lang/Object;)V
+FINER: Name: <init> Desc: (ILjava/lang/String;Ljava/lang/Object;)V
+FINER: Name: <init> Desc: (ILjava/lang/String;[B)V
+FINER: Name: <init> Desc: (ILjava/lang/String;Ljava/lang/Object;J)V
+FINER: Name: <init> Desc: (ILjava/lang/String;Ljava/lang/Object;JJ)V
+FINER: Name: <init> Desc: (ILjava/lang/String;Ljava/lang/String;)V
+FINER: Name: <init> Desc: (ILjava/lang/String;I)V
+FINER: Name: <init> Desc: (ILjava/lang/String;F)V
+FINER: Name: <init> Desc: (ILjava/lang/String;Z)V
+FINER: Name: <init> Desc: (IFFF)V
+FINER: Name: <init> Desc: (ILjava/lang/String;FFF)V
+FINER: Name: <init> Desc: (IFFFFFF)V
+FINER: Name: <init> Desc: (IZZZLjava/lang/String;Ljava/lang/Object;FFFIF)V
+FINER: Name: <init> Desc: (IZZZLjava/lang/String;Ljava/lang/Object;FFFIFZ)V
+FINER: Name: <init> Desc: (ILjava/lang/Object;ZLjava/lang/String;FFFIF)V
+INFO: Processed 3883 -> 3875
+INFO: Processing paulscode/sound/CommandThread.class
+FINE: Class: paulscode/sound/CommandThread Extends: paulscode/sound/SimpleThread
+FINER: Name: <init> Desc: (Lpaulscode/sound/SoundSystem;)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: run Desc: ()V
+FINER: Name: message Desc: (Ljava/lang/String;I)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;I)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;I)V
+INFO: Processed 1495 -> 1487
+INFO: Processing paulscode/sound/FilenameURL.class
+FINE: Class: paulscode/sound/FilenameURL Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/net/URL;Ljava/lang/String;)V
+FINER: Name: <init> Desc: (Ljava/lang/String;)V
+FINER: Name: getFilename Desc: ()Ljava/lang/String;
+FINER: Name: getURL Desc: ()Ljava/net/URL;
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+INFO: Processed 1639 -> 1631
+INFO: Processing paulscode/sound/ICodec.class
+FINE: Class: paulscode/sound/ICodec Extends: java/lang/Object
+FINER: Name: reverseByteOrder Desc: (Z)V
+FINER: Name: initialize Desc: (Ljava/net/URL;)Z
+FINER: Name: initialized Desc: ()Z
+FINER: Name: read Desc: ()Lpaulscode/sound/SoundBuffer;
+FINER: Name: readAll Desc: ()Lpaulscode/sound/SoundBuffer;
+FINER: Name: endOfStream Desc: ()Z
+FINER: Name: cleanup Desc: ()V
+FINER: Name: getAudioFormat Desc: ()Ljavax/sound/sampled/AudioFormat;
+INFO: Processed 361 -> 353
+INFO: Processing paulscode/sound/Library.class
+FINE: Class: paulscode/sound/Library Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: init Desc: ()V
+FINER: Name: libraryCompatible Desc: ()Z
+FINER: Name: createChannel Desc: (I)Lpaulscode/sound/Channel;
+FINER: Name: loadSound Desc: (Lpaulscode/sound/FilenameURL;)Z
+FINER: Name: unloadSound Desc: (Ljava/lang/String;)V
+FINER: Name: rawDataStream Desc: (Ljavax/sound/sampled/AudioFormat;ZLjava/lang/String;FFFIF)V
+FINER: Name: newSource Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;FFFIF)V
+FINER: Name: quickPlay Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;FFFIFZ)V
+FINER: Name: setTemporary Desc: (Ljava/lang/String;Z)V
+FINER: Name: setPosition Desc: (Ljava/lang/String;FFF)V
+FINER: Name: setPriority Desc: (Ljava/lang/String;Z)V
+FINER: Name: setLooping Desc: (Ljava/lang/String;Z)V
+FINER: Name: setAttenuation Desc: (Ljava/lang/String;I)V
+FINER: Name: setDistOrRoll Desc: (Ljava/lang/String;F)V
+FINER: Name: feedRawAudioData Desc: (Ljava/lang/String;[B)I
+FINER: Name: feedRawAudioData Desc: (Lpaulscode/sound/Source;[B)I
+FINER: Name: play Desc: (Ljava/lang/String;)V
+FINER: Name: play Desc: (Lpaulscode/sound/Source;)V
+FINER: Name: stop Desc: (Ljava/lang/String;)V
+FINER: Name: pause Desc: (Ljava/lang/String;)V
+FINER: Name: rewind Desc: (Ljava/lang/String;)V
+FINER: Name: flush Desc: (Ljava/lang/String;)V
+FINER: Name: cull Desc: (Ljava/lang/String;)V
+FINER: Name: activate Desc: (Ljava/lang/String;)V
+FINER: Name: setMasterVolume Desc: (F)V
+FINER: Name: setVolume Desc: (Ljava/lang/String;F)V
+FINER: Name: getVolume Desc: (Ljava/lang/String;)F
+FINER: Name: setPitch Desc: (Ljava/lang/String;F)V
+FINER: Name: getPitch Desc: (Ljava/lang/String;)F
+FINER: Name: moveListener Desc: (FFF)V
+FINER: Name: setListenerPosition Desc: (FFF)V
+FINER: Name: turnListener Desc: (F)V
+FINER: Name: setListenerAngle Desc: (F)V
+FINER: Name: setListenerOrientation Desc: (FFFFFF)V
+FINER: Name: setListenerData Desc: (Lpaulscode/sound/ListenerData;)V
+FINER: Name: copySources Desc: (Ljava/util/HashMap;)V
+FINER: Name: removeSource Desc: (Ljava/lang/String;)V
+FINER: Name: removeTemporarySources Desc: ()V
+FINER: Name: getNextChannel Desc: (Lpaulscode/sound/Source;)Lpaulscode/sound/Channel;
+FINER: Name: replaySources Desc: ()V
+FINER: Name: queueSound Desc: (Ljava/lang/String;Lpaulscode/sound/FilenameURL;)V
+FINER: Name: dequeueSound Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: fadeOut Desc: (Ljava/lang/String;Lpaulscode/sound/FilenameURL;J)V
+FINER: Name: fadeOutIn Desc: (Ljava/lang/String;Lpaulscode/sound/FilenameURL;JJ)V
+FINER: Name: checkFadeVolumes Desc: ()V
+FINER: Name: loadMidi Desc: (ZLjava/lang/String;Lpaulscode/sound/FilenameURL;)V
+FINER: Name: unloadMidi Desc: ()V
+FINER: Name: midiSourcename Desc: (Ljava/lang/String;)Z
+FINER: Name: getSource Desc: (Ljava/lang/String;)Lpaulscode/sound/Source;
+FINER: Name: getMidiChannel Desc: ()Lpaulscode/sound/MidiChannel;
+FINER: Name: setMidiChannel Desc: (Lpaulscode/sound/MidiChannel;)V
+FINER: Name: listenerMoved Desc: ()V
+FINER: Name: getSources Desc: ()Ljava/util/HashMap;
+FINER: Name: getListenerData Desc: ()Lpaulscode/sound/ListenerData;
+FINER: Name: getTitle Desc: ()Ljava/lang/String;
+FINER: Name: getDescription Desc: ()Ljava/lang/String;
+FINER: Name: getClassName Desc: ()Ljava/lang/String;
+FINER: Name: message Desc: (Ljava/lang/String;)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+INFO: Processed 11570 -> 11536
+INFO: Processing paulscode/sound/ListenerData.class
+FINE: Class: paulscode/sound/ListenerData Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (FFFFFFFFFF)V
+FINER: Name: <init> Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;F)V
+FINER: Name: setData Desc: (FFFFFFFFFF)V
+FINER: Name: setData Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;F)V
+FINER: Name: setData Desc: (Lpaulscode/sound/ListenerData;)V
+FINER: Name: setPosition Desc: (FFF)V
+FINER: Name: setPosition Desc: (Lpaulscode/sound/Vector3D;)V
+FINER: Name: setOrientation Desc: (FFFFFF)V
+FINER: Name: setOrientation Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)V
+FINER: Name: setAngle Desc: (F)V
+INFO: Processed 1756 -> 1748
+INFO: Processing paulscode/sound/MidiChannel$1.class
+FINE: Class: paulscode/sound/MidiChannel$1 Extends: java/lang/Object
+INFO: Processed 122 -> 81
+INFO: Processing paulscode/sound/MidiChannel$FadeThread.class
+FINE: Class: paulscode/sound/MidiChannel$FadeThread Extends: paulscode/sound/SimpleThread
+FINER: Name: <init> Desc: (Lpaulscode/sound/MidiChannel;)V
+FINER: Name: run Desc: ()V
+FINER: Name: <init> Desc: (Lpaulscode/sound/MidiChannel;Lpaulscode/sound/MidiChannel$1;)V
+INFO: Processed 744 -> 701
+INFO: Processing paulscode/sound/MidiChannel.class
+FINE: Class: paulscode/sound/MidiChannel Extends: java/lang/Object
+FINER: Name: <init> Desc: (ZLjava/lang/String;Ljava/lang/String;)V
+FINER: Name: <init> Desc: (ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;)V
+FINER: Name: <init> Desc: (ZLjava/lang/String;Lpaulscode/sound/FilenameURL;)V
+FINER: Name: init Desc: ()V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: queueSound Desc: (Lpaulscode/sound/FilenameURL;)V
+FINER: Name: dequeueSound Desc: (Ljava/lang/String;)V
+FINER: Name: fadeOut Desc: (Lpaulscode/sound/FilenameURL;J)V
+FINER: Name: fadeOutIn Desc: (Lpaulscode/sound/FilenameURL;JJ)V
+FINER: Name: checkFadeOut Desc: ()Z
+FINER: Name: incrementSequence Desc: ()Z
+FINER: Name: play Desc: ()V
+FINER: Name: stop Desc: ()V
+FINER: Name: pause Desc: ()V
+FINER: Name: rewind Desc: ()V
+FINER: Name: setVolume Desc: (F)V
+FINER: Name: getVolume Desc: ()F
+FINER: Name: switchSource Desc: (ZLjava/lang/String;Ljava/lang/String;)V
+FINER: Name: switchSource Desc: (ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;)V
+FINER: Name: switchSource Desc: (ZLjava/lang/String;Lpaulscode/sound/FilenameURL;)V
+FINER: Name: reset Desc: ()V
+FINER: Name: setLooping Desc: (Z)V
+FINER: Name: getLooping Desc: ()Z
+FINER: Name: toLoop Desc: (ZZ)Z
+FINER: Name: loading Desc: ()Z
+FINER: Name: loading Desc: (ZZ)Z
+FINER: Name: setSourcename Desc: (Ljava/lang/String;)V
+FINER: Name: getSourcename Desc: ()Ljava/lang/String;
+FINER: Name: sourcename Desc: (ZLjava/lang/String;)Ljava/lang/String;
+FINER: Name: setFilenameURL Desc: (Lpaulscode/sound/FilenameURL;)V
+FINER: Name: getFilename Desc: ()Ljava/lang/String;
+FINER: Name: getFilenameURL Desc: ()Lpaulscode/sound/FilenameURL;
+FINER: Name: filenameURL Desc: (ZLpaulscode/sound/FilenameURL;)Lpaulscode/sound/FilenameURL;
+FINER: Name: meta Desc: (Ljavax/sound/midi/MetaMessage;)V
+FINER: Name: resetGain Desc: ()V
+FINER: Name: getSequencer Desc: ()V
+FINER: Name: setSequence Desc: (Ljava/net/URL;)V
+FINER: Name: getSynthesizer Desc: ()V
+FINER: Name: openSequencer Desc: (Ljava/lang/String;)Ljavax/sound/midi/Sequencer;
+FINER: Name: openMidiDevice Desc: (Ljava/lang/String;)Ljavax/sound/midi/MidiDevice;
+FINER: Name: message Desc: (Ljava/lang/String;)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+FINER: Name: access$100 Desc: (Lpaulscode/sound/MidiChannel;)Z
+INFO: Processed 13106 -> 13105
+INFO: Processing paulscode/sound/SimpleThread$1.class
+FINE: Class: paulscode/sound/SimpleThread$1 Extends: java/lang/Thread
+FINER: Name: <init> Desc: (Lpaulscode/sound/SimpleThread;)V
+FINER: Name: run Desc: ()V
+INFO: Processed 351 -> 343
+INFO: Processing paulscode/sound/SimpleThread.class
+FINE: Class: paulscode/sound/SimpleThread Extends: java/lang/Thread
+FINER: Name: <init> Desc: ()V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: run Desc: ()V
+FINER: Name: restart Desc: ()V
+FINER: Name: rerun Desc: ()V
+FINER: Name: alive Desc: ()Z
+FINER: Name: kill Desc: ()V
+FINER: Name: dying Desc: ()Z
+FINER: Name: alive Desc: (ZZ)Z
+FINER: Name: kill Desc: (ZZ)Z
+FINER: Name: snooze Desc: (J)V
+FINER: Name: access$000 Desc: (Lpaulscode/sound/SimpleThread;)V
+INFO: Processed 1051 -> 1043
+INFO: Processing paulscode/sound/SoundBuffer.class
+FINE: Class: paulscode/sound/SoundBuffer Extends: java/lang/Object
+FINER: Name: <init> Desc: ([BLjavax/sound/sampled/AudioFormat;)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: trimData Desc: (I)V
+INFO: Processed 531 -> 523
+INFO: Processing paulscode/sound/SoundSystem.class
+FINE: Class: paulscode/sound/SoundSystem Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (Ljava/lang/Class;)V
+FINER: Name: linkDefaultLibrariesAndCodecs Desc: ()V
+FINER: Name: init Desc: (Ljava/lang/Class;)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: interruptCommandThread Desc: ()V
+FINER: Name: loadSound Desc: (Ljava/lang/String;)V
+FINER: Name: loadSound Desc: (Ljava/net/URL;Ljava/lang/String;)V
+FINER: Name: unloadSound Desc: (Ljava/lang/String;)V
+FINER: Name: queueSound Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: queueSound Desc: (Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;)V
+FINER: Name: dequeueSound Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: fadeOut Desc: (Ljava/lang/String;Ljava/lang/String;J)V
+FINER: Name: fadeOut Desc: (Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;J)V
+FINER: Name: fadeOutIn Desc: (Ljava/lang/String;Ljava/lang/String;JJ)V
+FINER: Name: fadeOutIn Desc: (Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;JJ)V
+FINER: Name: checkFadeVolumes Desc: ()V
+FINER: Name: backgroundMusic Desc: (Ljava/lang/String;Ljava/lang/String;Z)V
+FINER: Name: backgroundMusic Desc: (Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;Z)V
+FINER: Name: newSource Desc: (ZLjava/lang/String;Ljava/lang/String;ZFFFIF)V
+FINER: Name: newSource Desc: (ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V
+FINER: Name: newStreamingSource Desc: (ZLjava/lang/String;Ljava/lang/String;ZFFFIF)V
+FINER: Name: newStreamingSource Desc: (ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V
+FINER: Name: rawDataStream Desc: (Ljavax/sound/sampled/AudioFormat;ZLjava/lang/String;FFFIF)V
+FINER: Name: quickPlay Desc: (ZLjava/lang/String;ZFFFIF)Ljava/lang/String;
+FINER: Name: quickPlay Desc: (ZLjava/net/URL;Ljava/lang/String;ZFFFIF)Ljava/lang/String;
+FINER: Name: quickStream Desc: (ZLjava/lang/String;ZFFFIF)Ljava/lang/String;
+FINER: Name: quickStream Desc: (ZLjava/net/URL;Ljava/lang/String;ZFFFIF)Ljava/lang/String;
+FINER: Name: setPosition Desc: (Ljava/lang/String;FFF)V
+FINER: Name: setVolume Desc: (Ljava/lang/String;F)V
+FINER: Name: getVolume Desc: (Ljava/lang/String;)F
+FINER: Name: setPitch Desc: (Ljava/lang/String;F)V
+FINER: Name: getPitch Desc: (Ljava/lang/String;)F
+FINER: Name: setPriority Desc: (Ljava/lang/String;Z)V
+FINER: Name: setLooping Desc: (Ljava/lang/String;Z)V
+FINER: Name: setAttenuation Desc: (Ljava/lang/String;I)V
+FINER: Name: setDistOrRoll Desc: (Ljava/lang/String;F)V
+FINER: Name: feedRawAudioData Desc: (Ljava/lang/String;[B)V
+FINER: Name: play Desc: (Ljava/lang/String;)V
+FINER: Name: pause Desc: (Ljava/lang/String;)V
+FINER: Name: stop Desc: (Ljava/lang/String;)V
+FINER: Name: rewind Desc: (Ljava/lang/String;)V
+FINER: Name: flush Desc: (Ljava/lang/String;)V
+FINER: Name: cull Desc: (Ljava/lang/String;)V
+FINER: Name: activate Desc: (Ljava/lang/String;)V
+FINER: Name: setTemporary Desc: (Ljava/lang/String;Z)V
+FINER: Name: removeSource Desc: (Ljava/lang/String;)V
+FINER: Name: moveListener Desc: (FFF)V
+FINER: Name: setListenerPosition Desc: (FFF)V
+FINER: Name: turnListener Desc: (F)V
+FINER: Name: setListenerAngle Desc: (F)V
+FINER: Name: setListenerOrientation Desc: (FFFFFF)V
+FINER: Name: setMasterVolume Desc: (F)V
+FINER: Name: getMasterVolume Desc: ()F
+FINER: Name: getListenerData Desc: ()Lpaulscode/sound/ListenerData;
+FINER: Name: switchLibrary Desc: (Ljava/lang/Class;)Z
+FINER: Name: newLibrary Desc: (Ljava/lang/Class;)Z
+FINER: Name: CommandNewLibrary Desc: (Ljava/lang/Class;)V
+FINER: Name: CommandInitialize Desc: ()V
+FINER: Name: CommandLoadSound Desc: (Lpaulscode/sound/FilenameURL;)V
+FINER: Name: CommandUnloadSound Desc: (Ljava/lang/String;)V
+FINER: Name: CommandQueueSound Desc: (Ljava/lang/String;Lpaulscode/sound/FilenameURL;)V
+FINER: Name: CommandDequeueSound Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: CommandFadeOut Desc: (Ljava/lang/String;Lpaulscode/sound/FilenameURL;J)V
+FINER: Name: CommandFadeOutIn Desc: (Ljava/lang/String;Lpaulscode/sound/FilenameURL;JJ)V
+FINER: Name: CommandCheckFadeVolumes Desc: ()V
+FINER: Name: CommandNewSource Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;FFFIF)V
+FINER: Name: CommandRawDataStream Desc: (Ljavax/sound/sampled/AudioFormat;ZLjava/lang/String;FFFIF)V
+FINER: Name: CommandQuickPlay Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;FFFIFZ)V
+FINER: Name: CommandSetPosition Desc: (Ljava/lang/String;FFF)V
+FINER: Name: CommandSetVolume Desc: (Ljava/lang/String;F)V
+FINER: Name: CommandSetPitch Desc: (Ljava/lang/String;F)V
+FINER: Name: CommandSetPriority Desc: (Ljava/lang/String;Z)V
+FINER: Name: CommandSetLooping Desc: (Ljava/lang/String;Z)V
+FINER: Name: CommandSetAttenuation Desc: (Ljava/lang/String;I)V
+FINER: Name: CommandSetDistOrRoll Desc: (Ljava/lang/String;F)V
+FINER: Name: CommandPlay Desc: (Ljava/lang/String;)V
+FINER: Name: CommandFeedRawAudioData Desc: (Ljava/lang/String;[B)V
+FINER: Name: CommandPause Desc: (Ljava/lang/String;)V
+FINER: Name: CommandStop Desc: (Ljava/lang/String;)V
+FINER: Name: CommandRewind Desc: (Ljava/lang/String;)V
+FINER: Name: CommandFlush Desc: (Ljava/lang/String;)V
+FINER: Name: CommandSetTemporary Desc: (Ljava/lang/String;Z)V
+FINER: Name: CommandRemoveSource Desc: (Ljava/lang/String;)V
+FINER: Name: CommandMoveListener Desc: (FFF)V
+FINER: Name: CommandSetListenerPosition Desc: (FFF)V
+FINER: Name: CommandTurnListener Desc: (F)V
+FINER: Name: CommandSetListenerAngle Desc: (F)V
+FINER: Name: CommandSetListenerOrientation Desc: (FFFFFF)V
+FINER: Name: CommandCull Desc: (Ljava/lang/String;)V
+FINER: Name: CommandActivate Desc: (Ljava/lang/String;)V
+FINER: Name: CommandSetMasterVolume Desc: (F)V
+FINER: Name: ManageSources Desc: ()V
+FINER: Name: CommandQueue Desc: (Lpaulscode/sound/CommandObject;)Z
+FINER: Name: removeTemporarySources Desc: ()V
+FINER: Name: playing Desc: (Ljava/lang/String;)Z
+FINER: Name: playing Desc: ()Z
+FINER: Name: copySources Desc: (Ljava/util/HashMap;)Ljava/util/HashMap;
+FINER: Name: libraryCompatible Desc: (Ljava/lang/Class;)Z
+FINER: Name: currentLibrary Desc: ()Ljava/lang/Class;
+FINER: Name: initialized Desc: ()Z
+FINER: Name: getLastException Desc: ()Lpaulscode/sound/SoundSystemException;
+FINER: Name: setException Desc: (Lpaulscode/sound/SoundSystemException;)V
+FINER: Name: initialized Desc: (ZZ)Z
+FINER: Name: currentLibrary Desc: (ZLjava/lang/Class;)Ljava/lang/Class;
+FINER: Name: lastException Desc: (ZLpaulscode/sound/SoundSystemException;)Lpaulscode/sound/SoundSystemException;
+FINER: Name: snooze Desc: (J)V
+FINER: Name: message Desc: (Ljava/lang/String;I)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;I)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;I)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;I)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 21165 -> 21231
+INFO: Processing paulscode/sound/SoundSystemConfig$Codec.class
+FINE: Class: paulscode/sound/SoundSystemConfig$Codec Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;Ljava/lang/Class;)V
+FINER: Name: getInstance Desc: ()Lpaulscode/sound/ICodec;
+FINER: Name: instantiationErrorMessage Desc: ()V
+INFO: Processed 1587 -> 1579
+INFO: Processing paulscode/sound/SoundSystemConfig.class
+FINE: Class: paulscode/sound/SoundSystemConfig Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addLibrary Desc: (Ljava/lang/Class;)V
+FINER: Name: removeLibrary Desc: (Ljava/lang/Class;)V
+FINER: Name: getLibraries Desc: ()Ljava/util/LinkedList;
+FINER: Name: libraryCompatible Desc: (Ljava/lang/Class;)Z
+FINER: Name: getLibraryTitle Desc: (Ljava/lang/Class;)Ljava/lang/String;
+FINER: Name: getLibraryDescription Desc: (Ljava/lang/Class;)Ljava/lang/String;
+FINER: Name: setLogger Desc: (Lpaulscode/sound/SoundSystemLogger;)V
+FINER: Name: getLogger Desc: ()Lpaulscode/sound/SoundSystemLogger;
+FINER: Name: setNumberNormalChannels Desc: (I)V
+FINER: Name: getNumberNormalChannels Desc: ()I
+FINER: Name: setNumberStreamingChannels Desc: (I)V
+FINER: Name: getNumberStreamingChannels Desc: ()I
+FINER: Name: setMasterGain Desc: (F)V
+FINER: Name: getMasterGain Desc: ()F
+FINER: Name: setDefaultAttenuation Desc: (I)V
+FINER: Name: getDefaultAttenuation Desc: ()I
+FINER: Name: setDefaultRolloff Desc: (F)V
+FINER: Name: getDefaultRolloff Desc: ()F
+FINER: Name: setDefaultFadeDistance Desc: (F)V
+FINER: Name: getDefaultFadeDistance Desc: ()F
+FINER: Name: setSoundFilesPackage Desc: (Ljava/lang/String;)V
+FINER: Name: getSoundFilesPackage Desc: ()Ljava/lang/String;
+FINER: Name: setStreamingBufferSize Desc: (I)V
+FINER: Name: getStreamingBufferSize Desc: ()I
+FINER: Name: setNumberStreamingBuffers Desc: (I)V
+FINER: Name: getNumberStreamingBuffers Desc: ()I
+FINER: Name: setMaxFileSize Desc: (I)V
+FINER: Name: getMaxFileSize Desc: ()I
+FINER: Name: setFileChunkSize Desc: (I)V
+FINER: Name: getFileChunkSize Desc: ()I
+FINER: Name: setCodec Desc: (Ljava/lang/String;Ljava/lang/Class;)V
+FINER: Name: getCodec Desc: (Ljava/lang/String;)Lpaulscode/sound/ICodec;
+FINER: Name: midiCodec Desc: ()Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: runMethod Desc: (Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: access$000 Desc: (Ljava/lang/String;)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 7602 -> 7624
+INFO: Processing paulscode/sound/SoundSystemException.class
+FINE: Class: paulscode/sound/SoundSystemException Extends: java/lang/Exception
+FINER: Name: <init> Desc: (Ljava/lang/String;)V
+FINER: Name: <init> Desc: (Ljava/lang/String;I)V
+FINER: Name: getType Desc: ()I
+INFO: Processed 1179 -> 1171
+INFO: Processing paulscode/sound/SoundSystemLogger.class
+FINE: Class: paulscode/sound/SoundSystemLogger Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: message Desc: (Ljava/lang/String;I)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;I)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;Ljava/lang/String;I)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;Ljava/lang/String;I)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;I)V
+FINER: Name: printExceptionMessage Desc: (Ljava/lang/Exception;I)V
+INFO: Processed 1465 -> 1457
+INFO: Processing paulscode/sound/Source.class
+FINE: Class: paulscode/sound/Source Extends: java/lang/Object
+FINER: Name: <init> Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;Lpaulscode/sound/SoundBuffer;FFFIFZ)V
+FINER: Name: <init> Desc: (Lpaulscode/sound/Source;Lpaulscode/sound/SoundBuffer;)V
+FINER: Name: <init> Desc: (Ljavax/sound/sampled/AudioFormat;ZLjava/lang/String;FFFIF)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: queueSound Desc: (Lpaulscode/sound/FilenameURL;)V
+FINER: Name: dequeueSound Desc: (Ljava/lang/String;)V
+FINER: Name: fadeOut Desc: (Lpaulscode/sound/FilenameURL;J)V
+FINER: Name: fadeOutIn Desc: (Lpaulscode/sound/FilenameURL;JJ)V
+FINER: Name: checkFadeOut Desc: ()Z
+FINER: Name: incrementSoundSequence Desc: ()Z
+FINER: Name: setTemporary Desc: (Z)V
+FINER: Name: listenerMoved Desc: ()V
+FINER: Name: setPosition Desc: (FFF)V
+FINER: Name: positionChanged Desc: ()V
+FINER: Name: setPriority Desc: (Z)V
+FINER: Name: setLooping Desc: (Z)V
+FINER: Name: setAttenuation Desc: (I)V
+FINER: Name: setDistOrRoll Desc: (F)V
+FINER: Name: getDistanceFromListener Desc: ()F
+FINER: Name: setPitch Desc: (F)V
+FINER: Name: getPitch Desc: ()F
+FINER: Name: reverseByteOrderRequired Desc: ()Z
+FINER: Name: changeSource Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;Lpaulscode/sound/SoundBuffer;FFFIFZ)V
+FINER: Name: feedRawAudioData Desc: (Lpaulscode/sound/Channel;[B)I
+FINER: Name: play Desc: (Lpaulscode/sound/Channel;)V
+FINER: Name: stream Desc: ()Z
+FINER: Name: preLoad Desc: ()Z
+FINER: Name: pause Desc: ()V
+FINER: Name: stop Desc: ()V
+FINER: Name: rewind Desc: ()V
+FINER: Name: flush Desc: ()V
+FINER: Name: cull Desc: ()V
+FINER: Name: activate Desc: ()V
+FINER: Name: active Desc: ()Z
+FINER: Name: playing Desc: ()Z
+FINER: Name: stopped Desc: ()Z
+FINER: Name: paused Desc: ()Z
+FINER: Name: active Desc: (ZZ)Z
+FINER: Name: stopped Desc: (ZZ)Z
+FINER: Name: paused Desc: (ZZ)Z
+FINER: Name: getClassName Desc: ()Ljava/lang/String;
+FINER: Name: message Desc: (Ljava/lang/String;)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+INFO: Processed 9403 -> 9404
+INFO: Processing paulscode/sound/StreamThread.class
+FINE: Class: paulscode/sound/StreamThread Extends: paulscode/sound/SimpleThread
+FINER: Name: <init> Desc: ()V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: run Desc: ()V
+FINER: Name: watch Desc: (Lpaulscode/sound/Source;)V
+FINER: Name: message Desc: (Ljava/lang/String;)V
+FINER: Name: importantMessage Desc: (Ljava/lang/String;)V
+FINER: Name: errorCheck Desc: (ZLjava/lang/String;)Z
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+INFO: Processed 2386 -> 2378
+INFO: Processing paulscode/sound/Vector3D.class
+FINE: Class: paulscode/sound/Vector3D Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (FFF)V
+FINER: Name: clone Desc: ()Lpaulscode/sound/Vector3D;
+FINER: Name: cross Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
+FINER: Name: cross Desc: (Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
+FINER: Name: dot Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)F
+FINER: Name: dot Desc: (Lpaulscode/sound/Vector3D;)F
+FINER: Name: add Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
+FINER: Name: add Desc: (Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
+FINER: Name: subtract Desc: (Lpaulscode/sound/Vector3D;Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
+FINER: Name: subtract Desc: (Lpaulscode/sound/Vector3D;)Lpaulscode/sound/Vector3D;
+FINER: Name: normalize Desc: ()V
+FINER: Name: clone Desc: ()Ljava/lang/Object;
+INFO: Processed 1440 -> 1390
+INFO: Processing com/mojang/nbt/NBTTagLong.class
+FINE: Class: com/mojang/nbt/NBTTagLong Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (J)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 802 -> 824
+INFO: Processing com/mojang/nbt/NBTTagFloat.class
+FINE: Class: com/mojang/nbt/NBTTagFloat Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (F)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 806 -> 828
+INFO: Processing com/mojang/nbt/NBTTagCompound.class
+FINE: Class: com/mojang/nbt/NBTTagCompound Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: setTag Desc: (Ljava/lang/String;Lcom/mojang/nbt/NBTBase;)V
+FINER: Name: setByte Desc: (Ljava/lang/String;B)V
+FINER: Name: setShort Desc: (Ljava/lang/String;S)V
+FINER: Name: setInteger Desc: (Ljava/lang/String;I)V
+FINER: Name: setLong Desc: (Ljava/lang/String;J)V
+FINER: Name: setFloat Desc: (Ljava/lang/String;F)V
+FINER: Name: setString Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: setByteArray Desc: (Ljava/lang/String;[B)V
+FINER: Name: setCompoundTag Desc: (Ljava/lang/String;Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: setBoolean Desc: (Ljava/lang/String;Z)V
+FINER: Name: hasKey Desc: (Ljava/lang/String;)Z
+FINER: Name: getByte Desc: (Ljava/lang/String;)B
+FINER: Name: getShort Desc: (Ljava/lang/String;)S
+FINER: Name: getInteger Desc: (Ljava/lang/String;)I
+FINER: Name: getLong Desc: (Ljava/lang/String;)J
+FINER: Name: getFloat Desc: (Ljava/lang/String;)F
+FINER: Name: getString Desc: (Ljava/lang/String;)Ljava/lang/String;
+FINER: Name: getByteArray Desc: (Ljava/lang/String;)[B
+FINER: Name: getCompoundTag Desc: (Ljava/lang/String;)Lcom/mojang/nbt/NBTTagCompound;
+FINER: Name: getTagList Desc: (Ljava/lang/String;)Lcom/mojang/nbt/NBTTagList;
+FINER: Name: getBoolean Desc: (Ljava/lang/String;)Z
+FINER: Name: toString Desc: ()Ljava/lang/String;
+FINER: Name: emptyNBTMap Desc: ()Z
+INFO: Processed 4290 -> 4269
+INFO: Processing com/mojang/nbt/NBTTagInt.class
+FINE: Class: com/mojang/nbt/NBTTagInt Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (I)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 798 -> 820
+INFO: Processing com/mojang/nbt/NBTTagByte.class
+FINE: Class: com/mojang/nbt/NBTTagByte Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (B)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 803 -> 825
+INFO: Processing com/mojang/nbt/NBTTagList.class
+FINE: Class: com/mojang/nbt/NBTTagList Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+FINER: Name: setTag Desc: (Lcom/mojang/nbt/NBTBase;)V
+FINER: Name: tagAt Desc: (I)Lcom/mojang/nbt/NBTBase;
+FINER: Name: tagCount Desc: ()I
+INFO: Processed 1796 -> 1818
+INFO: Processing com/mojang/nbt/NBTTagDouble.class
+FINE: Class: com/mojang/nbt/NBTTagDouble Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 775 -> 797
+INFO: Processing com/mojang/nbt/NBTTagShort.class
+FINE: Class: com/mojang/nbt/NBTTagShort Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (S)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 813 -> 835
+INFO: Processing com/mojang/nbt/NBTTagByteArray.class
+FINE: Class: com/mojang/nbt/NBTTagByteArray Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: ([B)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 900 -> 922
+INFO: Processing com/mojang/nbt/NBTBase.class
+FINE: Class: com/mojang/nbt/NBTBase Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: getKey Desc: ()Ljava/lang/String;
+FINER: Name: setKey Desc: (Ljava/lang/String;)Lcom/mojang/nbt/NBTBase;
+FINER: Name: readTag Desc: (Ljava/io/DataInput;)Lcom/mojang/nbt/NBTBase;
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: writeTag Desc: (Lcom/mojang/nbt/NBTBase;Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: createTagOfType Desc: (B)Lcom/mojang/nbt/NBTBase;
+INFO: Processed 1802 -> 1838
+INFO: Processing com/mojang/nbt/NBTTagString.class
+FINE: Class: com/mojang/nbt/NBTTagString Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (Ljava/lang/String;)V
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 1009 -> 1031
+INFO: Processing com/mojang/nbt/NBTTagEnd.class
+FINE: Class: com/mojang/nbt/NBTTagEnd Extends: com/mojang/nbt/NBTBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: readTagContents Desc: (Ljava/io/DataInput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: writeTagContents Desc: (Ljava/io/DataOutput;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: getType Desc: ()B
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 436 -> 461
+INFO: Processing com/jcraft/jogg/Buffer.class
+FINE: Class: com/jcraft/jogg/Buffer Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: writeinit Desc: ()V
+FINER: Name: write Desc: ([B)V
+FINER: Name: read Desc: ([BI)V
+FINER: Name: reset Desc: ()V
+FINER: Name: writeclear Desc: ()V
+FINER: Name: readinit Desc: ([BI)V
+FINER: Name: readinit Desc: ([BII)V
+FINER: Name: write Desc: (II)V
+FINER: Name: look Desc: (I)I
+FINER: Name: look1 Desc: ()I
+FINER: Name: adv Desc: (I)V
+FINER: Name: adv1 Desc: ()V
+FINER: Name: read Desc: (I)I
+FINER: Name: readB Desc: (I)I
+FINER: Name: read1 Desc: ()I
+FINER: Name: bytes Desc: ()I
+FINER: Name: bits Desc: ()I
+FINER: Name: buffer Desc: ()[B
+FINER: Name: ilog Desc: (I)I
+FINER: Name: report Desc: (Ljava/lang/String;)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 3142 -> 3134
+INFO: Processing com/jcraft/jogg/Packet.class
+FINE: Class: com/jcraft/jogg/Packet Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+INFO: Processed 285 -> 277
+INFO: Processing com/jcraft/jogg/Page.class
+FINE: Class: com/jcraft/jogg/Page Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: crc_entry Desc: (I)I
+FINER: Name: version Desc: ()I
+FINER: Name: continued Desc: ()I
+FINER: Name: bos Desc: ()I
+FINER: Name: eos Desc: ()I
+FINER: Name: granulepos Desc: ()J
+FINER: Name: serialno Desc: ()I
+FINER: Name: pageno Desc: ()I
+FINER: Name: checksum Desc: ()V
+FINER: Name: copy Desc: ()Lcom/jcraft/jogg/Page;
+FINER: Name: copy Desc: (Lcom/jcraft/jogg/Page;)Lcom/jcraft/jogg/Page;
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 1727 -> 1719
+INFO: Processing com/jcraft/jogg/StreamState.class
+FINE: Class: com/jcraft/jogg/StreamState Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (I)V
+FINER: Name: init Desc: ()V
+FINER: Name: init Desc: (I)V
+FINER: Name: clear Desc: ()V
+FINER: Name: destroy Desc: ()V
+FINER: Name: body_expand Desc: (I)V
+FINER: Name: lacing_expand Desc: (I)V
+FINER: Name: packetin Desc: (Lcom/jcraft/jogg/Packet;)I
+FINER: Name: packetout Desc: (Lcom/jcraft/jogg/Packet;)I
+FINER: Name: pagein Desc: (Lcom/jcraft/jogg/Page;)I
+FINER: Name: flush Desc: (Lcom/jcraft/jogg/Page;)I
+FINER: Name: pageout Desc: (Lcom/jcraft/jogg/Page;)I
+FINER: Name: eof Desc: ()I
+FINER: Name: reset Desc: ()I
+INFO: Processed 3968 -> 3960
+INFO: Processing com/jcraft/jogg/SyncState.class
+FINE: Class: com/jcraft/jogg/SyncState Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: clear Desc: ()I
+FINER: Name: buffer Desc: (I)I
+FINER: Name: wrote Desc: (I)I
+FINER: Name: pageseek Desc: (Lcom/jcraft/jogg/Page;)I
+FINER: Name: pageout Desc: (Lcom/jcraft/jogg/Page;)I
+FINER: Name: reset Desc: ()I
+FINER: Name: init Desc: ()V
+FINER: Name: getDataOffset Desc: ()I
+FINER: Name: getBufferOffset Desc: ()I
+INFO: Processed 2000 -> 1992
+INFO: Processing com/jcraft/jorbis/Block.class
+FINE: Class: com/jcraft/jorbis/Block Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/DspState;)V
+FINER: Name: init Desc: (Lcom/jcraft/jorbis/DspState;)V
+FINER: Name: clear Desc: ()I
+FINER: Name: synthesis Desc: (Lcom/jcraft/jogg/Packet;)I
+INFO: Processed 1964 -> 1956
+INFO: Processing com/jcraft/jorbis/CodeBook$DecodeAux.class
+FINE: Class: com/jcraft/jorbis/CodeBook$DecodeAux Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/CodeBook;)V
+INFO: Processed 385 -> 345
+INFO: Processing com/jcraft/jorbis/CodeBook.class
+FINE: Class: com/jcraft/jorbis/CodeBook Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: encode Desc: (ILcom/jcraft/jogg/Buffer;)I
+FINER: Name: errorv Desc: ([F)I
+FINER: Name: encodev Desc: (I[FLcom/jcraft/jogg/Buffer;)I
+FINER: Name: encodevs Desc: ([FLcom/jcraft/jogg/Buffer;II)I
+FINER: Name: decodevs_add Desc: ([FILcom/jcraft/jogg/Buffer;I)I
+FINER: Name: decodev_add Desc: ([FILcom/jcraft/jogg/Buffer;I)I
+FINER: Name: decodev_set Desc: ([FILcom/jcraft/jogg/Buffer;I)I
+FINER: Name: decodevv_add Desc: ([[FIILcom/jcraft/jogg/Buffer;I)I
+FINER: Name: decode Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: decodevs Desc: ([FILcom/jcraft/jogg/Buffer;II)I
+FINER: Name: best Desc: ([FI)I
+FINER: Name: besterror Desc: ([FII)I
+FINER: Name: clear Desc: ()V
+FINER: Name: dist Desc: (I[FI[FI)F
+FINER: Name: init_decode Desc: (Lcom/jcraft/jorbis/StaticCodeBook;)I
+FINER: Name: make_words Desc: ([II)[I
+FINER: Name: make_decode_tree Desc: ()Lcom/jcraft/jorbis/CodeBook$DecodeAux;
+INFO: Processed 4061 -> 4053
+INFO: Processing com/jcraft/jorbis/Comment.class
+FINE: Class: com/jcraft/jorbis/Comment Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: ()V
+FINER: Name: add Desc: (Ljava/lang/String;)V
+FINER: Name: add Desc: ([B)V
+FINER: Name: add_tag Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: tagcompare Desc: ([B[BI)Z
+FINER: Name: query Desc: (Ljava/lang/String;)Ljava/lang/String;
+FINER: Name: query Desc: (Ljava/lang/String;I)Ljava/lang/String;
+FINER: Name: query Desc: ([BI)I
+FINER: Name: unpack Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: pack Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: header_out Desc: (Lcom/jcraft/jogg/Packet;)I
+FINER: Name: clear Desc: ()V
+FINER: Name: getVendor Desc: ()Ljava/lang/String;
+FINER: Name: getComment Desc: (I)Ljava/lang/String;
+FINER: Name: toString Desc: ()Ljava/lang/String;
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 3001 -> 2993
+INFO: Processing com/jcraft/jorbis/Drft.class
+FINE: Class: com/jcraft/jorbis/Drft Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: backward Desc: ([F)V
+FINER: Name: init Desc: (I)V
+FINER: Name: clear Desc: ()V
+FINER: Name: drfti1 Desc: (I[FI[I)V
+FINER: Name: fdrffti Desc: (I[F[I)V
+FINER: Name: dradf2 Desc: (II[F[F[FI)V
+FINER: Name: dradf4 Desc: (II[F[F[FI[FI[FI)V
+FINER: Name: dradfg Desc: (IIII[F[F[F[F[F[FI)V
+FINER: Name: drftf1 Desc: (I[F[F[F[I)V
+FINER: Name: dradb2 Desc: (II[F[F[FI)V
+FINER: Name: dradb3 Desc: (II[F[F[FI[FI)V
+FINER: Name: dradb4 Desc: (II[F[F[FI[FI[FI)V
+FINER: Name: dradbg Desc: (IIII[F[F[F[F[F[FI)V
+FINER: Name: drftb1 Desc: (I[F[F[FI[I)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 7869 -> 7861
+INFO: Processing com/jcraft/jorbis/DspState.class
+FINE: Class: com/jcraft/jorbis/DspState Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: window Desc: (IIII)[F
+FINER: Name: init Desc: (Lcom/jcraft/jorbis/Info;Z)I
+FINER: Name: synthesis_init Desc: (Lcom/jcraft/jorbis/Info;)I
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Info;)V
+FINER: Name: synthesis_blockin Desc: (Lcom/jcraft/jorbis/Block;)I
+FINER: Name: synthesis_pcmout Desc: ([[[F[I)I
+FINER: Name: synthesis_read Desc: (I)I
+FINER: Name: clear Desc: ()V
+INFO: Processed 4620 -> 4612
+INFO: Processing com/jcraft/jorbis/Floor0$EchstateFloor0.class
+FINE: Class: com/jcraft/jorbis/Floor0$EchstateFloor0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor0;)V
+INFO: Processed 369 -> 331
+INFO: Processing com/jcraft/jorbis/Floor0$InfoFloor0.class
+FINE: Class: com/jcraft/jorbis/Floor0$InfoFloor0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor0;)V
+INFO: Processed 426 -> 388
+INFO: Processing com/jcraft/jorbis/Floor0$LookFloor0.class
+FINE: Class: com/jcraft/jorbis/Floor0$LookFloor0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor0;)V
+INFO: Processed 538 -> 459
+INFO: Processing com/jcraft/jorbis/Floor0.class
+FINE: Class: com/jcraft/jorbis/Floor0 Extends: com/jcraft/jorbis/FuncFloor
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: toBARK Desc: (F)F
+FINER: Name: state Desc: (Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: free_state Desc: (Ljava/lang/Object;)V
+FINER: Name: forward Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F)I
+FINER: Name: inverse1 Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: inverse2 Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)I
+FINER: Name: fromdB Desc: (F)F
+FINER: Name: lsp_to_lpc Desc: ([F[FI)V
+FINER: Name: lpc_to_curve Desc: ([F[FFLcom/jcraft/jorbis/Floor0$LookFloor0;Ljava/lang/String;I)V
+INFO: Processed 4623 -> 4615
+INFO: Processing com/jcraft/jorbis/Floor1$EchstateFloor1.class
+FINE: Class: com/jcraft/jorbis/Floor1$EchstateFloor1 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor1;)V
+INFO: Processed 369 -> 331
+INFO: Processing com/jcraft/jorbis/Floor1$InfoFloor1.class
+FINE: Class: com/jcraft/jorbis/Floor1$InfoFloor1 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor1;)V
+FINER: Name: free Desc: ()V
+FINER: Name: copy_info Desc: ()Ljava/lang/Object;
+INFO: Processed 1489 -> 1451
+INFO: Processing com/jcraft/jorbis/Floor1$LookFloor1.class
+FINE: Class: com/jcraft/jorbis/Floor1$LookFloor1 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor1;)V
+FINER: Name: free Desc: ()V
+INFO: Processed 798 -> 719
+INFO: Processing com/jcraft/jorbis/Floor1$Lsfit_acc.class
+FINE: Class: com/jcraft/jorbis/Floor1$Lsfit_acc Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Floor1;)V
+INFO: Processed 450 -> 412
+INFO: Processing com/jcraft/jorbis/Floor1.class
+FINE: Class: com/jcraft/jorbis/Floor1 Extends: com/jcraft/jorbis/FuncFloor
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: free_state Desc: (Ljava/lang/Object;)V
+FINER: Name: forward Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I
+FINER: Name: inverse1 Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: render_point Desc: (IIIII)I
+FINER: Name: inverse2 Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)I
+FINER: Name: render_line Desc: (IIII[F)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 7546 -> 7618
+INFO: Processing com/jcraft/jorbis/FuncFloor.class
+FINE: Class: com/jcraft/jorbis/FuncFloor Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: free_state Desc: (Ljava/lang/Object;)V
+FINER: Name: forward Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[FLjava/lang/Object;)I
+FINER: Name: inverse1 Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: inverse2 Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;Ljava/lang/Object;[F)I
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 974 -> 966
+INFO: Processing com/jcraft/jorbis/FuncMapping.class
+FINE: Class: com/jcraft/jorbis/FuncMapping Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Lcom/jcraft/jorbis/Info;Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)I
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 727 -> 719
+INFO: Processing com/jcraft/jorbis/FuncResidue.class
+FINE: Class: com/jcraft/jorbis/FuncResidue Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 803 -> 795
+INFO: Processing com/jcraft/jorbis/FuncTime.class
+FINE: Class: com/jcraft/jorbis/FuncTime Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[F)I
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 695 -> 687
+INFO: Processing com/jcraft/jorbis/Info.class
+FINE: Class: com/jcraft/jorbis/Info Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: ()V
+FINER: Name: clear Desc: ()V
+FINER: Name: unpack_info Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: unpack_books Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: synthesis_headerin Desc: (Lcom/jcraft/jorbis/Comment;Lcom/jcraft/jogg/Packet;)I
+FINER: Name: pack_info Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: pack_books Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: blocksize Desc: (Lcom/jcraft/jogg/Packet;)I
+FINER: Name: toString Desc: ()Ljava/lang/String;
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 5872 -> 5870
+INFO: Processing com/jcraft/jorbis/InfoMode.class
+FINE: Class: com/jcraft/jorbis/InfoMode Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+INFO: Processed 236 -> 228
+INFO: Processing com/jcraft/jorbis/Lookup.class
+FINE: Class: com/jcraft/jorbis/Lookup Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: coslook Desc: (F)F
+FINER: Name: invsqlook Desc: (F)F
+FINER: Name: invsq2explook Desc: (I)F
+FINER: Name: fromdBlook Desc: (F)F
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 4265 -> 4297
+INFO: Processing com/jcraft/jorbis/Lpc.class
+FINE: Class: com/jcraft/jorbis/Lpc Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: lpc_from_data Desc: ([F[FII)F
+FINER: Name: lpc_from_curve Desc: ([F[F)F
+FINER: Name: init Desc: (II)V
+FINER: Name: clear Desc: ()V
+FINER: Name: FAST_HYPOT Desc: (FF)F
+FINER: Name: lpc_to_curve Desc: ([F[FF)V
+INFO: Processed 1335 -> 1327
+INFO: Processing com/jcraft/jorbis/Lsp.class
+FINE: Class: com/jcraft/jorbis/Lsp Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: lsp_to_curve Desc: ([F[III[FIFF)V
+INFO: Processed 842 -> 834
+INFO: Processing com/jcraft/jorbis/Mapping0$InfoMapping0.class
+FINE: Class: com/jcraft/jorbis/Mapping0$InfoMapping0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Mapping0;)V
+FINER: Name: free Desc: ()V
+INFO: Processed 694 -> 654
+INFO: Processing com/jcraft/jorbis/Mapping0$LookMapping0.class
+FINE: Class: com/jcraft/jorbis/Mapping0$LookMapping0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Mapping0;)V
+INFO: Processed 821 -> 736
+INFO: Processing com/jcraft/jorbis/Mapping0.class
+FINE: Class: com/jcraft/jorbis/Mapping0 Extends: com/jcraft/jorbis/FuncMapping
+FINER: Name: <init> Desc: ()V
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: pack Desc: (Lcom/jcraft/jorbis/Info;Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;)I
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 4670 -> 4662
+INFO: Processing com/jcraft/jorbis/Mdct.class
+FINE: Class: com/jcraft/jorbis/Mdct Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: (I)V
+FINER: Name: clear Desc: ()V
+FINER: Name: forward Desc: ([F[F)V
+FINER: Name: backward Desc: ([F[F)V
+FINER: Name: mdct_kernel Desc: ([F[FIIII)[F
+INFO: Processed 2174 -> 2166
+INFO: Processing com/jcraft/jorbis/PsyInfo.class
+FINE: Class: com/jcraft/jorbis/PsyInfo Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: free Desc: ()V
+INFO: Processed 1347 -> 1339
+INFO: Processing com/jcraft/jorbis/PsyLook.class
+FINE: Class: com/jcraft/jorbis/PsyLook Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: (Lcom/jcraft/jorbis/PsyInfo;II)V
+INFO: Processed 391 -> 383
+INFO: Processing com/jcraft/jorbis/Residue0$InfoResidue0.class
+FINE: Class: com/jcraft/jorbis/Residue0$InfoResidue0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Residue0;)V
+INFO: Processed 614 -> 574
+INFO: Processing com/jcraft/jorbis/Residue0$LookResidue0.class
+FINE: Class: com/jcraft/jorbis/Residue0$LookResidue0 Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lcom/jcraft/jorbis/Residue0;)V
+INFO: Processed 672 -> 587
+INFO: Processing com/jcraft/jorbis/Residue0.class
+FINE: Class: com/jcraft/jorbis/Residue0 Extends: com/jcraft/jorbis/FuncResidue
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: _01inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FII)I
+FINER: Name: _2inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[FI)I
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 3698 -> 3690
+INFO: Processing com/jcraft/jorbis/Residue1.class
+FINE: Class: com/jcraft/jorbis/Residue1 Extends: com/jcraft/jorbis/Residue0
+FINER: Name: <init> Desc: ()V
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I
+INFO: Processed 382 -> 374
+INFO: Processing com/jcraft/jorbis/Residue2.class
+FINE: Class: com/jcraft/jorbis/Residue2 Extends: com/jcraft/jorbis/Residue0
+FINER: Name: <init> Desc: ()V
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[[F[II)I
+INFO: Processed 367 -> 359
+INFO: Processing com/jcraft/jorbis/StaticCodeBook.class
+FINE: Class: com/jcraft/jorbis/StaticCodeBook Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: unpack Desc: (Lcom/jcraft/jogg/Buffer;)I
+FINER: Name: maptype1_quantvals Desc: ()I
+FINER: Name: clear Desc: ()V
+FINER: Name: unquantize Desc: ()[F
+FINER: Name: float32_pack Desc: (F)J
+FINER: Name: float32_unpack Desc: (I)F
+FINER: Name: ldexp Desc: (FI)F
+INFO: Processed 2752 -> 2744
+INFO: Processing com/jcraft/jorbis/Time0.class
+FINE: Class: com/jcraft/jorbis/Time0 Extends: com/jcraft/jorbis/FuncTime
+FINER: Name: <init> Desc: ()V
+FINER: Name: pack Desc: (Ljava/lang/Object;Lcom/jcraft/jogg/Buffer;)V
+FINER: Name: unpack Desc: (Lcom/jcraft/jorbis/Info;Lcom/jcraft/jogg/Buffer;)Ljava/lang/Object;
+FINER: Name: look Desc: (Lcom/jcraft/jorbis/DspState;Lcom/jcraft/jorbis/InfoMode;Ljava/lang/Object;)Ljava/lang/Object;
+FINER: Name: free_info Desc: (Ljava/lang/Object;)V
+FINER: Name: free_look Desc: (Ljava/lang/Object;)V
+FINER: Name: inverse Desc: (Lcom/jcraft/jorbis/Block;Ljava/lang/Object;[F[F)I
+INFO: Processed 679 -> 671
+INFO: Processing com/jcraft/jorbis/Util.class
+FINE: Class: com/jcraft/jorbis/Util Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: ilog Desc: (I)I
+FINER: Name: ilog2 Desc: (I)I
+FINER: Name: icount Desc: (I)I
+INFO: Processed 312 -> 304
+INFO: Processing net/minecraft/game/InventoryLargeChest.class
+FINE: Class: net/minecraft/game/InventoryLargeChest Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;Lnet/minecraft/game/IInventory;Lnet/minecraft/game/IInventory;)V
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getInventoryStackLimit Desc: ()I
+INFO: Processed 1113 -> 1084
+INFO: Processing net/minecraft/game/IInventory.class
+FINE: Class: net/minecraft/game/IInventory Extends: java/lang/Object
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: getInventoryStackLimit Desc: ()I
+INFO: Processed 408 -> 400
+INFO: Processing net/minecraft/client/LoadingScreenRenderer.class
+FINE: Class: net/minecraft/client/LoadingScreenRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;)V
+FINER: Name: displayProgressMessage Desc: (Ljava/lang/String;)V
+FINER: Name: displayLoadingString Desc: (Ljava/lang/String;)V
+FINER: Name: setLoadingProgress Desc: (I)V
+FINER: Name: <init> Desc: ()V
+FINER: Name: writeLevelTags Desc: (Ljava/io/InputStream;)Lcom/mojang/nbt/NBTTagCompound;
+FINE: Adding Exceptions: java/io/IOException
+INFO: Processed 3155 -> 3170
+INFO: Processing net/minecraft/client/CanvasMinecraftApplet.class
+FINE: Class: net/minecraft/client/CanvasMinecraftApplet Extends: java/awt/Canvas
+FINER: Name: <init> Desc: (Lnet/minecraft/client/MinecraftApplet;)V
+FINER: Name: addNotify Desc: ()V
+FINER: Name: removeNotify Desc: ()V
+INFO: Processed 497 -> 489
+INFO: Processing net/minecraft/client/RenderHelper.class
+FINE: Class: net/minecraft/client/RenderHelper Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: disableStandardItemLighting Desc: ()V
+FINER: Name: enableStandardItemLighting Desc: ()V
+FINER: Name: setColorBuffer Desc: (FFFF)Ljava/nio/FloatBuffer;
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 1346 -> 1335
+INFO: Processing net/minecraft/client/Minecraft.class
+FINE: Class: net/minecraft/client/Minecraft Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+FINER: Name: setServer Desc: (Ljava/lang/String;I)V
+FINER: Name: displayGuiScreen Desc: (Lnet/minecraft/client/gui/GuiScreen;)V
+FINER: Name: shutdownMinecraftApplet Desc: ()V
+FINER: Name: run Desc: ()V
+FINER: Name: setIngameFocus Desc: ()V
+FINER: Name: inputLock Desc: ()V
+FINER: Name: displayInGameMenu Desc: ()V
+FINER: Name: clickMouse Desc: (I)V
+FINER: Name: toggleFullscreen Desc: ()V
+FINER: Name: resize Desc: (II)V
+FINER: Name: runTick Desc: ()V
+FINER: Name: generateLevel Desc: (IIII)V
+FINER: Name: setLevel Desc: (Lnet/minecraft/game/level/World;)V
+INFO: Processed 21001 -> 21002
+INFO: Processing net/minecraft/client/EnumOS.class
+FINE: Class: net/minecraft/client/EnumOS Extends: java/lang/Enum
+FINER: Name: values Desc: ()[Lnet/minecraft/client/EnumOS;
+FINER: Name: valueOf Desc: (Ljava/lang/String;)Lnet/minecraft/client/EnumOS;
+FINER: Name: <init> Desc: (Ljava/lang/String;I)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 903 -> 838
+INFO: Processing net/minecraft/client/PlayerLoader.class
+FINE: Class: net/minecraft/client/PlayerLoader Extends: net/minecraft/game/level/LevelLoader
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;Lutil/IProgressUpdate;)V
+FINER: Name: loadEntity Desc: (Lnet/minecraft/game/level/World;Ljava/lang/String;)Lnet/minecraft/game/entity/Entity;
+INFO: Processed 834 -> 817
+INFO: Processing net/minecraft/client/Timer.class
+FINE: Class: net/minecraft/client/Timer Extends: java/lang/Object
+FINER: Name: <init> Desc: (F)V
+FINER: Name: updateTimer Desc: ()V
+INFO: Processed 932 -> 897
+INFO: Processing net/minecraft/client/KeyBinding.class
+FINE: Class: net/minecraft/client/KeyBinding Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;I)V
+INFO: Processed 283 -> 269
+INFO: Processing net/minecraft/client/OpenGlCapsChecker.class
+FINE: Class: net/minecraft/client/OpenGlCapsChecker Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+INFO: Processed 161 -> 153
+INFO: Processing net/minecraft/client/ThreadDownloadResources.class
+FINE: Class: net/minecraft/client/ThreadDownloadResources Extends: java/lang/Thread
+FINER: Name: <init> Desc: (Ljava/io/File;Lnet/minecraft/client/Minecraft;)V
+FINER: Name: run Desc: ()V
+FINER: Name: downloadResource Desc: (Ljava/net/URL;Ljava/io/File;)V
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: closeMinecraft Desc: ()V
+INFO: Processed 3201 -> 3210
+INFO: Processing net/minecraft/client/ChatLine.class
+FINE: Class: net/minecraft/client/ChatLine Extends: java/lang/Object
+INFO: Processed 117 -> 109
+INFO: Processing net/minecraft/client/Session.class
+FINE: Class: net/minecraft/client/Session Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 2235 -> 2212
+INFO: Processing net/minecraft/client/MouseHelper.class
+FINE: Class: net/minecraft/client/MouseHelper Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/awt/Component;)V
+FINER: Name: grabMouseCursor Desc: ()V
+FINER: Name: ungrabMouseCursor Desc: ()V
+INFO: Processed 1665 -> 1633
+INFO: Processing net/minecraft/client/MinecraftApplet.class
+FINE: Class: net/minecraft/client/MinecraftApplet Extends: java/applet/Applet
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: ()V
+FINER: Name: startMainThread Desc: ()V
+FINER: Name: start Desc: ()V
+FINER: Name: stop Desc: ()V
+FINER: Name: destroy Desc: ()V
+FINER: Name: shutdown Desc: ()V
+INFO: Processed 2742 -> 2728
+INFO: Processing net/minecraft/client/ThreadSleepForever.class
+FINE: Class: net/minecraft/client/ThreadSleepForever Extends: java/lang/Thread
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V
+FINER: Name: run Desc: ()V
+INFO: Processed 458 -> 414
+INFO: Processing net/minecraft/client/EnumOSMappingHelper.class
+FINE: Class: net/minecraft/client/EnumOSMappingHelper Extends: java/lang/Object
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 579 -> 529
+INFO: Processing net/minecraft/client/MinecraftError.class
+FINE: Class: net/minecraft/client/MinecraftError Extends: java/lang/Error
+FINER: Name: <init> Desc: ()V
+INFO: Processed 157 -> 149
+INFO: Processing net/minecraft/client/GameSettings.class
+FINE: Class: net/minecraft/client/GameSettings Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+FINER: Name: setKeyBindingString Desc: (I)Ljava/lang/String;
+FINER: Name: setKeyBinding Desc: (II)V
+FINER: Name: setOptionValue Desc: (II)V
+FINER: Name: setOptionString Desc: (I)Ljava/lang/String;
+FINER: Name: loadOptions Desc: ()V
+FINER: Name: saveOptions Desc: ()V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 5602 -> 5535
+INFO: Processing net/minecraft/client/GuiMainMenu.class
+FINE: Class: net/minecraft/client/GuiMainMenu Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: ()V
+FINER: Name: updateScreen Desc: ()V
+FINER: Name: keyTyped Desc: (CI)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: drawScreen Desc: (IIF)V
+INFO: Processed 6593 -> 6601
+INFO: Processing paulscode/sound/codecs/CodecJOrbis.class
+FINE: Class: paulscode/sound/codecs/CodecJOrbis Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: reverseByteOrder Desc: (Z)V
+FINER: Name: initialize Desc: (Ljava/net/URL;)Z
+FINER: Name: initialized Desc: ()Z
+FINER: Name: read Desc: ()Lpaulscode/sound/SoundBuffer;
+FINER: Name: readAll Desc: ()Lpaulscode/sound/SoundBuffer;
+FINER: Name: endOfStream Desc: ()Z
+FINER: Name: cleanup Desc: ()V
+FINER: Name: getAudioFormat Desc: ()Ljavax/sound/sampled/AudioFormat;
+FINER: Name: readHeader Desc: ()Z
+FINER: Name: readBytes Desc: ()[B
+FINER: Name: decodeCurrentPacket Desc: ()[B
+FINER: Name: initialized Desc: (ZZ)Z
+FINER: Name: endOfStream Desc: (ZZ)Z
+FINER: Name: trimArray Desc: ([BI)[B
+FINER: Name: appendByteArrays Desc: ([B[B)[B
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+INFO: Processed 6581 -> 6581
+INFO: Processing paulscode/sound/codecs/CodecWav.class
+FINE: Class: paulscode/sound/codecs/CodecWav Extends: java/lang/Object
+FINER: Name: reverseByteOrder Desc: (Z)V
+FINER: Name: <init> Desc: ()V
+FINER: Name: initialize Desc: (Ljava/net/URL;)Z
+FINER: Name: initialized Desc: ()Z
+FINER: Name: read Desc: ()Lpaulscode/sound/SoundBuffer;
+FINER: Name: readAll Desc: ()Lpaulscode/sound/SoundBuffer;
+FINER: Name: endOfStream Desc: ()Z
+FINER: Name: cleanup Desc: ()V
+FINER: Name: getAudioFormat Desc: ()Ljavax/sound/sampled/AudioFormat;
+FINER: Name: initialized Desc: (ZZ)Z
+FINER: Name: endOfStream Desc: (ZZ)Z
+FINER: Name: trimArray Desc: ([BI)[B
+FINER: Name: convertAudioBytes Desc: ([BZ)[B
+FINER: Name: appendByteArrays Desc: ([B[BI)[B
+FINER: Name: errorMessage Desc: (Ljava/lang/String;)V
+FINER: Name: printStackTrace Desc: (Ljava/lang/Exception;)V
+INFO: Processed 4507 -> 4499
+INFO: Processing paulscode/sound/libraries/ChannelLWJGLOpenAL.class
+FINE: Class: paulscode/sound/libraries/ChannelLWJGLOpenAL Extends: paulscode/sound/Channel
+FINER: Name: <init> Desc: (ILjava/nio/IntBuffer;)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: attachBuffer Desc: (Ljava/nio/IntBuffer;)Z
+FINER: Name: setAudioFormat Desc: (Ljavax/sound/sampled/AudioFormat;)V
+FINER: Name: setFormat Desc: (II)V
+FINER: Name: preLoadBuffers Desc: (Ljava/util/LinkedList;)Z
+FINER: Name: queueBuffer Desc: ([B)Z
+FINER: Name: feedRawAudioData Desc: ([B)I
+FINER: Name: buffersProcessed Desc: ()I
+FINER: Name: flush Desc: ()V
+FINER: Name: close Desc: ()V
+FINER: Name: play Desc: ()V
+FINER: Name: pause Desc: ()V
+FINER: Name: stop Desc: ()V
+FINER: Name: rewind Desc: ()V
+FINER: Name: playing Desc: ()Z
+FINER: Name: checkALError Desc: ()Z
+INFO: Processed 4970 -> 4962
+INFO: Processing paulscode/sound/libraries/LibraryLWJGLOpenAL.class
+FINE: Class: paulscode/sound/libraries/LibraryLWJGLOpenAL Extends: paulscode/sound/Library
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: ()V
+FINER: Name: libraryCompatible Desc: ()Z
+FINER: Name: createChannel Desc: (I)Lpaulscode/sound/Channel;
+FINER: Name: cleanup Desc: ()V
+FINER: Name: loadSound Desc: (Lpaulscode/sound/FilenameURL;)Z
+FINER: Name: unloadSound Desc: (Ljava/lang/String;)V
+FINER: Name: setMasterVolume Desc: (F)V
+FINER: Name: newSource Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;FFFIF)V
+FINER: Name: rawDataStream Desc: (Ljavax/sound/sampled/AudioFormat;ZLjava/lang/String;FFFIF)V
+FINER: Name: quickPlay Desc: (ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;FFFIFZ)V
+FINER: Name: copySources Desc: (Ljava/util/HashMap;)V
+FINER: Name: setListenerPosition Desc: (FFF)V
+FINER: Name: setListenerAngle Desc: (F)V
+FINER: Name: setListenerOrientation Desc: (FFFFFF)V
+FINER: Name: setListenerData Desc: (Lpaulscode/sound/ListenerData;)V
+FINER: Name: checkALError Desc: ()Z
+FINER: Name: alPitchSupported Desc: ()Z
+FINER: Name: alPitchSupported Desc: (ZZ)Z
+FINER: Name: getTitle Desc: ()Ljava/lang/String;
+FINER: Name: getDescription Desc: ()Ljava/lang/String;
+FINER: Name: getClassName Desc: ()Ljava/lang/String;
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 9259 -> 9288
+INFO: Processing paulscode/sound/libraries/SourceLWJGLOpenAL.class
+FINE: Class: paulscode/sound/libraries/SourceLWJGLOpenAL Extends: paulscode/sound/Source
+FINER: Name: <init> Desc: (Ljava/nio/FloatBuffer;Ljava/nio/IntBuffer;ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;Lpaulscode/sound/SoundBuffer;FFFIFZ)V
+FINER: Name: <init> Desc: (Ljava/nio/FloatBuffer;Ljava/nio/IntBuffer;Lpaulscode/sound/Source;Lpaulscode/sound/SoundBuffer;)V
+FINER: Name: <init> Desc: (Ljava/nio/FloatBuffer;Ljavax/sound/sampled/AudioFormat;ZLjava/lang/String;FFFIF)V
+FINER: Name: cleanup Desc: ()V
+FINER: Name: changeSource Desc: (Ljava/nio/FloatBuffer;Ljava/nio/IntBuffer;ZZZLjava/lang/String;Lpaulscode/sound/FilenameURL;Lpaulscode/sound/SoundBuffer;FFFIFZ)V
+FINER: Name: incrementSoundSequence Desc: ()Z
+FINER: Name: listenerMoved Desc: ()V
+FINER: Name: setPosition Desc: (FFF)V
+FINER: Name: positionChanged Desc: ()V
+FINER: Name: checkPitch Desc: ()V
+FINER: Name: setLooping Desc: (Z)V
+FINER: Name: setAttenuation Desc: (I)V
+FINER: Name: setDistOrRoll Desc: (F)V
+FINER: Name: setPitch Desc: (F)V
+FINER: Name: play Desc: (Lpaulscode/sound/Channel;)V
+FINER: Name: preLoad Desc: ()Z
+FINER: Name: resetALInformation Desc: ()V
+FINER: Name: calculateDistance Desc: ()V
+FINER: Name: calculateGain Desc: ()V
+FINER: Name: checkALError Desc: ()Z
+INFO: Processed 7499 -> 7504
+INFO: Processing net/minecraft/game/level/LevelLoader.class
+FINE: Class: net/minecraft/game/level/LevelLoader Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lutil/IProgressUpdate;)V
+FINER: Name: load Desc: (Ljava/io/InputStream;)Lnet/minecraft/game/level/World;
+FINE: Adding Exceptions: java/io/IOException
+FINER: Name: loadEntity Desc: (Lnet/minecraft/game/level/World;Ljava/lang/String;)Lnet/minecraft/game/entity/Entity;
+FINER: Name: save Desc: (Lnet/minecraft/game/level/World;Ljava/io/OutputStream;)V
+FINE: Adding Exceptions: java/io/IOException
+INFO: Processed 7472 -> 7454
+INFO: Processing net/minecraft/game/level/MobSpawner.class
+FINE: Class: net/minecraft/game/level/MobSpawner Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: performSpawning Desc: ()V
+INFO: Processed 3017 -> 2941
+INFO: Processing net/minecraft/game/level/MetadataChunkBlock.class
+FINE: Class: net/minecraft/game/level/MetadataChunkBlock Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/Light;IIIIII)V
+INFO: Processed 443 -> 381
+INFO: Processing net/minecraft/game/level/IWorldAccess.class
+FINE: Class: net/minecraft/game/level/IWorldAccess Extends: java/lang/Object
+FINER: Name: markBlockAndNeighborsNeedsUpdate Desc: (III)V
+FINER: Name: markBlockRangeNeedsUpdate Desc: (IIIIII)V
+FINER: Name: loadRenderers Desc: ()V
+FINER: Name: playSound Desc: (Ljava/lang/String;FFFFF)V
+FINER: Name: spawnParticle Desc: (Ljava/lang/String;FFFFFF)V
+FINER: Name: playMusic Desc: (Ljava/lang/String;FFFF)V
+FINER: Name: obtainEntitySkin Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: releaseEntitySkin Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: updateAllRenderers Desc: ()V
+INFO: Processed 505 -> 494
+INFO: Processing net/minecraft/game/level/NextTickListEntry.class
+FINE: Class: net/minecraft/game/level/NextTickListEntry Extends: java/lang/Object
+FINER: Name: <init> Desc: (IIII)V
+INFO: Processed 345 -> 325
+INFO: Processing net/minecraft/game/level/EntityMapSlot.class
+FINE: Class: net/minecraft/game/level/EntityMapSlot Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/EntityMap;B)V
+FINER: Name: init Desc: (FFF)Lnet/minecraft/game/level/EntityMapSlot;
+FINER: Name: add Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: remove Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/EntityMap;)V
+FINER: Name: a Desc: (Lnet/minecraft/game/level/EntityMapSlot;)I
+FINER: Name: b Desc: (Lnet/minecraft/game/level/EntityMapSlot;)I
+FINER: Name: c Desc: (Lnet/minecraft/game/level/EntityMapSlot;)I
+INFO: Processed 1274 -> 1263
+INFO: Processing net/minecraft/game/level/World.class
+FINE: Class: net/minecraft/game/level/World Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: load Desc: ()V
+FINER: Name: generate Desc: (III[B[B)V
+FINER: Name: findSpawn Desc: ()V
+FINER: Name: addWorldAccess Desc: (Lnet/minecraft/game/level/IWorldAccess;)V
+FINER: Name: finalize Desc: ()V
+FINER: Name: removeWorldAccess Desc: (Lnet/minecraft/game/level/IWorldAccess;)V
+FINER: Name: getCollidingBoundingBoxes Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Ljava/util/ArrayList;
+FINER: Name: swap Desc: (IIIIII)V
+FINER: Name: setBlock Desc: (IIII)Z
+FINER: Name: setBlockWithNotify Desc: (IIII)Z
+FINER: Name: notifyBlocksOfNeighborChange Desc: (IIII)V
+FINER: Name: setTileNoUpdate Desc: (IIII)Z
+FINER: Name: notifyBlockOfNeighborChange Desc: (IIII)V
+FINER: Name: getBlockId Desc: (III)I
+FINER: Name: isBlockNormalCube Desc: (III)Z
+FINER: Name: updateEntities Desc: ()V
+FINER: Name: updateLighting Desc: ()V
+FINER: Name: getStarBrightness Desc: (F)F
+FINER: Name: getSkyColor Desc: (F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: getCelestialAngle Desc: (F)F
+FINER: Name: getFogColor Desc: (F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: getCloudColor Desc: (F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: getSkyBrightness Desc: ()I
+FINER: Name: tick Desc: ()V
+FINER: Name: entitiesInLevelList Desc: (Ljava/lang/Class;)I
+FINER: Name: getGroundLevel Desc: ()I
+FINER: Name: getWaterLevel Desc: ()I
+FINER: Name: getIsAnyLiquid Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+FINER: Name: isBoundingBoxBurning Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+FINER: Name: handleMaterialAcceleration Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;Lnet/minecraft/game/level/material/Material;)Z
+FINER: Name: scheduleBlockUpdate Desc: (IIII)V
+FINER: Name: checkIfAABBIsClear1 Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+FINER: Name: checkIfAABBIsClear Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+FINER: Name: getEntitiesWithinAABBExcludingEntity Desc: (Lnet/minecraft/game/entity/Entity;Lnet/minecraft/game/physics/AxisAlignedBB;)Ljava/util/List;
+FINER: Name: isSolid Desc: (FFFF)Z
+FINER: Name: isSolid Desc: (FFF)Z
+FINER: Name: getFirstUncoveredBlock Desc: (II)I
+FINER: Name: setSpawnLocation Desc: (IIIF)V
+FINER: Name: getLightBrightness Desc: (III)F
+FINER: Name: getBlockLightValue Desc: (III)B
+FINER: Name: getBlockMetadata Desc: (III)B
+FINER: Name: setBlockMetadata Desc: (IIII)V
+FINER: Name: getBlockMaterial Desc: (III)Lnet/minecraft/game/level/material/Material;
+FINER: Name: isWater Desc: (III)Z
+FINER: Name: rayTraceBlocks Desc: (Lnet/minecraft/game/physics/Vec3D;Lnet/minecraft/game/physics/Vec3D;)Lnet/minecraft/game/physics/MovingObjectPosition;
+FINER: Name: growTrees Desc: (III)Z
+FINER: Name: getPlayerEntity Desc: ()Lnet/minecraft/game/entity/Entity;
+FINER: Name: spawnEntityInWorld Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: releaseEntitySkin Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: createExplosion Desc: (Lnet/minecraft/game/entity/Entity;FFFF)V
+FINER: Name: getBlockDensity Desc: (Lnet/minecraft/game/physics/Vec3D;Lnet/minecraft/game/physics/AxisAlignedBB;)F
+FINER: Name: findSubclassOf Desc: (Ljava/lang/Class;)Lnet/minecraft/game/entity/Entity;
+FINER: Name: fluidFlowCheck Desc: (IIIII)I
+FINER: Name: floodFill Desc: (IIIII)I
+FINER: Name: playSoundAtEntity Desc: (Lnet/minecraft/game/entity/Entity;Ljava/lang/String;FF)V
+FINER: Name: playSoundEffect Desc: (FFFLjava/lang/String;F)V
+FINER: Name: playSoundAtPlayer Desc: (FFFLjava/lang/String;FF)V
+FINER: Name: extinguishFire Desc: (IIII)V
+FINER: Name: setBlockTileEntity Desc: (IIILnet/minecraft/game/level/block/tileentity/TileEntity;)V
+FINER: Name: removeBlockTileEntity Desc: (III)V
+FINER: Name: getBlockTileEntity Desc: (III)Lnet/minecraft/game/level/block/tileentity/TileEntity;
+FINER: Name: spawnParticle Desc: (Ljava/lang/String;FFFFFF)V
+FINER: Name: randomDisplayUpdates Desc: (III)V
+FINER: Name: debugSkylightUpdates Desc: ()Ljava/lang/String;
+FINER: Name: setLevel Desc: ()V
+FINER: Name: updateChunkLight Desc: (I)V
+FINER: Name: canBlockSeeTheSky Desc: (III)Z
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 21834 -> 21874
+INFO: Processing net/minecraft/game/level/Light.class
+FINE: Class: net/minecraft/game/level/Light Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: getLightingUpdates Desc: ()[I
+FINER: Name: updateSkylight Desc: (IIII)V
+FINER: Name: updateDaylightCycle Desc: (I)V
+FINER: Name: updateLight Desc: (I)V
+FINER: Name: updateBlockLight Desc: (IIIIII)V
+FINER: Name: updateLists Desc: (IIIIII)V
+FINER: Name: updateLight Desc: ()V
+FINER: Name: debugLightUpdates Desc: ()Ljava/lang/String;
+INFO: Processed 5691 -> 5609
+INFO: Processing net/minecraft/game/level/EntityMap.class
+FINE: Class: net/minecraft/game/level/EntityMap Extends: java/lang/Object
+FINER: Name: <init> Desc: (III)V
+FINER: Name: insert Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: remove Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: getEntities Desc: (Lnet/minecraft/game/entity/Entity;FFFFFF)Ljava/util/List;
+FINER: Name: getEntities Desc: (Lnet/minecraft/game/entity/Entity;FFFFFFLjava/util/List;)Ljava/util/List;
+FINER: Name: getEntitiesWithinAABBExcludingEntity Desc: (Lnet/minecraft/game/entity/Entity;Lnet/minecraft/game/physics/AxisAlignedBB;)Ljava/util/List;
+FINER: Name: updateEntities Desc: ()V
+INFO: Processed 2965 -> 2948
+INFO: Processing net/minecraft/game/item/ItemPickaxe.class
+FINE: Class: net/minecraft/game/item/ItemPickaxe Extends: net/minecraft/game/item/ItemTool
+FINER: Name: <init> Desc: (II)V
+FINER: Name: canHarvestBlock Desc: (Lnet/minecraft/game/level/block/Block;)Z
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 1238 -> 1215
+INFO: Processing net/minecraft/game/item/ItemSoup.class
+FINE: Class: net/minecraft/game/item/ItemSoup Extends: net/minecraft/game/item/ItemFood
+FINER: Name: <init> Desc: (II)V
+FINER: Name: onItemRightClick Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;Lnet/minecraft/game/entity/player/EntityPlayer;)Lnet/minecraft/game/item/ItemStack;
+INFO: Processed 585 -> 571
+INFO: Processing net/minecraft/game/item/ItemSword.class
+FINE: Class: net/minecraft/game/item/ItemSword Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getStrVsBlock Desc: (Lnet/minecraft/game/level/block/Block;)F
+FINER: Name: hitEntity Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: onBlockDestroyed Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getDamageVsEntity Desc: ()I
+INFO: Processed 639 -> 625
+INFO: Processing net/minecraft/game/item/ItemBlock.class
+FINE: Class: net/minecraft/game/item/ItemBlock Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onItemUse Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 1896 -> 1888
+INFO: Processing net/minecraft/game/item/ItemBow.class
+FINE: Class: net/minecraft/game/item/ItemBow Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onItemRightClick Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;Lnet/minecraft/game/entity/player/EntityPlayer;)Lnet/minecraft/game/item/ItemStack;
+INFO: Processed 1203 -> 1195
+INFO: Processing net/minecraft/game/item/ItemSeeds.class
+FINE: Class: net/minecraft/game/item/ItemSeeds Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (II)V
+FINER: Name: onItemUse Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 793 -> 785
+INFO: Processing net/minecraft/game/item/ItemTool.class
+FINE: Class: net/minecraft/game/item/ItemTool Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (III[Lnet/minecraft/game/level/block/Block;)V
+FINER: Name: getStrVsBlock Desc: (Lnet/minecraft/game/level/block/Block;)F
+FINER: Name: hitEntity Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: onBlockDestroyed Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getDamageVsEntity Desc: ()I
+INFO: Processed 876 -> 853
+INFO: Processing net/minecraft/game/item/ItemAxe.class
+FINE: Class: net/minecraft/game/item/ItemAxe Extends: net/minecraft/game/item/ItemTool
+FINER: Name: <init> Desc: (II)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 554 -> 537
+INFO: Processing net/minecraft/game/item/Item.class
+FINE: Class: net/minecraft/game/item/Item Extends: java/lang/Object
+FINER: Name: <init> Desc: (I)V
+FINER: Name: setIconIndex Desc: (I)Lnet/minecraft/game/item/Item;
+FINER: Name: getIconIndex Desc: ()I
+FINER: Name: onItemUse Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;IIII)Z
+FINER: Name: getStrVsBlock Desc: (Lnet/minecraft/game/level/block/Block;)F
+FINER: Name: onItemRightClick Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;Lnet/minecraft/game/entity/player/EntityPlayer;)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: getItemStackLimit Desc: ()I
+FINER: Name: getMaxDamage Desc: ()I
+FINER: Name: hitEntity Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: onBlockDestroyed Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getDamageVsEntity Desc: ()I
+FINER: Name: canHarvestBlock Desc: (Lnet/minecraft/game/level/block/Block;)Z
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 6214 -> 5990
+INFO: Processing net/minecraft/game/item/ItemArmor.class
+FINE: Class: net/minecraft/game/item/ItemArmor Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (IIII)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 565 -> 542
+INFO: Processing net/minecraft/game/item/ItemStack.class
+FINE: Class: net/minecraft/game/item/ItemStack Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/block/Block;)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/block/Block;I)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/item/Item;)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/item/Item;I)V
+FINER: Name: <init> Desc: (I)V
+FINER: Name: <init> Desc: (II)V
+FINER: Name: <init> Desc: (III)V
+FINER: Name: <init> Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: splitStack Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: getItem Desc: ()Lnet/minecraft/game/item/Item;
+FINER: Name: writeToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)Lcom/mojang/nbt/NBTTagCompound;
+FINER: Name: isItemStackDamageable Desc: ()I
+FINER: Name: damageItem Desc: (I)V
+INFO: Processed 1794 -> 1777
+INFO: Processing net/minecraft/game/item/ItemSpade.class
+FINE: Class: net/minecraft/game/item/ItemSpade Extends: net/minecraft/game/item/ItemTool
+FINER: Name: <init> Desc: (II)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 597 -> 580
+INFO: Processing net/minecraft/game/item/ItemFlintAndSteel.class
+FINE: Class: net/minecraft/game/item/ItemFlintAndSteel Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onItemUse Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 1106 -> 1098
+INFO: Processing net/minecraft/game/item/ItemHoe.class
+FINE: Class: net/minecraft/game/item/ItemHoe Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (II)V
+FINER: Name: onItemUse Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 2052 -> 2039
+INFO: Processing net/minecraft/game/item/ItemPainting.class
+FINE: Class: net/minecraft/game/item/ItemPainting Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onItemUse Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 809 -> 801
+INFO: Processing net/minecraft/game/item/ItemFood.class
+FINE: Class: net/minecraft/game/item/ItemFood Extends: net/minecraft/game/item/Item
+FINER: Name: <init> Desc: (II)V
+FINER: Name: onItemRightClick Desc: (Lnet/minecraft/game/item/ItemStack;Lnet/minecraft/game/level/World;Lnet/minecraft/game/entity/player/EntityPlayer;)Lnet/minecraft/game/item/ItemStack;
+INFO: Processed 598 -> 587
+INFO: Processing net/minecraft/game/entity/EntityPainting.class
+FINE: Class: net/minecraft/game/entity/EntityPainting Extends: net/minecraft/game/entity/Entity
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: setDirection Desc: (I)V
+FINER: Name: getArtSize Desc: (I)F
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: onValidSurface Desc: ()Z
+FINER: Name: canBeCollidedWith Desc: ()Z
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+INFO: Processed 4596 -> 4574
+INFO: Processing net/minecraft/game/entity/Entity.class
+FINE: Class: net/minecraft/game/entity/Entity Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: preparePlayerToSpawn Desc: ()V
+FINER: Name: setEntityDead Desc: ()V
+FINER: Name: setSize Desc: (FF)V
+FINER: Name: setPosition Desc: (FFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: isOffsetPositionInLiquid Desc: (FFF)Z
+FINER: Name: moveEntity Desc: (FFF)V
+FINER: Name: dealFireDamage Desc: (I)V
+FINER: Name: fall Desc: (F)V
+FINER: Name: handleWaterMovement Desc: ()Z
+FINER: Name: isInsideOfMaterial Desc: ()Z
+FINER: Name: getEyeHeight Desc: ()F
+FINER: Name: handleLavaMovement Desc: ()Z
+FINER: Name: moveFlying Desc: (FFF)V
+FINER: Name: getEntityBrightness Desc: (F)F
+FINER: Name: setWorld Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: setPositionAndRotation Desc: (FFFFF)V
+FINER: Name: getDistanceSqToEntity Desc: (Lnet/minecraft/game/entity/Entity;)F
+FINER: Name: onCollideWithPlayer Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: applyEntityCollision Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: addVelocity Desc: (FFF)V
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: canBeCollidedWith Desc: ()Z
+FINER: Name: canBePushed Desc: ()Z
+FINER: Name: getTexture Desc: ()Ljava/lang/String;
+FINER: Name: writeToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: newDoubleNBTList Desc: ([F)Lcom/mojang/nbt/NBTTagList;
+FINER: Name: getShadowSize Desc: ()F
+FINER: Name: dropItemWithOffset Desc: (II)Lnet/minecraft/game/entity/misc/EntityItem;
+FINER: Name: entityDropItem Desc: (IIF)Lnet/minecraft/game/entity/misc/EntityItem;
+FINER: Name: isEntityAlive Desc: ()Z
+INFO: Processed 10159 -> 10152
+INFO: Processing net/minecraft/game/entity/EntityCreature.class
+FINE: Class: net/minecraft/game/entity/EntityCreature Extends: net/minecraft/game/entity/EntityLiving
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: updatePlayerActionState Desc: ()V
+FINER: Name: attackEntity Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: getBlockPathWeight Desc: (III)F
+FINER: Name: findPlayerToAttack Desc: ()Lnet/minecraft/game/entity/Entity;
+FINER: Name: getCanSpawnHere Desc: (FFF)Z
+INFO: Processed 3161 -> 3112
+INFO: Processing net/minecraft/game/entity/EnumArt.class
+FINE: Class: net/minecraft/game/entity/EnumArt Extends: java/lang/Enum
+FINER: Name: values Desc: ()[Lnet/minecraft/game/entity/EnumArt;
+FINER: Name: valueOf Desc: (Ljava/lang/String;)Lnet/minecraft/game/entity/EnumArt;
+FINER: Name: <init> Desc: (Ljava/lang/String;ILjava/lang/String;IIII)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 2135 -> 2003
+INFO: Processing net/minecraft/game/entity/EntityLiving.class
+FINE: Class: net/minecraft/game/entity/EntityLiving Extends: net/minecraft/game/entity/Entity
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: getTexture Desc: ()Ljava/lang/String;
+FINER: Name: canBeCollidedWith Desc: ()Z
+FINER: Name: canBePushed Desc: ()Z
+FINER: Name: getEyeHeight Desc: ()F
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: setSize Desc: (FF)V
+FINER: Name: heal Desc: (I)V
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: getLivingSound Desc: ()Ljava/lang/String;
+FINER: Name: getHurtSound Desc: ()Ljava/lang/String;
+FINER: Name: getDeathSound Desc: ()Ljava/lang/String;
+FINER: Name: onDeath Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: scoreValue Desc: ()I
+FINER: Name: fall Desc: (F)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: isEntityAlive Desc: ()Z
+FINER: Name: onLivingUpdate Desc: ()V
+FINER: Name: updatePlayerActionState Desc: ()V
+FINER: Name: getCanSpawnHere Desc: (FFF)Z
+INFO: Processed 7921 -> 7913
+INFO: Processing net/minecraft/game/physics/Vec3D.class
+FINE: Class: net/minecraft/game/physics/Vec3D Extends: java/lang/Object
+FINER: Name: <init> Desc: (FFF)V
+FINER: Name: subtract Desc: (Lnet/minecraft/game/physics/Vec3D;)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: normalize Desc: ()Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: addVector Desc: (FFF)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: distance Desc: (Lnet/minecraft/game/physics/Vec3D;)F
+FINER: Name: squareDistanceTo Desc: (Lnet/minecraft/game/physics/Vec3D;)F
+FINER: Name: getIntermediateWithXValue Desc: (Lnet/minecraft/game/physics/Vec3D;F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: getIntermediateWithYValue Desc: (Lnet/minecraft/game/physics/Vec3D;F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: getIntermediateWithZValue Desc: (Lnet/minecraft/game/physics/Vec3D;F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 1754 -> 1737
+INFO: Processing net/minecraft/game/physics/AxisAlignedBB.class
+FINE: Class: net/minecraft/game/physics/AxisAlignedBB Extends: java/lang/Object
+FINER: Name: <init> Desc: (FFFFFF)V
+FINER: Name: addCoord Desc: (FFF)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: expand Desc: (FFF)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: calculateXOffset Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;F)F
+FINER: Name: calculateYOffset Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;F)F
+FINER: Name: calculateZOffset Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;F)F
+FINER: Name: intersectsWith Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+FINER: Name: offset Desc: (FFF)V
+FINER: Name: copy Desc: ()Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: calculateIntercept Desc: (Lnet/minecraft/game/physics/Vec3D;Lnet/minecraft/game/physics/Vec3D;)Lnet/minecraft/game/physics/MovingObjectPosition;
+FINER: Name: isVecInYZ Desc: (Lnet/minecraft/game/physics/Vec3D;)Z
+FINER: Name: isVecInXZ Desc: (Lnet/minecraft/game/physics/Vec3D;)Z
+FINER: Name: isVecInXY Desc: (Lnet/minecraft/game/physics/Vec3D;)Z
+INFO: Processed 3142 -> 3119
+INFO: Processing net/minecraft/game/physics/MovingObjectPosition.class
+FINE: Class: net/minecraft/game/physics/MovingObjectPosition Extends: java/lang/Object
+FINER: Name: <init> Desc: (IIIILnet/minecraft/game/physics/Vec3D;)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/entity/Entity;)V
+INFO: Processed 878 -> 843
+INFO: Processing net/minecraft/client/render/RenderSorter.class
+FINE: Class: net/minecraft/client/render/RenderSorter Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: compare Desc: (Ljava/lang/Object;Ljava/lang/Object;)I
+INFO: Processed 639 -> 628
+INFO: Processing net/minecraft/client/render/RenderGlobal.class
+FINE: Class: net/minecraft/client/render/RenderGlobal Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/render/RenderEngine;)V
+FINER: Name: changeWorld Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: loadRenderers Desc: ()V
+FINER: Name: renderEntities Desc: (Lnet/minecraft/game/physics/Vec3D;Lnet/minecraft/client/render/camera/ICamera;F)V
+FINER: Name: getDebugInfoRenders Desc: ()Ljava/lang/String;
+FINER: Name: getDebugInfoEntities Desc: ()Ljava/lang/String;
+FINER: Name: sortAndRender Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;I)I
+FINER: Name: checkOcclusionQueryResult Desc: (II)V
+FINER: Name: renderSortedRenderers Desc: (III)I
+FINER: Name: renderAllRenderLists Desc: ()V
+FINER: Name: updateClouds Desc: ()V
+FINER: Name: renderSky Desc: (F)V
+FINER: Name: oobGroundRenderer Desc: ()V
+FINER: Name: oobGroundRenderHeight Desc: ()V
+FINER: Name: oobWaterRenderer Desc: ()V
+FINER: Name: oobWaterRenderHeight Desc: ()V
+FINER: Name: updateRenderers Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: drawBlockBreaking Desc: (Lnet/minecraft/game/physics/MovingObjectPosition;ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: drawSelectionBox Desc: (Lnet/minecraft/game/physics/MovingObjectPosition;I)V
+FINER: Name: markBlocksForUpdate Desc: (IIIIII)V
+FINER: Name: markBlockAndNeighborsNeedsUpdate Desc: (III)V
+FINER: Name: markBlockRangeNeedsUpdate Desc: (IIIIII)V
+FINER: Name: clipRenderersByFrustrum Desc: (Lnet/minecraft/client/render/camera/ICamera;)V
+FINER: Name: playSound Desc: (Ljava/lang/String;FFFFF)V
+FINER: Name: spawnParticle Desc: (Ljava/lang/String;FFFFFF)V
+FINER: Name: playMusic Desc: (Ljava/lang/String;FFFF)V
+FINER: Name: obtainEntitySkin Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: releaseEntitySkin Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: updateAllRenderers Desc: ()V
+INFO: Processed 16748 -> 16759
+INFO: Processing net/minecraft/client/render/ImageBufferDownload.class
+FINE: Class: net/minecraft/client/render/ImageBufferDownload Extends: java/lang/Object
+FINER: Name: parseUserSkin Desc: (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+FINER: Name: <init> Desc: ()V
+FINER: Name: setAreaTransparent Desc: (IIII)V
+FINER: Name: setAreaOpaque Desc: (IIII)V
+INFO: Processed 1224 -> 1207
+INFO: Processing net/minecraft/client/render/Tessellator.class
+FINE: Class: net/minecraft/client/render/Tessellator Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: draw Desc: ()V
+FINER: Name: reset Desc: ()V
+FINER: Name: startDrawingQuads Desc: ()V
+FINER: Name: startDrawing Desc: (I)V
+FINER: Name: setColorOpaque_F Desc: (FFF)V
+FINER: Name: setColorRGBA_F Desc: (FFFF)V
+FINER: Name: setColorOpaque Desc: (III)V
+FINER: Name: setColorRGBA Desc: (IIII)V
+FINER: Name: addVertexWithUV Desc: (FFFFF)V
+FINER: Name: addVertex Desc: (FFF)V
+FINER: Name: setColorOpaque_I Desc: (I)V
+FINER: Name: disableColor Desc: ()V
+FINER: Name: setNormal Desc: (FFF)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 3819 -> 3748
+INFO: Processing net/minecraft/client/render/EntityRenderer.class
+FINE: Class: net/minecraft/client/render/EntityRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;)V
+FINER: Name: updateRenderer Desc: ()V
+FINER: Name: orientCamera Desc: (F)Lnet/minecraft/game/physics/Vec3D;
+FINER: Name: hurtCameraEffect Desc: (F)V
+FINER: Name: setupViewBobbing Desc: (F)V
+FINER: Name: updateCameraAndRender Desc: (F)V
+FINER: Name: grabLargeScreenshot Desc: ()V
+FINER: Name: screenshotBuffer Desc: (Ljava/nio/ByteBuffer;II)Ljava/awt/image/BufferedImage;
+FINER: Name: getMouseOver Desc: (F)V
+FINER: Name: setupOverlayRendering Desc: ()V
+FINER: Name: updateFogColor Desc: (F)V
+FINER: Name: setupFog Desc: ()V
+INFO: Processed 16294 -> 16316
+INFO: Processing net/minecraft/client/render/RenderBlocks.class
+FINE: Class: net/minecraft/client/render/RenderBlocks Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: <init> Desc: ()V
+FINER: Name: renderBlockUsingTexture Desc: (Lnet/minecraft/game/level/block/Block;IIII)V
+FINER: Name: renderBlockAllFaces Desc: (Lnet/minecraft/game/level/block/Block;III)V
+FINER: Name: renderBlockByRenderType Desc: (Lnet/minecraft/game/level/block/Block;III)Z
+FINER: Name: renderBlockTorch Desc: (Lnet/minecraft/game/level/block/Block;FFFFF)V
+FINER: Name: renderBlockPlant Desc: (Lnet/minecraft/game/level/block/Block;IFFF)V
+FINER: Name: renderBlockCrops Desc: (Lnet/minecraft/game/level/block/Block;IFFF)V
+FINER: Name: materialNotWater Desc: (III)F
+FINER: Name: renderBlockBottom Desc: (Lnet/minecraft/game/level/block/Block;FFFI)V
+FINER: Name: renderBlockTop Desc: (Lnet/minecraft/game/level/block/Block;FFFI)V
+FINER: Name: renderBlockNorth Desc: (Lnet/minecraft/game/level/block/Block;IIII)V
+FINER: Name: renderBlockSouth Desc: (Lnet/minecraft/game/level/block/Block;IIII)V
+FINER: Name: renderBlockWest Desc: (Lnet/minecraft/game/level/block/Block;IIII)V
+FINER: Name: renderBlockEast Desc: (Lnet/minecraft/game/level/block/Block;IIII)V
+FINER: Name: renderBlockOnInventory Desc: (Lnet/minecraft/game/level/block/Block;)V
+INFO: Processed 11091 -> 11053
+INFO: Processing net/minecraft/client/render/ItemRenderer.class
+FINE: Class: net/minecraft/client/render/ItemRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;)V
+FINER: Name: renderItemInFirstPerson Desc: (F)V
+FINER: Name: renderOverlays Desc: (F)V
+FINER: Name: updateEquippedItem Desc: ()V
+FINER: Name: equipAnimationSpeed Desc: ()V
+FINER: Name: equippedItemRender Desc: ()V
+FINER: Name: resetEquippedProgress Desc: ()V
+INFO: Processed 5944 -> 5953
+INFO: Processing net/minecraft/client/render/WorldRenderer.class
+FINE: Class: net/minecraft/client/render/WorldRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;IIIII)V
+FINER: Name: updateRenderer Desc: ()V
+FINER: Name: distanceToEntitySquared Desc: (Lnet/minecraft/game/entity/EntityLiving;)F
+FINER: Name: setDontDraw Desc: ()V
+FINER: Name: stopRendering Desc: ()V
+FINER: Name: getGLCallListForPass Desc: ([III)I
+FINER: Name: updateInFrustrum Desc: (Lnet/minecraft/client/render/camera/ICamera;)V
+FINER: Name: callOcclusionQueryList Desc: ()V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 3436 -> 3380
+INFO: Processing net/minecraft/client/render/ThreadDownloadImageData.class
+FINE: Class: net/minecraft/client/render/ThreadDownloadImageData Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;Lnet/minecraft/client/render/ImageBufferDownload;)V
+INFO: Processed 656 -> 639
+INFO: Processing net/minecraft/client/render/ThreadDownloadImage.class
+FINE: Class: net/minecraft/client/render/ThreadDownloadImage Extends: java/lang/Thread
+FINER: Name: <init> Desc: (Lnet/minecraft/client/render/ThreadDownloadImageData;Ljava/lang/String;Lnet/minecraft/client/render/ImageBufferDownload;)V
+FINER: Name: run Desc: ()V
+INFO: Processed 1457 -> 1437
+INFO: Processing net/minecraft/client/render/RenderEngine.class
+FINE: Class: net/minecraft/client/render/RenderEngine Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/GameSettings;)V
+FINER: Name: getTexture Desc: (Ljava/lang/String;)I
+FINER: Name: unwrapImageByColumns Desc: (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+FINER: Name: setupTexture Desc: (Ljava/awt/image/BufferedImage;I)V
+FINER: Name: getTextureForDownloadableImage Desc: (Ljava/lang/String;Ljava/lang/String;)I
+FINER: Name: obtainImageData Desc: (Ljava/lang/String;Lnet/minecraft/client/render/ImageBufferDownload;)Lnet/minecraft/client/render/ThreadDownloadImageData;
+FINER: Name: releaseImageData Desc: (Ljava/lang/String;)V
+FINER: Name: registerTextureFX Desc: (Lnet/minecraft/client/render/texture/TextureFX;)V
+FINER: Name: updateDynamicTextures Desc: ()V
+FINER: Name: refreshTextures Desc: ()V
+FINER: Name: bindTexture Desc: (I)V
+INFO: Processed 5602 -> 5573
+INFO: Processing net/minecraft/client/render/EntitySorter.class
+FINE: Class: net/minecraft/client/render/EntitySorter Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: compare Desc: (Ljava/lang/Object;Ljava/lang/Object;)I
+INFO: Processed 572 -> 561
+INFO: Processing net/minecraft/client/model/ModelSheep.class
+FINE: Class: net/minecraft/client/model/ModelSheep Extends: net/minecraft/client/model/ModelQuadruped
+FINER: Name: <init> Desc: ()V
+INFO: Processed 540 -> 532
+INFO: Processing net/minecraft/client/model/ModelQuadruped.class
+FINE: Class: net/minecraft/client/model/ModelQuadruped Extends: net/minecraft/client/model/ModelBase
+FINER: Name: <init> Desc: (IF)V
+FINER: Name: render Desc: (FFFFFF)V
+FINER: Name: setRotationAngles Desc: (FFFFFF)V
+INFO: Processed 1278 -> 1264
+INFO: Processing net/minecraft/client/model/ModelRenderer.class
+FINE: Class: net/minecraft/client/model/ModelRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (II)V
+FINER: Name: addBox Desc: (FFFIIIF)V
+FINER: Name: setRotationPoint Desc: (FFF)V
+FINER: Name: render Desc: (F)V
+INFO: Processed 3361 -> 3332
+INFO: Processing net/minecraft/client/model/ModelSheepFur.class
+FINE: Class: net/minecraft/client/model/ModelSheepFur Extends: net/minecraft/client/model/ModelQuadruped
+FINER: Name: <init> Desc: ()V
+INFO: Processed 828 -> 820
+INFO: Processing net/minecraft/client/model/ModelSpider.class
+FINE: Class: net/minecraft/client/model/ModelSpider Extends: net/minecraft/client/model/ModelBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: render Desc: (FFFFFF)V
+FINER: Name: setRotationAngles Desc: (FFFFFF)V
+INFO: Processed 2262 -> 2230
+INFO: Processing net/minecraft/client/model/ModelPig.class
+FINE: Class: net/minecraft/client/model/ModelPig Extends: net/minecraft/client/model/ModelQuadruped
+FINER: Name: <init> Desc: ()V
+INFO: Processed 194 -> 186
+INFO: Processing net/minecraft/client/model/ModelZombie.class
+FINE: Class: net/minecraft/client/model/ModelZombie Extends: net/minecraft/client/model/ModelBiped
+FINER: Name: <init> Desc: ()V
+FINER: Name: setRotationAngles Desc: (FFFFFF)V
+INFO: Processed 797 -> 786
+INFO: Processing net/minecraft/client/model/ModelBiped.class
+FINE: Class: net/minecraft/client/model/ModelBiped Extends: net/minecraft/client/model/ModelBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (F)V
+FINER: Name: <init> Desc: (FF)V
+FINER: Name: render Desc: (FFFFFF)V
+FINER: Name: setRotationAngles Desc: (FFFFFF)V
+INFO: Processed 1718 -> 1698
+INFO: Processing net/minecraft/client/model/TexturedQuad.class
+FINE: Class: net/minecraft/client/model/TexturedQuad Extends: java/lang/Object
+FINER: Name: <init> Desc: ([Lnet/minecraft/client/model/PositionTextureVertex;)V
+FINER: Name: <init> Desc: ([Lnet/minecraft/client/model/PositionTextureVertex;IIII)V
+INFO: Processed 689 -> 675
+INFO: Processing net/minecraft/client/model/PositionTextureVertex.class
+FINE: Class: net/minecraft/client/model/PositionTextureVertex Extends: java/lang/Object
+FINER: Name: <init> Desc: (FFFFF)V
+FINER: Name: setTexturePosition Desc: (FF)Lnet/minecraft/client/model/PositionTextureVertex;
+FINER: Name: <init> Desc: (Lnet/minecraft/client/model/PositionTextureVertex;FF)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/physics/Vec3D;FF)V
+INFO: Processed 745 -> 719
+INFO: Processing net/minecraft/client/model/ModelCreeper.class
+FINE: Class: net/minecraft/client/model/ModelCreeper Extends: net/minecraft/client/model/ModelBase
+FINER: Name: <init> Desc: ()V
+FINER: Name: render Desc: (FFFFFF)V
+FINER: Name: setRotationAngles Desc: (FFFFFF)V
+INFO: Processed 1299 -> 1276
+INFO: Processing net/minecraft/client/model/ModelBase.class
+FINE: Class: net/minecraft/client/model/ModelBase Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: render Desc: (FFFFFF)V
+FINER: Name: setRotationAngles Desc: (FFFFFF)V
+INFO: Processed 254 -> 246
+INFO: Processing net/minecraft/client/model/ModelSkeleton.class
+FINE: Class: net/minecraft/client/model/ModelSkeleton Extends: net/minecraft/client/model/ModelZombie
+FINER: Name: <init> Desc: ()V
+INFO: Processed 703 -> 695
+INFO: Processing net/minecraft/client/gui/GuiSmallButton.class
+FINE: Class: net/minecraft/client/gui/GuiSmallButton Extends: net/minecraft/client/gui/GuiButton
+FINER: Name: <init> Desc: (IIILjava/lang/String;)V
+INFO: Processed 240 -> 232
+INFO: Processing net/minecraft/client/gui/GuiIngameMenu.class
+FINE: Class: net/minecraft/client/gui/GuiIngameMenu Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: ()V
+FINER: Name: initGui Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: drawScreen Desc: (IIF)V
+INFO: Processed 1980 -> 1959
+INFO: Processing net/minecraft/client/gui/GuiErrorScreen.class
+FINE: Class: net/minecraft/client/gui/GuiErrorScreen Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: drawScreen Desc: (IIF)V
+FINER: Name: keyTyped Desc: (CI)V
+INFO: Processed 776 -> 765
+INFO: Processing net/minecraft/client/gui/GuiGameOver.class
+FINE: Class: net/minecraft/client/gui/GuiGameOver Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: ()V
+FINER: Name: initGui Desc: ()V
+FINER: Name: keyTyped Desc: (CI)V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: drawScreen Desc: (IIF)V
+FINER: Name: doesGuiPauseGame Desc: ()Z
+INFO: Processed 2312 -> 2296
+INFO: Processing net/minecraft/client/gui/GuiLoadLevel.class
+FINE: Class: net/minecraft/client/gui/GuiLoadLevel Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiScreen;)V
+FINER: Name: updateScreen Desc: ()V
+FINER: Name: run Desc: ()V
+FINER: Name: setLevels Desc: ([Ljava/lang/String;)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: saveFileDialog Desc: ()Ljava/awt/FileDialog;
+FINER: Name: openLevel Desc: (I)V
+FINER: Name: drawScreen Desc: (IIF)V
+FINER: Name: openLevel Desc: (Ljava/io/File;)V
+FINER: Name: a Desc: (Lnet/minecraft/client/gui/GuiLoadLevel;Ljava/io/File;)Ljava/io/File;
+FINER: Name: unknown Desc: (Lnet/minecraft/client/gui/GuiLoadLevel;Z)Z
+INFO: Processed 4544 -> 4536
+INFO: Processing net/minecraft/client/gui/GuiLevelDialog.class
+FINE: Class: net/minecraft/client/gui/GuiLevelDialog Extends: java/lang/Thread
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiLoadLevel;)V
+FINER: Name: run Desc: ()V
+INFO: Processed 1690 -> 1682
+INFO: Processing net/minecraft/client/gui/GuiOptions.class
+FINE: Class: net/minecraft/client/gui/GuiOptions Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiScreen;Lnet/minecraft/client/GameSettings;)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: drawScreen Desc: (IIF)V
+INFO: Processed 1872 -> 1864
+INFO: Processing net/minecraft/client/gui/ScaledResolution.class
+FINE: Class: net/minecraft/client/gui/ScaledResolution Extends: java/lang/Object
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getScaledWidth Desc: ()I
+FINER: Name: getScaledHeight Desc: ()I
+INFO: Processed 416 -> 402
+INFO: Processing net/minecraft/client/gui/GuiScreen.class
+FINE: Class: net/minecraft/client/gui/GuiScreen Extends: net/minecraft/client/gui/Gui
+FINER: Name: <init> Desc: ()V
+FINER: Name: drawScreen Desc: (IIF)V
+FINER: Name: keyTyped Desc: (CI)V
+FINER: Name: drawSlotInventory Desc: (III)V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: setWorldAndResolution Desc: (Lnet/minecraft/client/Minecraft;II)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: handleMouseInput Desc: ()V
+FINER: Name: handleKeyboardInput Desc: ()V
+FINER: Name: updateScreen Desc: ()V
+FINER: Name: onGuiClosed Desc: ()V
+FINER: Name: drawDefaultBackground Desc: ()V
+FINER: Name: doesGuiPauseGame Desc: ()Z
+INFO: Processed 3087 -> 3074
+INFO: Processing net/minecraft/client/gui/FontRenderer.class
+FINE: Class: net/minecraft/client/gui/FontRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/GameSettings;Ljava/lang/String;Lnet/minecraft/client/render/RenderEngine;)V
+FINER: Name: drawStringWithShadow Desc: (Ljava/lang/String;III)V
+FINER: Name: drawString Desc: (Ljava/lang/String;III)V
+FINER: Name: renderString Desc: (Ljava/lang/String;IIIZ)V
+FINER: Name: getStringWidth Desc: (Ljava/lang/String;)I
+INFO: Processed 3083 -> 3069
+INFO: Processing net/minecraft/client/gui/Gui.class
+FINE: Class: net/minecraft/client/gui/Gui Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: drawRect Desc: (IIIII)V
+FINER: Name: drawGradientRect Desc: (IIIIII)V
+FINER: Name: drawCenteredString Desc: (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+FINER: Name: drawString Desc: (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+FINER: Name: drawTexturedModalRect Desc: (IIIIII)V
+INFO: Processed 1601 -> 1593
+INFO: Processing net/minecraft/client/gui/GuiIngame.class
+FINE: Class: net/minecraft/client/gui/GuiIngame Extends: net/minecraft/client/gui/Gui
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;)V
+FINER: Name: renderGameOverlay Desc: (F)V
+FINER: Name: addChatMessage Desc: ()V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 5945 -> 5943
+INFO: Processing net/minecraft/client/gui/GuiControls.class
+FINE: Class: net/minecraft/client/gui/GuiControls Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiScreen;Lnet/minecraft/client/GameSettings;)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: keyTyped Desc: (CI)V
+FINER: Name: drawScreen Desc: (IIF)V
+INFO: Processed 2146 -> 2138
+INFO: Processing net/minecraft/client/gui/GuiNewLevel.class
+FINE: Class: net/minecraft/client/gui/GuiNewLevel Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiScreen;)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: worldOptions Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: drawScreen Desc: (IIF)V
+INFO: Processed 2705 -> 2676
+INFO: Processing net/minecraft/client/gui/GuiSaveLevel.class
+FINE: Class: net/minecraft/client/gui/GuiSaveLevel Extends: net/minecraft/client/gui/GuiLoadLevel
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiScreen;)V
+FINER: Name: saveFileDialog Desc: ()Ljava/awt/FileDialog;
+FINER: Name: initGui Desc: ()V
+FINER: Name: setLevels Desc: ([Ljava/lang/String;)V
+FINER: Name: openLevel Desc: (Ljava/io/File;)V
+FINER: Name: openLevel Desc: (I)V
+INFO: Processed 1692 -> 1681
+INFO: Processing net/minecraft/client/gui/GuiNameLevel.class
+FINE: Class: net/minecraft/client/gui/GuiNameLevel Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiScreen;Ljava/lang/String;I)V
+FINER: Name: initGui Desc: ()V
+FINER: Name: onGuiClosed Desc: ()V
+FINER: Name: updateScreen Desc: ()V
+FINER: Name: actionPerformed Desc: (Lnet/minecraft/client/gui/GuiButton;)V
+FINER: Name: keyTyped Desc: (CI)V
+FINER: Name: drawScreen Desc: (IIF)V
+INFO: Processed 2612 -> 2596
+INFO: Processing net/minecraft/client/gui/FilenameFilterLevel.class
+FINE: Class: net/minecraft/client/gui/FilenameFilterLevel Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/GuiLevelDialog;)V
+FINER: Name: accept Desc: (Ljava/io/File;Ljava/lang/String;)Z
+INFO: Processed 500 -> 447
+INFO: Processing net/minecraft/client/gui/GuiButton.class
+FINE: Class: net/minecraft/client/gui/GuiButton Extends: net/minecraft/client/gui/Gui
+FINER: Name: <init> Desc: (IIILjava/lang/String;)V
+FINER: Name: <init> Desc: (IIIIILjava/lang/String;)V
+FINER: Name: drawButton Desc: (Lnet/minecraft/client/Minecraft;II)V
+FINER: Name: mousePressed Desc: (II)Z
+INFO: Processed 1620 -> 1597
+INFO: Processing net/minecraft/client/controller/PlayerController.class
+FINE: Class: net/minecraft/client/controller/PlayerController Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;)V
+FINER: Name: onWorldChange Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: clickBlock Desc: (III)V
+FINER: Name: sendBlockRemoved Desc: (III)Z
+FINER: Name: sendBlockRemoving Desc: (IIII)V
+FINER: Name: resetBlockRemoving Desc: ()V
+FINER: Name: setPartialTime Desc: (F)V
+FINER: Name: getBlockReachDistance Desc: ()F
+FINER: Name: onUpdate Desc: ()V
+FINER: Name: shouldDrawHUD Desc: ()Z
+FINER: Name: onRespawn Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+INFO: Processed 2027 -> 2019
+INFO: Processing net/minecraft/client/controller/PlayerControllerSP.class
+FINE: Class: net/minecraft/client/controller/PlayerControllerSP Extends: net/minecraft/client/controller/PlayerController
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;)V
+FINER: Name: sendBlockRemoved Desc: (III)Z
+FINER: Name: clickBlock Desc: (III)V
+FINER: Name: resetBlockRemoving Desc: ()V
+FINER: Name: sendBlockRemoving Desc: (IIII)V
+FINER: Name: setPartialTime Desc: (F)V
+FINER: Name: getBlockReachDistance Desc: ()F
+FINER: Name: onWorldChange Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: onUpdate Desc: ()V
+INFO: Processed 3408 -> 3389
+INFO: Processing net/minecraft/client/controller/PlayerControllerCreative.class
+FINE: Class: net/minecraft/client/controller/PlayerControllerCreative Extends: net/minecraft/client/controller/PlayerController
+FINER: Name: onRespawn Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: shouldDrawHUD Desc: ()Z
+FINER: Name: onWorldChange Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: onUpdate Desc: ()V
+INFO: Processed 1531 -> 1506
+INFO: Processing net/minecraft/client/sound/SoundPoolEntry.class
+FINE: Class: net/minecraft/client/sound/SoundPoolEntry Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;Ljava/net/URL;)V
+INFO: Processed 315 -> 301
+INFO: Processing net/minecraft/client/sound/SoundPool.class
+FINE: Class: net/minecraft/client/sound/SoundPool Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addSound Desc: (Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/client/sound/SoundPoolEntry;
+FINER: Name: getRandomSoundFromSoundPool Desc: (Ljava/lang/String;)Lnet/minecraft/client/sound/SoundPoolEntry;
+INFO: Processed 1843 -> 1826
+INFO: Processing net/minecraft/client/sound/SoundManager.class
+FINE: Class: net/minecraft/client/sound/SoundManager Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: loadSoundSettings Desc: (Lnet/minecraft/client/GameSettings;)V
+FINER: Name: tryToSetLibraryAndCodecs Desc: ()V
+FINER: Name: onSoundOptionsChanged Desc: ()V
+FINER: Name: closeMinecraft Desc: ()V
+FINER: Name: addSound Desc: (Ljava/lang/String;Ljava/io/File;)V
+FINER: Name: addMusic Desc: (Ljava/lang/String;Ljava/io/File;)V
+FINER: Name: playRandomMusicIfReady Desc: (FFF)V
+FINER: Name: setListener Desc: (Lnet/minecraft/game/entity/EntityLiving;F)V
+FINER: Name: playSound Desc: (Ljava/lang/String;FFFFF)V
+FINER: Name: playSoundFX Desc: (Ljava/lang/String;FF)V
+INFO: Processed 3911 -> 3897
+INFO: Processing net/minecraft/client/effect/EntityBubbleFX.class
+FINE: Class: net/minecraft/client/effect/EntityBubbleFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+INFO: Processed 1480 -> 1469
+INFO: Processing net/minecraft/client/effect/EntityDiggingFX.class
+FINE: Class: net/minecraft/client/effect/EntityDiggingFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFFFFFLnet/minecraft/game/level/block/Block;)V
+FINER: Name: getFXLayer Desc: ()I
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+INFO: Processed 1469 -> 1461
+INFO: Processing net/minecraft/client/effect/EntityFlameFX.class
+FINE: Class: net/minecraft/client/effect/EntityFlameFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFF)V
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: getEntityBrightness Desc: (F)F
+FINER: Name: onEntityUpdate Desc: ()V
+INFO: Processed 1536 -> 1522
+INFO: Processing net/minecraft/client/effect/EffectRenderer.class
+FINE: Class: net/minecraft/client/effect/EffectRenderer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;Lnet/minecraft/client/render/RenderEngine;)V
+FINER: Name: addEffect Desc: (Lnet/minecraft/client/effect/EntityFX;)V
+FINER: Name: updateEffects Desc: ()V
+FINER: Name: renderParticles Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: renderLitParticles Desc: (F)V
+FINER: Name: clearEffects Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: addBlockDestroyEffects Desc: (III)V
+FINER: Name: addBlockHitEffects Desc: (IIII)V
+FINER: Name: getStatistics Desc: ()Ljava/lang/String;
+INFO: Processed 3677 -> 3663
+INFO: Processing net/minecraft/client/effect/EntityPickupFX.class
+FINE: Class: net/minecraft/client/effect/EntityPickupFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;Lnet/minecraft/game/entity/Entity;Lnet/minecraft/game/entity/EntityLiving;F)V
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: getFXLayer Desc: ()I
+INFO: Processed 1835 -> 1785
+INFO: Processing net/minecraft/client/effect/EntitySplashFX.class
+FINE: Class: net/minecraft/client/effect/EntitySplashFX Extends: net/minecraft/client/effect/EntityRainFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFF)V
+INFO: Processed 322 -> 311
+INFO: Processing net/minecraft/client/effect/EntityLavaFX.class
+FINE: Class: net/minecraft/client/effect/EntityLavaFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFF)V
+FINER: Name: getEntityBrightness Desc: (F)F
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+INFO: Processed 1724 -> 1710
+INFO: Processing net/minecraft/client/effect/EntityExplodeFX.class
+FINE: Class: net/minecraft/client/effect/EntityExplodeFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFFFFF)V
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+INFO: Processed 1366 -> 1349
+INFO: Processing net/minecraft/client/effect/EntityRainFX.class
+FINE: Class: net/minecraft/client/effect/EntityRainFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFF)V
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+INFO: Processed 1573 -> 1559
+INFO: Processing net/minecraft/client/effect/EntitySmokeFX.class
+FINE: Class: net/minecraft/client/effect/EntitySmokeFX Extends: net/minecraft/client/effect/EntityFX
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFF)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFFF)V
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+INFO: Processed 1543 -> 1526
+INFO: Processing net/minecraft/client/effect/EntityFX.class
+FINE: Class: net/minecraft/client/effect/EntityFX Extends: net/minecraft/game/entity/Entity
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFFFFF)V
+FINER: Name: multiplyVelocity Desc: (F)Lnet/minecraft/client/effect/EntityFX;
+FINER: Name: multipleParticleScaleBy Desc: (F)Lnet/minecraft/client/effect/EntityFX;
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: renderParticle Desc: (Lnet/minecraft/client/render/Tessellator;FFFFFF)V
+FINER: Name: getFXLayer Desc: ()I
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+INFO: Processed 2797 -> 2762
+INFO: Processing net/minecraft/client/player/EntityPlayerSP.class
+FINE: Class: net/minecraft/client/player/EntityPlayerSP Extends: net/minecraft/game/entity/player/EntityPlayer
+FINER: Name: <init> Desc: (Lnet/minecraft/client/Minecraft;Lnet/minecraft/game/level/World;Lnet/minecraft/client/Session;)V
+FINER: Name: updatePlayerActionState Desc: ()V
+FINER: Name: onLivingUpdate Desc: ()V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: displayGUIChest Desc: (Lnet/minecraft/game/IInventory;)V
+FINER: Name: displayWorkbenchGUI Desc: ()V
+FINER: Name: displayGUIFurnace Desc: (Lnet/minecraft/game/level/block/tileentity/TileEntityFurnace;)V
+FINER: Name: displayGUIInventory Desc: ()V
+FINER: Name: onItemPickup Desc: (Lnet/minecraft/game/entity/Entity;)V
+INFO: Processed 4155 -> 4142
+INFO: Processing net/minecraft/client/player/MovementInput.class
+FINE: Class: net/minecraft/client/player/MovementInput Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: updatePlayerMoveState Desc: ()V
+FINER: Name: resetKeyState Desc: ()V
+FINER: Name: checkKeyForMovementInput Desc: (IZ)V
+INFO: Processed 440 -> 423
+INFO: Processing net/minecraft/client/player/MovementInputFromOptions.class
+FINE: Class: net/minecraft/client/player/MovementInputFromOptions Extends: net/minecraft/client/player/MovementInput
+FINER: Name: <init> Desc: (Lnet/minecraft/client/GameSettings;)V
+FINER: Name: checkKeyForMovementInput Desc: (IZ)V
+FINER: Name: resetKeyState Desc: ()V
+FINER: Name: updatePlayerMoveState Desc: ()V
+INFO: Processed 1075 -> 1058
+INFO: Processing net/minecraft/game/level/path/PathPoint.class
+FINE: Class: net/minecraft/game/level/path/PathPoint Extends: java/lang/Object
+FINER: Name: <init> Desc: (III)V
+FINER: Name: distanceTo Desc: (Lnet/minecraft/game/level/path/PathPoint;)F
+FINER: Name: equals Desc: (Ljava/lang/Object;)Z
+FINER: Name: hashCode Desc: ()I
+FINER: Name: isAssigned Desc: ()Z
+FINER: Name: toString Desc: ()Ljava/lang/String;
+INFO: Processed 1169 -> 1146
+INFO: Processing net/minecraft/game/level/path/PathEntity.class
+FINE: Class: net/minecraft/game/level/path/PathEntity Extends: java/lang/Object
+FINER: Name: <init> Desc: ([Lnet/minecraft/game/level/path/PathPoint;)V
+FINER: Name: incrementPathIndex Desc: ()V
+FINER: Name: isFinished Desc: ()Z
+FINER: Name: getPosition Desc: (Lnet/minecraft/game/entity/Entity;)Lnet/minecraft/game/physics/Vec3D;
+INFO: Processed 864 -> 847
+INFO: Processing net/minecraft/game/level/path/Pathfinder.class
+FINE: Class: net/minecraft/game/level/path/Pathfinder Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: createEntityPathTo Desc: (Lnet/minecraft/game/entity/Entity;Lnet/minecraft/game/entity/Entity;F)Lnet/minecraft/game/level/path/PathEntity;
+FINER: Name: createEntityPathTo Desc: (Lnet/minecraft/game/entity/Entity;IIIF)Lnet/minecraft/game/level/path/PathEntity;
+FINER: Name: addToPath Desc: (Lnet/minecraft/game/entity/Entity;FFFF)Lnet/minecraft/game/level/path/PathEntity;
+FINER: Name: getSafePoint Desc: (Lnet/minecraft/game/entity/Entity;IIILnet/minecraft/game/level/path/PathPoint;I)Lnet/minecraft/game/level/path/PathPoint;
+FINER: Name: openPoint Desc: (III)Lnet/minecraft/game/level/path/PathPoint;
+FINER: Name: getVerticalOffset Desc: (IIILnet/minecraft/game/level/path/PathPoint;)I
+FINER: Name: createEntityPath Desc: (Lnet/minecraft/game/level/path/PathPoint;)Lnet/minecraft/game/level/path/PathEntity;
+INFO: Processed 4367 -> 4353
+INFO: Processing net/minecraft/game/level/path/Path.class
+FINE: Class: net/minecraft/game/level/path/Path Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addPoint Desc: (Lnet/minecraft/game/level/path/PathPoint;)Lnet/minecraft/game/level/path/PathPoint;
+FINER: Name: clearPath Desc: ()V
+FINER: Name: dequeue Desc: ()Lnet/minecraft/game/level/path/PathPoint;
+FINER: Name: changeDistance Desc: (Lnet/minecraft/game/level/path/PathPoint;F)V
+FINER: Name: sortBack Desc: (I)V
+FINER: Name: sortForward Desc: (I)V
+FINER: Name: isPathEmpty Desc: ()Z
+INFO: Processed 1482 -> 1465
+INFO: Processing net/minecraft/game/level/block/BlockChest.class
+FINE: Class: net/minecraft/game/level/block/BlockChest Extends: net/minecraft/game/level/block/BlockContainer
+FINER: Name: <init> Desc: (I)V
+FINER: Name: getBlockTexture Desc: (Lnet/minecraft/game/level/World;IIII)I
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: canPlaceBlockAt Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: isThereANeighborChest Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: onBlockRemoval Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: blockActivated Desc: (Lnet/minecraft/game/level/World;IIILnet/minecraft/game/entity/player/EntityPlayer;)Z
+FINER: Name: getBlockEntity Desc: ()Lnet/minecraft/game/level/block/tileentity/TileEntity;
+INFO: Processed 3910 -> 3902
+INFO: Processing net/minecraft/game/level/block/BlockLog.class
+FINE: Class: net/minecraft/game/level/block/BlockLog Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (I)V
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+INFO: Processed 684 -> 673
+INFO: Processing net/minecraft/game/level/block/BlockFarmland.class
+FINE: Class: net/minecraft/game/level/block/BlockFarmland Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (I)V
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: getBlockTextureFromSideAndMetadata Desc: (II)I
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: onEntityWalking Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+INFO: Processed 2132 -> 2124
+INFO: Processing net/minecraft/game/level/block/BlockTorch.class
+FINE: Class: net/minecraft/game/level/block/BlockTorch Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: getRenderType Desc: ()I
+FINER: Name: canPlaceBlockAt Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: onBlockPlaced Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: dropTorchIfCantStay Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: collisionRayTrace Desc: (Lnet/minecraft/game/level/World;IIILnet/minecraft/game/physics/Vec3D;Lnet/minecraft/game/physics/Vec3D;)Lnet/minecraft/game/physics/MovingObjectPosition;
+FINER: Name: randomDisplayTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+INFO: Processed 2766 -> 2746
+INFO: Processing net/minecraft/game/level/block/BlockFlower.class
+FINE: Class: net/minecraft/game/level/block/BlockFlower Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: canPlaceBlockAt Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: canThisPlantGrowOnThisBlockID Desc: (I)Z
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: checkFlowerChange Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: canBlockStay Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: getRenderType Desc: ()I
+INFO: Processed 1930 -> 1905
+INFO: Processing net/minecraft/game/level/block/BlockBreakable.class
+FINE: Class: net/minecraft/game/level/block/BlockBreakable Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (IILnet/minecraft/game/level/material/Material;Z)V
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: shouldSideBeRendered Desc: (Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 618 -> 604
+INFO: Processing net/minecraft/game/level/block/BlockGrass.class
+FINE: Class: net/minecraft/game/level/block/BlockGrass Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (I)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+INFO: Processed 1315 -> 1302
+INFO: Processing net/minecraft/game/level/block/BlockSponge.class
+FINE: Class: net/minecraft/game/level/block/BlockSponge Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onBlockRemoval Desc: (Lnet/minecraft/game/level/World;III)V
+INFO: Processed 867 -> 859
+INFO: Processing net/minecraft/game/level/block/BlockFire.class
+FINE: Class: net/minecraft/game/level/block/BlockFire Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: setBurnRate Desc: (III)V
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: getRenderType Desc: ()I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: tickRate Desc: ()I
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: tryToCatchBlockOnFire Desc: (Lnet/minecraft/game/level/World;IIIILjava/util/Random;)V
+FINER: Name: canNeighborCatchFire Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: isCollidable Desc: ()Z
+FINER: Name: canBlockCatchFire Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: getChanceToEncourageFire Desc: (Lnet/minecraft/game/level/World;IIII)I
+FINER: Name: canPlaceBlockAt Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: getChanceOfNeighborsEncouragingFire Desc: (I)Z
+FINER: Name: fireSpread Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: randomDisplayTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: fireCheck Desc: (Lnet/minecraft/game/level/World;III)Z
+INFO: Processed 4389 -> 4364
+INFO: Processing net/minecraft/game/level/block/BlockSource.class
+FINE: Class: net/minecraft/game/level/block/BlockSource Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+INFO: Processed 1098 -> 1081
+INFO: Processing net/minecraft/game/level/block/BlockStep.class
+FINE: Class: net/minecraft/game/level/block/BlockStep Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (IZ)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: shouldSideBeRendered Desc: (Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 1438 -> 1411
+INFO: Processing net/minecraft/game/level/block/BlockStationary.class
+FINE: Class: net/minecraft/game/level/block/BlockStationary Extends: net/minecraft/game/level/block/BlockFluid
+FINER: Name: <init> Desc: (ILnet/minecraft/game/level/material/Material;)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+INFO: Processed 1469 -> 1453
+INFO: Processing net/minecraft/game/level/block/BlockOre.class
+FINE: Class: net/minecraft/game/level/block/BlockOre Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+INFO: Processed 784 -> 765
+INFO: Processing net/minecraft/game/level/block/BlockOreBlock.class
+FINE: Class: net/minecraft/game/level/block/BlockOreBlock Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+INFO: Processed 486 -> 478
+INFO: Processing net/minecraft/game/level/block/BlockGravel.class
+FINE: Class: net/minecraft/game/level/block/BlockGravel Extends: net/minecraft/game/level/block/BlockSand
+FINER: Name: <init> Desc: (II)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+INFO: Processed 462 -> 454
+INFO: Processing net/minecraft/game/level/block/BlockCrops.class
+FINE: Class: net/minecraft/game/level/block/BlockCrops Extends: net/minecraft/game/level/block/BlockFlower
+FINER: Name: <init> Desc: (II)V
+FINER: Name: canThisPlantGrowOnThisBlockID Desc: (I)Z
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: getBlockTextureFromSideAndMetadata Desc: (II)I
+FINER: Name: getRenderType Desc: ()I
+FINER: Name: onBlockDestroyedByPlayer Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+INFO: Processed 2787 -> 2771
+INFO: Processing net/minecraft/game/level/block/BlockLeavesBase.class
+FINE: Class: net/minecraft/game/level/block/BlockLeavesBase Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (IILnet/minecraft/game/level/material/Material;Z)V
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: shouldSideBeRendered Desc: (Lnet/minecraft/game/level/World;IIII)Z
+INFO: Processed 622 -> 608
+INFO: Processing net/minecraft/game/level/block/BlockTNT.class
+FINE: Class: net/minecraft/game/level/block/BlockTNT Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: onBlockDestroyedByExplosion Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onBlockDestroyedByPlayer Desc: (Lnet/minecraft/game/level/World;IIII)V
+INFO: Processed 1256 -> 1248
+INFO: Processing net/minecraft/game/level/block/StepSoundSand.class
+FINE: Class: net/minecraft/game/level/block/StepSoundSand Extends: net/minecraft/game/level/block/StepSound
+FINER: Name: <init> Desc: (Ljava/lang/String;FF)V
+FINER: Name: stepSoundDir Desc: ()Ljava/lang/String;
+INFO: Processed 340 -> 290
+INFO: Processing net/minecraft/game/level/block/StepSoundGlass.class
+FINE: Class: net/minecraft/game/level/block/StepSoundGlass Extends: net/minecraft/game/level/block/StepSound
+FINER: Name: <init> Desc: (Ljava/lang/String;FF)V
+FINER: Name: stepSoundDir Desc: ()Ljava/lang/String;
+INFO: Processed 342 -> 292
+INFO: Processing net/minecraft/game/level/block/BlockGears.class
+FINE: Class: net/minecraft/game/level/block/BlockGears Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: getRenderType Desc: ()I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: isCollidable Desc: ()Z
+INFO: Processed 735 -> 727
+INFO: Processing net/minecraft/game/level/block/BlockDirt.class
+FINE: Class: net/minecraft/game/level/block/BlockDirt Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+INFO: Processed 356 -> 348
+INFO: Processing net/minecraft/game/level/block/BlockFlowing.class
+FINE: Class: net/minecraft/game/level/block/BlockFlowing Extends: net/minecraft/game/level/block/BlockFluid
+FINER: Name: <init> Desc: (ILnet/minecraft/game/level/material/Material;)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: update Desc: (Lnet/minecraft/game/level/World;IIII)Z
+FINER: Name: liquidSpread Desc: (Lnet/minecraft/game/level/World;IIIIII)Z
+FINER: Name: liquidSpread2 Desc: (Lnet/minecraft/game/level/World;IIIIII)Z
+FINER: Name: shouldSideBeRendered Desc: (Lnet/minecraft/game/level/World;IIII)Z
+FINER: Name: isCollidable Desc: ()Z
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: tickRate Desc: ()I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: getRenderBlockPass Desc: ()I
+FINER: Name: extinguishFireLava Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: flow Desc: (Lnet/minecraft/game/level/World;III)Z
+INFO: Processed 4042 -> 4015
+INFO: Processing net/minecraft/game/level/block/StepSound.class
+FINE: Class: net/minecraft/game/level/block/StepSound Extends: java/lang/Object
+FINER: Name: <init> Desc: (Ljava/lang/String;FF)V
+FINER: Name: stepSoundDir Desc: ()Ljava/lang/String;
+FINER: Name: stepSoundDir2 Desc: ()Ljava/lang/String;
+INFO: Processed 654 -> 595
+INFO: Processing net/minecraft/game/level/block/BlockLeaves.class
+FINE: Class: net/minecraft/game/level/block/BlockLeaves Extends: net/minecraft/game/level/block/BlockLeavesBase
+FINER: Name: <init> Desc: (II)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+INFO: Processed 1298 -> 1290
+INFO: Processing net/minecraft/game/level/block/BlockFluid.class
+FINE: Class: net/minecraft/game/level/block/BlockFluid Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (ILnet/minecraft/game/level/material/Material;)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: update Desc: (Lnet/minecraft/game/level/World;IIII)Z
+FINER: Name: canFlow Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: extinguishFireLava Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: flow Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: getBlockBrightness Desc: (Lnet/minecraft/game/level/World;III)F
+FINER: Name: shouldSideBeRendered Desc: (Lnet/minecraft/game/level/World;IIII)Z
+FINER: Name: isCollidable Desc: ()Z
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: tickRate Desc: ()I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: getRenderBlockPass Desc: ()I
+FINER: Name: randomDisplayTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: liquidAirCheck Desc: (Lnet/minecraft/game/level/World;III)Z
+INFO: Processed 4382 -> 4364
+INFO: Processing net/minecraft/game/level/block/BlockContainer.class
+FINE: Class: net/minecraft/game/level/block/BlockContainer Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (ILnet/minecraft/game/level/material/Material;)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onBlockRemoval Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: getBlockEntity Desc: ()Lnet/minecraft/game/level/block/tileentity/TileEntity;
+INFO: Processed 705 -> 679
+INFO: Processing net/minecraft/game/level/block/BlockStone.class
+FINE: Class: net/minecraft/game/level/block/BlockStone Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+INFO: Processed 514 -> 506
+INFO: Processing net/minecraft/game/level/block/BlockFurnace.class
+FINE: Class: net/minecraft/game/level/block/BlockFurnace Extends: net/minecraft/game/level/block/BlockContainer
+FINER: Name: <init> Desc: (IZ)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: setDefaultDirection Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: getBlockTexture Desc: (Lnet/minecraft/game/level/World;IIII)I
+FINER: Name: randomDisplayTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: blockActivated Desc: (Lnet/minecraft/game/level/World;IIILnet/minecraft/game/entity/player/EntityPlayer;)Z
+FINER: Name: getBlockEntity Desc: ()Lnet/minecraft/game/level/block/tileentity/TileEntity;
+INFO: Processed 2425 -> 2412
+INFO: Processing net/minecraft/game/level/block/BlockWorkbench.class
+FINE: Class: net/minecraft/game/level/block/BlockWorkbench Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (I)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: blockActivated Desc: (Lnet/minecraft/game/level/World;IIILnet/minecraft/game/entity/player/EntityPlayer;)Z
+INFO: Processed 805 -> 794
+INFO: Processing net/minecraft/game/level/block/BlockGlass.class
+FINE: Class: net/minecraft/game/level/block/BlockGlass Extends: net/minecraft/game/level/block/BlockBreakable
+FINER: Name: <init> Desc: (IILnet/minecraft/game/level/material/Material;Z)V
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+INFO: Processed 319 -> 308
+INFO: Processing net/minecraft/game/level/block/BlockMushroom.class
+FINE: Class: net/minecraft/game/level/block/BlockMushroom Extends: net/minecraft/game/level/block/BlockFlower
+FINER: Name: <init> Desc: (II)V
+FINER: Name: canThisPlantGrowOnThisBlockID Desc: (I)Z
+FINER: Name: canBlockStay Desc: (Lnet/minecraft/game/level/World;III)Z
+INFO: Processed 641 -> 633
+INFO: Processing net/minecraft/game/level/block/BlockSand.class
+FINE: Class: net/minecraft/game/level/block/BlockSand Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: tryToFall Desc: (Lnet/minecraft/game/level/World;III)V
+INFO: Processed 1276 -> 1265
+INFO: Processing net/minecraft/game/level/block/Block.class
+FINE: Class: net/minecraft/game/level/block/Block Extends: java/lang/Object
+FINER: Name: <init> Desc: (ILnet/minecraft/game/level/material/Material;)V
+FINER: Name: <init> Desc: (IILnet/minecraft/game/level/material/Material;)V
+FINER: Name: setLightOpacity Desc: (I)Lnet/minecraft/game/level/block/Block;
+FINER: Name: setLightValue Desc: (F)Lnet/minecraft/game/level/block/Block;
+FINER: Name: setResistance Desc: (F)Lnet/minecraft/game/level/block/Block;
+FINER: Name: renderAsNormalBlock Desc: ()Z
+FINER: Name: getRenderType Desc: ()I
+FINER: Name: setHardness Desc: (F)Lnet/minecraft/game/level/block/Block;
+FINER: Name: setTickOnLoad Desc: (Z)V
+FINER: Name: setBlockBounds Desc: (FFFFFF)V
+FINER: Name: getBlockBrightness Desc: (Lnet/minecraft/game/level/World;III)F
+FINER: Name: shouldSideBeRendered Desc: (Lnet/minecraft/game/level/World;IIII)Z
+FINER: Name: getBlockTexture Desc: (Lnet/minecraft/game/level/World;IIII)I
+FINER: Name: getBlockTextureFromSideAndMetadata Desc: (II)I
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: getSelectedBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: getCollisionBoundingBoxFromPool Desc: (III)Lnet/minecraft/game/physics/AxisAlignedBB;
+FINER: Name: isOpaqueCube Desc: ()Z
+FINER: Name: isCollidable Desc: ()Z
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: randomDisplayTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+FINER: Name: onBlockDestroyedByPlayer Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: onNeighborBlockChange Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: tickRate Desc: ()I
+FINER: Name: onBlockAdded Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onBlockRemoval Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+FINER: Name: idDropped Desc: (ILjava/util/Random;)I
+FINER: Name: blockStrength Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)F
+FINER: Name: dropBlockAsItem Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: dropBlockAsItemWithChance Desc: (Lnet/minecraft/game/level/World;IIIIF)V
+FINER: Name: getExplosionResistance Desc: ()F
+FINER: Name: collisionRayTrace Desc: (Lnet/minecraft/game/level/World;IIILnet/minecraft/game/physics/Vec3D;Lnet/minecraft/game/physics/Vec3D;)Lnet/minecraft/game/physics/MovingObjectPosition;
+FINER: Name: isVecInsideYZBounds Desc: (Lnet/minecraft/game/physics/Vec3D;)Z
+FINER: Name: isVecInsideXZBounds Desc: (Lnet/minecraft/game/physics/Vec3D;)Z
+FINER: Name: isVecInsideXYBounds Desc: (Lnet/minecraft/game/physics/Vec3D;)Z
+FINER: Name: onBlockDestroyedByExplosion Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: getRenderBlockPass Desc: ()I
+FINER: Name: canPlaceBlockAt Desc: (Lnet/minecraft/game/level/World;III)Z
+FINER: Name: blockActivated Desc: (Lnet/minecraft/game/level/World;IIILnet/minecraft/game/entity/player/EntityPlayer;)Z
+FINER: Name: onEntityWalking Desc: (Lnet/minecraft/game/level/World;III)V
+FINER: Name: onBlockPlaced Desc: (Lnet/minecraft/game/level/World;IIII)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 14653 -> 14335
+INFO: Processing net/minecraft/game/level/block/BlockBookshelf.class
+FINE: Class: net/minecraft/game/level/block/BlockBookshelf Extends: net/minecraft/game/level/block/Block
+FINER: Name: <init> Desc: (II)V
+FINER: Name: getBlockTextureFromSide Desc: (I)I
+FINER: Name: quantityDropped Desc: (Ljava/util/Random;)I
+INFO: Processed 538 -> 530
+INFO: Processing net/minecraft/game/level/block/BlockSapling.class
+FINE: Class: net/minecraft/game/level/block/BlockSapling Extends: net/minecraft/game/level/block/BlockFlower
+FINER: Name: <init> Desc: (II)V
+FINER: Name: updateTick Desc: (Lnet/minecraft/game/level/World;IIILjava/util/Random;)V
+INFO: Processed 760 -> 752
+INFO: Processing net/minecraft/game/level/generator/LevelGenerator.class
+FINE: Class: net/minecraft/game/level/generator/LevelGenerator Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lutil/IProgressUpdate;)V
+FINER: Name: generate Desc: (Ljava/lang/String;III)Lnet/minecraft/game/level/World;
+FINER: Name: generateHouse Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: growGrassOnDirt Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: growTrees Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: populateFlowersAndMushrooms Desc: (Lnet/minecraft/game/level/World;Lnet/minecraft/game/level/block/BlockFlower;I)V
+FINER: Name: populateOre Desc: (IIII)I
+FINER: Name: liquidThemeSpawner Desc: ()V
+FINER: Name: loadingBar Desc: ()V
+FINER: Name: setNextPhase Desc: (F)V
+FINER: Name: lavaGen Desc: ()V
+FINER: Name: floodFill Desc: (IIIII)J
+INFO: Processed 11678 -> 11681
+INFO: Processing net/minecraft/game/level/material/MaterialLogic.class
+FINE: Class: net/minecraft/game/level/material/MaterialLogic Extends: net/minecraft/game/level/material/Material
+FINER: Name: <init> Desc: ()V
+FINER: Name: isSolid Desc: ()Z
+FINER: Name: getCanBlockGrass Desc: ()Z
+FINER: Name: getIsSolid Desc: ()Z
+INFO: Processed 328 -> 320
+INFO: Processing net/minecraft/game/level/material/MaterialLiquid.class
+FINE: Class: net/minecraft/game/level/material/MaterialLiquid Extends: net/minecraft/game/level/material/Material
+FINER: Name: <init> Desc: ()V
+FINER: Name: getIsLiquid Desc: ()Z
+FINER: Name: isSolid Desc: ()Z
+INFO: Processed 283 -> 275
+INFO: Processing net/minecraft/game/level/material/Material.class
+FINE: Class: net/minecraft/game/level/material/Material Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: getIsLiquid Desc: ()Z
+FINER: Name: liquidSolidCheck Desc: ()Z
+FINER: Name: isSolid Desc: ()Z
+FINER: Name: getCanBlockGrass Desc: ()Z
+FINER: Name: getIsSolid Desc: ()Z
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 1317 -> 1258
+INFO: Processing net/minecraft/game/level/material/MaterialTransparent.class
+FINE: Class: net/minecraft/game/level/material/MaterialTransparent Extends: net/minecraft/game/level/material/Material
+FINER: Name: <init> Desc: ()V
+FINER: Name: isSolid Desc: ()Z
+FINER: Name: getCanBlockGrass Desc: ()Z
+FINER: Name: getIsSolid Desc: ()Z
+INFO: Processed 334 -> 326
+INFO: Processing net/minecraft/game/item/recipe/RecipesArmor.class
+FINE: Class: net/minecraft/game/item/recipe/RecipesArmor Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addRecipes Desc: (Lnet/minecraft/game/item/recipe/CraftingManager;)V
+INFO: Processed 1910 -> 1899
+INFO: Processing net/minecraft/game/item/recipe/RecipesFood.class
+FINE: Class: net/minecraft/game/item/recipe/RecipesFood Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+INFO: Processed 165 -> 157
+INFO: Processing net/minecraft/game/item/recipe/CraftingRecipe.class
+FINE: Class: net/minecraft/game/item/recipe/CraftingRecipe Extends: java/lang/Object
+FINER: Name: <init> Desc: (II[ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: matchRecipe Desc: ([I)Z
+FINER: Name: matches Desc: ([IIIZ)Z
+FINER: Name: createResult Desc: ()Lnet/minecraft/game/item/ItemStack;
+FINER: Name: b Desc: ()I
+INFO: Processed 963 -> 949
+INFO: Processing net/minecraft/game/item/recipe/RecipesIngots.class
+FINE: Class: net/minecraft/game/item/recipe/RecipesIngots Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addRecipes Desc: (Lnet/minecraft/game/item/recipe/CraftingManager;)V
+INFO: Processed 1177 -> 1166
+INFO: Processing net/minecraft/game/item/recipe/RecipesTools.class
+FINE: Class: net/minecraft/game/item/recipe/RecipesTools Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addRecipes Desc: (Lnet/minecraft/game/item/recipe/CraftingManager;)V
+INFO: Processed 1930 -> 1916
+INFO: Processing net/minecraft/game/item/recipe/CraftingManager.class
+FINE: Class: net/minecraft/game/item/recipe/CraftingManager Extends: java/lang/Object
+FINER: Name: getInstance Desc: ()Lnet/minecraft/game/item/recipe/CraftingManager;
+FINER: Name: <init> Desc: ()V
+FINER: Name: addRecipe Desc: (Lnet/minecraft/game/item/ItemStack;[Ljava/lang/Object;)V
+FINER: Name: findMatchingRecipe Desc: ([I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 4760 -> 4728
+INFO: Processing net/minecraft/game/item/recipe/RecipesCrafting.class
+FINE: Class: net/minecraft/game/item/recipe/RecipesCrafting Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+INFO: Processed 169 -> 161
+INFO: Processing net/minecraft/game/item/recipe/RecipesWeapons.class
+FINE: Class: net/minecraft/game/item/recipe/RecipesWeapons Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: addRecipes Desc: (Lnet/minecraft/game/item/recipe/CraftingManager;)V
+INFO: Processed 1665 -> 1651
+INFO: Processing net/minecraft/game/item/recipe/RecipeSorter.class
+FINE: Class: net/minecraft/game/item/recipe/RecipeSorter Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/item/recipe/CraftingManager;)V
+FINER: Name: compare Desc: (Ljava/lang/Object;Ljava/lang/Object;)I
+INFO: Processed 487 -> 427
+INFO: Processing net/minecraft/game/entity/monster/EntityGiantZombie.class
+FINE: Class: net/minecraft/game/entity/monster/EntityGiantZombie Extends: net/minecraft/game/entity/monster/EntityMob
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: getBlockPathWeight Desc: (III)F
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+INFO: Processed 802 -> 791
+INFO: Processing net/minecraft/game/entity/monster/EntitySpider.class
+FINE: Class: net/minecraft/game/entity/monster/EntitySpider Extends: net/minecraft/game/entity/monster/EntityMob
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: findPlayerToAttack Desc: ()Lnet/minecraft/game/entity/Entity;
+FINER: Name: attackEntity Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: scoreValue Desc: ()I
+INFO: Processed 1883 -> 1853
+INFO: Processing net/minecraft/game/entity/monster/EntitySkeleton.class
+FINE: Class: net/minecraft/game/entity/monster/EntitySkeleton Extends: net/minecraft/game/entity/monster/EntityMob
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: onLivingUpdate Desc: ()V
+FINER: Name: attackEntity Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: scoreValue Desc: ()I
+INFO: Processed 2149 -> 2109
+INFO: Processing net/minecraft/game/entity/monster/EntityCreeper.class
+FINE: Class: net/minecraft/game/entity/monster/EntityCreeper Extends: net/minecraft/game/entity/monster/EntityMob
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: updatePlayerActionState Desc: ()V
+FINER: Name: attackEntity Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: c Desc: (F)F
+FINER: Name: scoreValue Desc: ()I
+INFO: Processed 1655 -> 1626
+INFO: Processing net/minecraft/game/entity/monster/EntityMob.class
+FINE: Class: net/minecraft/game/entity/monster/EntityMob Extends: net/minecraft/game/entity/EntityCreature
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: onLivingUpdate Desc: ()V
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: findPlayerToAttack Desc: ()Lnet/minecraft/game/entity/Entity;
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: attackEntity Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: getBlockPathWeight Desc: (III)F
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: getCanSpawnHere Desc: (FFF)Z
+INFO: Processed 2135 -> 2099
+INFO: Processing net/minecraft/game/entity/monster/EntityZombie.class
+FINE: Class: net/minecraft/game/entity/monster/EntityZombie Extends: net/minecraft/game/entity/monster/EntityMob
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: onLivingUpdate Desc: ()V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: scoreValue Desc: ()I
+INFO: Processed 1130 -> 1116
+INFO: Processing net/minecraft/game/entity/animal/EntityAnimal.class
+FINE: Class: net/minecraft/game/entity/animal/EntityAnimal Extends: net/minecraft/game/entity/EntityCreature
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: getBlockPathWeight Desc: (III)F
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getCanSpawnHere Desc: (FFF)Z
+INFO: Processed 968 -> 948
+INFO: Processing net/minecraft/game/entity/animal/EntitySheep.class
+FINE: Class: net/minecraft/game/entity/animal/EntitySheep Extends: net/minecraft/game/entity/animal/EntityAnimal
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: getLivingSound Desc: ()Ljava/lang/String;
+FINER: Name: getHurtSound Desc: ()Ljava/lang/String;
+FINER: Name: getDeathSound Desc: ()Ljava/lang/String;
+INFO: Processed 1666 -> 1649
+INFO: Processing net/minecraft/game/entity/animal/EntityPig.class
+FINE: Class: net/minecraft/game/entity/animal/EntityPig Extends: net/minecraft/game/entity/animal/EntityAnimal
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: getLivingSound Desc: ()Ljava/lang/String;
+FINER: Name: getHurtSound Desc: ()Ljava/lang/String;
+FINER: Name: getDeathSound Desc: ()Ljava/lang/String;
+FINER: Name: scoreValue Desc: ()I
+INFO: Processed 915 -> 898
+INFO: Processing net/minecraft/game/entity/misc/EntityTNTPrimed.class
+FINE: Class: net/minecraft/game/entity/misc/EntityTNTPrimed Extends: net/minecraft/game/entity/Entity
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFF)V
+FINER: Name: canBeCollidedWith Desc: ()Z
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: getShadowSize Desc: ()F
+INFO: Processed 1972 -> 1964
+INFO: Processing net/minecraft/game/entity/misc/EntityItem.class
+FINE: Class: net/minecraft/game/entity/misc/EntityItem Extends: net/minecraft/game/entity/Entity
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;FFFLnet/minecraft/game/item/ItemStack;)V
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: dealFireDamage Desc: (I)V
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: onCollideWithPlayer Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+INFO: Processed 4051 -> 4040
+INFO: Processing net/minecraft/game/entity/projectile/EntityArrow.class
+FINE: Class: net/minecraft/game/entity/projectile/EntityArrow Extends: net/minecraft/game/entity/Entity
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;Lnet/minecraft/game/entity/EntityLiving;)V
+FINER: Name: setArrowHeading Desc: (FFFFF)V
+FINER: Name: onEntityUpdate Desc: ()V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: onCollideWithPlayer Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: getShadowSize Desc: ()F
+INFO: Processed 6175 -> 6159
+INFO: Processing net/minecraft/game/entity/player/EntityPlayer.class
+FINE: Class: net/minecraft/game/entity/player/EntityPlayer Extends: net/minecraft/game/entity/EntityLiving
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: preparePlayerToSpawn Desc: ()V
+FINER: Name: onLivingUpdate Desc: ()V
+FINER: Name: onDeath Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: setEntityDead Desc: ()V
+FINER: Name: dropPlayerItem Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: dropPlayerItemWithRandomChoice Desc: (Lnet/minecraft/game/item/ItemStack;Z)V
+FINER: Name: canHarvestBlock Desc: (Lnet/minecraft/game/level/block/Block;)Z
+FINER: Name: readEntityFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: writeEntityToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getEntityString Desc: ()Ljava/lang/String;
+FINER: Name: displayGUIChest Desc: (Lnet/minecraft/game/IInventory;)V
+FINER: Name: displayWorkbenchGUI Desc: ()V
+FINER: Name: onItemPickup Desc: (Lnet/minecraft/game/entity/Entity;)V
+FINER: Name: getEyeHeight Desc: ()F
+FINER: Name: attackEntityFrom Desc: (Lnet/minecraft/game/entity/Entity;I)Z
+FINER: Name: displayGUIFurnace Desc: (Lnet/minecraft/game/level/block/tileentity/TileEntityFurnace;)V
+INFO: Processed 5695 -> 5664
+INFO: Processing net/minecraft/game/entity/player/InventoryPlayer.class
+FINE: Class: net/minecraft/game/entity/player/InventoryPlayer Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;)V
+FINER: Name: getCurrentItem Desc: ()Lnet/minecraft/game/item/ItemStack;
+FINER: Name: getInventorySlotContainItem Desc: (I)I
+FINER: Name: storeItemStack Desc: ()I
+FINER: Name: getFirstEmptyStack Desc: (I)V
+FINER: Name: consumeInventoryItem Desc: (I)Z
+FINER: Name: storePartialItemStack Desc: (Lnet/minecraft/game/item/ItemStack;)Z
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: getInventoryStackLimit Desc: ()I
+FINER: Name: getPlayerArmorValue Desc: ()I
+INFO: Processed 2612 -> 2592
+INFO: Processing net/minecraft/client/render/entity/RenderEntity.class
+FINE: Class: net/minecraft/client/render/entity/RenderEntity Extends: net/minecraft/client/render/entity/Render
+FINER: Name: <init> Desc: ()V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+INFO: Processed 686 -> 678
+INFO: Processing net/minecraft/client/render/entity/RenderArrow.class
+FINE: Class: net/minecraft/client/render/entity/RenderArrow Extends: net/minecraft/client/render/entity/Render
+FINER: Name: <init> Desc: ()V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+INFO: Processed 1455 -> 1447
+INFO: Processing net/minecraft/client/render/entity/RenderCreeper.class
+FINE: Class: net/minecraft/client/render/entity/RenderCreeper Extends: net/minecraft/client/render/entity/RenderLiving
+FINER: Name: <init> Desc: ()V
+FINER: Name: preRenderCallback Desc: (Lnet/minecraft/game/entity/EntityLiving;F)V
+FINER: Name: getColorMultiplier Desc: (Lnet/minecraft/game/entity/EntityLiving;FF)I
+INFO: Processed 864 -> 856
+INFO: Processing net/minecraft/client/render/entity/RenderTNTPrimed.class
+FINE: Class: net/minecraft/client/render/entity/RenderTNTPrimed Extends: net/minecraft/client/render/entity/Render
+FINER: Name: <init> Desc: ()V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+INFO: Processed 1263 -> 1252
+INFO: Processing net/minecraft/client/render/entity/RenderItem.class
+FINE: Class: net/minecraft/client/render/entity/RenderItem Extends: net/minecraft/client/render/entity/Render
+FINER: Name: <init> Desc: ()V
+FINER: Name: renderItemIntoGUI Desc: (Lnet/minecraft/client/render/RenderEngine;Lnet/minecraft/game/item/ItemStack;II)V
+FINER: Name: renderItemOverlayIntoGUI Desc: (Lnet/minecraft/client/gui/FontRenderer;Lnet/minecraft/game/item/ItemStack;II)V
+FINER: Name: renderQuad Desc: (Lnet/minecraft/client/render/Tessellator;IIIII)V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+INFO: Processed 4331 -> 4323
+INFO: Processing net/minecraft/client/render/entity/Render.class
+FINE: Class: net/minecraft/client/render/entity/Render Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+FINER: Name: loadTexture Desc: (Ljava/lang/String;)V
+FINER: Name: loadDownloadableImageTexture Desc: (Ljava/lang/String;Ljava/lang/String;)V
+FINER: Name: renderOffsetAABB Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)V
+FINER: Name: setRenderManager Desc: (Lnet/minecraft/client/render/entity/RenderManager;)V
+FINER: Name: renderShadow Desc: (Lnet/minecraft/game/entity/Entity;FFFF)V
+INFO: Processed 4004 -> 3971
+INFO: Processing net/minecraft/client/render/entity/RenderPlayer.class
+FINE: Class: net/minecraft/client/render/entity/RenderPlayer Extends: net/minecraft/client/render/entity/RenderLiving
+FINER: Name: <init> Desc: ()V
+FINER: Name: renderPlayer Desc: (Lnet/minecraft/game/entity/player/EntityPlayer;FFFFF)V
+FINER: Name: drawFirstPersonHand Desc: ()V
+FINER: Name: shouldRenderPass Desc: (Lnet/minecraft/game/entity/EntityLiving;I)Z
+FINER: Name: a Desc: (Lnet/minecraft/game/entity/EntityLiving;FFFFF)V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 2607 -> 2599
+INFO: Processing net/minecraft/client/render/entity/RenderPainting.class
+FINE: Class: net/minecraft/client/render/entity/RenderPainting Extends: net/minecraft/client/render/entity/Render
+FINER: Name: <init> Desc: ()V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+INFO: Processed 2381 -> 2373
+INFO: Processing net/minecraft/client/render/entity/RenderManager.class
+FINE: Class: net/minecraft/client/render/entity/RenderManager Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: getEntityRenderObject Desc: (Lnet/minecraft/game/entity/Entity;)Lnet/minecraft/client/render/entity/Render;
+FINER: Name: cacheActiveRenderInfo Desc: (Lnet/minecraft/game/level/World;Lnet/minecraft/client/render/RenderEngine;Lnet/minecraft/game/entity/player/EntityPlayer;F)V
+FINER: Name: renderEntity Desc: (Lnet/minecraft/game/entity/Entity;F)V
+FINER: Name: renderEntityWithPosYaw Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+FINER: Name: set Desc: (Lnet/minecraft/game/level/World;)V
+FINER: Name: getDistanceToCamera Desc: (FFF)F
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 5008 -> 4912
+INFO: Processing net/minecraft/client/render/entity/RenderLiving.class
+FINE: Class: net/minecraft/client/render/entity/RenderLiving Extends: net/minecraft/client/render/entity/Render
+FINER: Name: <init> Desc: (Lnet/minecraft/client/model/ModelBase;F)V
+FINER: Name: setRenderPassModel Desc: (Lnet/minecraft/client/model/ModelBase;)V
+FINER: Name: a Desc: (Lnet/minecraft/game/entity/EntityLiving;FFFFF)V
+FINER: Name: shouldRenderPass Desc: (Lnet/minecraft/game/entity/EntityLiving;I)Z
+FINER: Name: getDeathMaxRotation Desc: (Lnet/minecraft/game/entity/EntityLiving;)F
+FINER: Name: getColorMultiplier Desc: (Lnet/minecraft/game/entity/EntityLiving;FF)I
+FINER: Name: preRenderCallback Desc: (Lnet/minecraft/game/entity/EntityLiving;F)V
+FINER: Name: doRender Desc: (Lnet/minecraft/game/entity/Entity;FFFFF)V
+INFO: Processed 2851 -> 2828
+INFO: Processing net/minecraft/client/render/entity/RenderSheep.class
+FINE: Class: net/minecraft/client/render/entity/RenderSheep Extends: net/minecraft/client/render/entity/RenderLiving
+FINER: Name: <init> Desc: (Lnet/minecraft/client/model/ModelBase;Lnet/minecraft/client/model/ModelBase;F)V
+FINER: Name: shouldRenderPass Desc: (Lnet/minecraft/game/entity/EntityLiving;I)Z
+INFO: Processed 678 -> 670
+INFO: Processing net/minecraft/client/render/entity/RenderGiantZombie.class
+FINE: Class: net/minecraft/client/render/entity/RenderGiantZombie Extends: net/minecraft/client/render/entity/RenderLiving
+FINER: Name: <init> Desc: (Lnet/minecraft/client/model/ModelBase;FF)V
+FINER: Name: preRenderCallback Desc: (Lnet/minecraft/game/entity/EntityLiving;F)V
+INFO: Processed 511 -> 500
+INFO: Processing net/minecraft/client/render/entity/RenderSpider.class
+FINE: Class: net/minecraft/client/render/entity/RenderSpider Extends: net/minecraft/client/render/entity/RenderLiving
+FINER: Name: <init> Desc: ()V
+FINER: Name: getDeathMaxRotation Desc: (Lnet/minecraft/game/entity/EntityLiving;)F
+FINER: Name: shouldRenderPass Desc: (Lnet/minecraft/game/entity/EntityLiving;I)Z
+INFO: Processed 967 -> 959
+INFO: Processing net/minecraft/client/render/camera/ClippingHelperImplementation.class
+FINE: Class: net/minecraft/client/render/camera/ClippingHelperImplementation Extends: net/minecraft/client/render/camera/ClippingHelper
+FINER: Name: <init> Desc: ()V
+FINER: Name: init Desc: ()Lnet/minecraft/client/render/camera/ClippingHelper;
+FINER: Name: normalize Desc: ([[FI)V
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 3048 -> 3022
+INFO: Processing net/minecraft/client/render/camera/ClippingHelper.class
+FINE: Class: net/minecraft/client/render/camera/ClippingHelper Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+INFO: Processed 371 -> 351
+INFO: Processing net/minecraft/client/render/camera/Frustrum.class
+FINE: Class: net/minecraft/client/render/camera/Frustrum Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: isBoundingBoxInFrustrum Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+INFO: Processed 1270 -> 1259
+INFO: Processing net/minecraft/client/render/camera/IsomCamera.class
+FINE: Class: net/minecraft/client/render/camera/IsomCamera Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: isBoundingBoxInFrustrum Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+INFO: Processed 320 -> 312
+INFO: Processing net/minecraft/client/render/camera/ICamera.class
+FINE: Class: net/minecraft/client/render/camera/ICamera Extends: java/lang/Object
+FINER: Name: isBoundingBoxInFrustrum Desc: (Lnet/minecraft/game/physics/AxisAlignedBB;)Z
+INFO: Processed 184 -> 176
+INFO: Processing net/minecraft/client/render/texture/TextureWaterFlowFX.class
+FINE: Class: net/minecraft/client/render/texture/TextureWaterFlowFX Extends: net/minecraft/client/render/texture/TextureFX
+FINER: Name: <init> Desc: ()V
+FINER: Name: onTick Desc: ()V
+INFO: Processed 1194 -> 1171
+INFO: Processing net/minecraft/client/render/texture/TextureFX.class
+FINE: Class: net/minecraft/client/render/texture/TextureFX Extends: java/lang/Object
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onTick Desc: ()V
+INFO: Processed 386 -> 366
+INFO: Processing net/minecraft/client/render/texture/TextureGearsFX.class
+FINE: Class: net/minecraft/client/render/texture/TextureGearsFX Extends: net/minecraft/client/render/texture/TextureFX
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onTick Desc: ()V
+INFO: Processed 1433 -> 1413
+INFO: Processing net/minecraft/client/render/texture/TextureLavaFX.class
+FINE: Class: net/minecraft/client/render/texture/TextureLavaFX Extends: net/minecraft/client/render/texture/TextureFX
+FINER: Name: <init> Desc: ()V
+FINER: Name: onTick Desc: ()V
+INFO: Processed 1312 -> 1292
+INFO: Processing net/minecraft/client/render/texture/TextureFlamesFX.class
+FINE: Class: net/minecraft/client/render/texture/TextureFlamesFX Extends: net/minecraft/client/render/texture/TextureFX
+FINER: Name: <init> Desc: (I)V
+FINER: Name: onTick Desc: ()V
+INFO: Processed 1162 -> 1148
+INFO: Processing net/minecraft/client/render/texture/TextureWaterFX.class
+FINE: Class: net/minecraft/client/render/texture/TextureWaterFX Extends: net/minecraft/client/render/texture/TextureFX
+FINER: Name: <init> Desc: ()V
+FINER: Name: onTick Desc: ()V
+INFO: Processed 1189 -> 1166
+INFO: Processing net/minecraft/client/gui/container/InventoryCrafting.class
+FINE: Class: net/minecraft/client/gui/container/InventoryCrafting Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/container/GuiContainer;II)V
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getInventoryStackLimit Desc: ()I
+INFO: Processed 1231 -> 1208
+INFO: Processing net/minecraft/client/gui/container/GuiCrafting.class
+FINE: Class: net/minecraft/client/gui/container/GuiCrafting Extends: net/minecraft/client/gui/container/GuiContainer
+FINER: Name: <init> Desc: (Lnet/minecraft/game/entity/player/InventoryPlayer;)V
+FINER: Name: onGuiClosed Desc: ()V
+FINER: Name: guiCraftingItemsCheck Desc: ()V
+FINER: Name: drawGuiContainerForegroundLayer Desc: ()V
+FINER: Name: drawGuiContainerBackgroundLayer Desc: ()V
+INFO: Processed 3035 -> 3027
+INFO: Processing net/minecraft/client/gui/container/GuiFurnace.class
+FINE: Class: net/minecraft/client/gui/container/GuiFurnace Extends: net/minecraft/client/gui/container/GuiContainer
+FINER: Name: <init> Desc: (Lnet/minecraft/game/entity/player/InventoryPlayer;Lnet/minecraft/game/level/block/tileentity/TileEntityFurnace;)V
+FINER: Name: drawGuiContainerForegroundLayer Desc: ()V
+FINER: Name: drawGuiContainerBackgroundLayer Desc: ()V
+INFO: Processed 2082 -> 2074
+INFO: Processing net/minecraft/client/gui/container/SlotCrafting.class
+FINE: Class: net/minecraft/client/gui/container/SlotCrafting Extends: net/minecraft/client/gui/container/Slot
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/container/GuiContainer;Lnet/minecraft/game/IInventory;Lnet/minecraft/game/IInventory;III)V
+FINER: Name: isItemValid Desc: (Lnet/minecraft/game/item/ItemStack;)Z
+FINER: Name: onPickupFromSlot Desc: ()V
+INFO: Processed 861 -> 853
+INFO: Processing net/minecraft/client/gui/container/SlotArmor.class
+FINE: Class: net/minecraft/client/gui/container/SlotArmor Extends: net/minecraft/client/gui/container/Slot
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/container/GuiInventory;Lnet/minecraft/client/gui/container/GuiContainer;Lnet/minecraft/game/IInventory;IIII)V
+FINER: Name: isItemValid Desc: (Lnet/minecraft/game/item/ItemStack;)Z
+FINER: Name: getBackgroundIconIndex Desc: ()I
+INFO: Processed 843 -> 771
+INFO: Processing net/minecraft/client/gui/container/GuiInventory.class
+FINE: Class: net/minecraft/client/gui/container/GuiInventory Extends: net/minecraft/client/gui/container/GuiContainer
+FINER: Name: <init> Desc: (Lnet/minecraft/game/IInventory;)V
+FINER: Name: onGuiClosed Desc: ()V
+FINER: Name: guiCraftingItemsCheck Desc: ()V
+FINER: Name: drawGuiContainerForegroundLayer Desc: ()V
+FINER: Name: drawScreen Desc: (IIF)V
+FINER: Name: drawGuiContainerBackgroundLayer Desc: ()V
+INFO: Processed 4439 -> 4426
+INFO: Processing net/minecraft/client/gui/container/Slot.class
+FINE: Class: net/minecraft/client/gui/container/Slot Extends: java/lang/Object
+FINER: Name: <init> Desc: (Lnet/minecraft/client/gui/container/GuiContainer;Lnet/minecraft/game/IInventory;III)V
+FINER: Name: isAtCursorPos Desc: (II)Z
+FINER: Name: onPickupFromSlot Desc: ()V
+FINER: Name: isItemValid Desc: (Lnet/minecraft/game/item/ItemStack;)Z
+FINER: Name: putStack Desc: (Lnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getBackgroundIconIndex Desc: ()I
+INFO: Processed 1185 -> 1168
+INFO: Processing net/minecraft/client/gui/container/InventoryCraftResult.class
+FINE: Class: net/minecraft/client/gui/container/InventoryCraftResult Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getInventoryStackLimit Desc: ()I
+INFO: Processed 828 -> 814
+INFO: Processing net/minecraft/client/gui/container/GuiChest.class
+FINE: Class: net/minecraft/client/gui/container/GuiChest Extends: net/minecraft/client/gui/container/GuiContainer
+FINER: Name: <init> Desc: (Lnet/minecraft/game/IInventory;Lnet/minecraft/game/IInventory;)V
+FINER: Name: drawGuiContainerForegroundLayer Desc: ()V
+FINER: Name: drawGuiContainerBackgroundLayer Desc: ()V
+INFO: Processed 1992 -> 1984
+INFO: Processing net/minecraft/client/gui/container/GuiContainer.class
+FINE: Class: net/minecraft/client/gui/container/GuiContainer Extends: net/minecraft/client/gui/GuiScreen
+FINER: Name: <init> Desc: ()V
+FINER: Name: drawScreen Desc: (IIF)V
+FINER: Name: drawGuiContainerForegroundLayer Desc: ()V
+FINER: Name: drawGuiContainerBackgroundLayer Desc: ()V
+FINER: Name: drawSlotInventory Desc: (III)V
+FINER: Name: keyTyped Desc: (CI)V
+FINER: Name: onGuiClosed Desc: ()V
+FINER: Name: guiCraftingItemsCheck Desc: ()V
+FINER: Name: doesGuiPauseGame Desc: ()Z
+FINER: Name: <clinit> Desc: ()V
+INFO: Processed 4896 -> 4877
+INFO: Processing net/minecraft/game/level/block/tileentity/TileEntity.class
+FINE: Class: net/minecraft/game/level/block/tileentity/TileEntity Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: readFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: writeToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: updateEntity Desc: ()V
+INFO: Processed 447 -> 436
+INFO: Processing net/minecraft/game/level/block/tileentity/TileEntityFurnace.class
+FINE: Class: net/minecraft/game/level/block/tileentity/TileEntityFurnace Extends: net/minecraft/game/level/block/tileentity/TileEntity
+FINER: Name: <init> Desc: ()V
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: readFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: writeToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getInventoryStackLimit Desc: ()I
+FINER: Name: getCookProgressScaled Desc: (I)I
+FINER: Name: getBurnTimeRemainingScaled Desc: (I)I
+FINER: Name: isBurning Desc: ()Z
+FINER: Name: updateEntity Desc: ()V
+FINER: Name: canSmelt Desc: ()Z
+FINER: Name: smeltItem Desc: (I)I
+FINER: Name: getItemBurnTime Desc: (Lnet/minecraft/game/item/ItemStack;)I
+INFO: Processed 5046 -> 5032
+INFO: Processing net/minecraft/game/level/block/tileentity/TileEntityChest.class
+FINE: Class: net/minecraft/game/level/block/tileentity/TileEntityChest Extends: net/minecraft/game/level/block/tileentity/TileEntity
+FINER: Name: <init> Desc: ()V
+FINER: Name: getSizeInventory Desc: ()I
+FINER: Name: getStackInSlot Desc: (I)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: decrStackSize Desc: (II)Lnet/minecraft/game/item/ItemStack;
+FINER: Name: setInventorySlotContents Desc: (ILnet/minecraft/game/item/ItemStack;)V
+FINER: Name: getInvName Desc: ()Ljava/lang/String;
+FINER: Name: readFromNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: writeToNBT Desc: (Lcom/mojang/nbt/NBTTagCompound;)V
+FINER: Name: getInventoryStackLimit Desc: ()I
+INFO: Processed 1866 -> 1852
+INFO: Processing net/minecraft/game/level/generator/noise/NoiseGeneratorPerlin.class
+FINE: Class: net/minecraft/game/level/generator/noise/NoiseGeneratorPerlin Extends: net/minecraft/game/level/generator/noise/NoiseGenerator
+FINER: Name: <init> Desc: ()V
+FINER: Name: <init> Desc: (Ljava/util/Random;)V
+FINER: Name: generateNoise Desc: (D)D
+FINER: Name: lerp Desc: (DDD)D
+FINER: Name: grad Desc: (IDDD)D
+FINER: Name: generateNoise Desc: (DD)D
+INFO: Processed 1232 -> 1221
+INFO: Processing net/minecraft/game/level/generator/noise/NoiseGenerator.class
+FINE: Class: net/minecraft/game/level/generator/noise/NoiseGenerator Extends: java/lang/Object
+FINER: Name: <init> Desc: ()V
+FINER: Name: generateNoise Desc: (DD)D
+INFO: Processed 210 -> 202
+INFO: Processing net/minecraft/game/level/generator/noise/NoiseGeneratorOctaves.class
+FINE: Class: net/minecraft/game/level/generator/noise/NoiseGeneratorOctaves Extends: net/minecraft/game/level/generator/noise/NoiseGenerator
+FINER: Name: <init> Desc: (Ljava/util/Random;I)V
+FINER: Name: generateNoise Desc: (DD)D
+INFO: Processed 668 -> 651
+INFO: Processing net/minecraft/game/level/generator/noise/NoiseGeneratorDistort.class
+FINE: Class: net/minecraft/game/level/generator/noise/NoiseGeneratorDistort Extends: net/minecraft/game/level/generator/noise/NoiseGenerator
+FINER: Name: <init> Desc: (Lnet/minecraft/game/level/generator/noise/NoiseGenerator;Lnet/minecraft/game/level/generator/noise/NoiseGenerator;)V
+FINER: Name: generateNoise Desc: (DD)D
+INFO: Processed 558 -> 541
+INFO: Copying META-INF/MANIFEST.MF

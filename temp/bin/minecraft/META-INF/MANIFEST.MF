@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_33 (Sun Microsystems Inc.)
+
+Name: char.png
+
+Name: com/mojang/minecraft/character/Cube.class
+
+Name: com/mojang/minecraft/character/Polygon.class
+
+Name: com/mojang/minecraft/character/Vec3.class
+
+Name: com/mojang/minecraft/character/Vertex.class
+
+Name: com/mojang/minecraft/character/Zombie.class
+
+Name: com/mojang/minecraft/character/ZombieModel.class
+
+Name: com/mojang/minecraft/Entity.class
+
+Name: com/mojang/minecraft/HitResult.class
+
+Name: com/mojang/minecraft/level/Chunk.class
+
+Name: com/mojang/minecraft/level/DirtyChunkSorter.class
+
+Name: com/mojang/minecraft/level/Frustum.class
+
+Name: com/mojang/minecraft/level/Level.class
+
+Name: com/mojang/minecraft/level/LevelListener.class
+
+Name: com/mojang/minecraft/level/LevelRenderer.class
+
+Name: com/mojang/minecraft/level/PerlinNoiseFilter.class
+
+Name: com/mojang/minecraft/level/Tesselator.class
+
+Name: com/mojang/minecraft/level/tile/Bush.class
+
+Name: com/mojang/minecraft/level/tile/DirtTile.class
+
+Name: com/mojang/minecraft/level/tile/GrassTile.class
+
+Name: com/mojang/minecraft/level/tile/Tile.class
+
+Name: com/mojang/minecraft/MinecraftApplet.class
+
+Name: com/mojang/minecraft/particle/Particle.class
+
+Name: com/mojang/minecraft/particle/ParticleEngine.class
+
+Name: com/mojang/minecraft/phys/AABB.class
+
+Name: com/mojang/minecraft/Player.class
+
+Name: com/mojang/minecraft/RubyDung.class
+
+Name: com/mojang/minecraft/Textures.class
+
+Name: com/mojang/minecraft/Timer.class
+
+Name: terrain.png
+
