@@ -1,0 +1,460 @@
+package com.mojang.minecraft.level.tile;
+
+import com.mojang.minecraft.level.Level;
+import com.mojang.minecraft.level.Tesselator;
+import com.mojang.minecraft.particle.Particle;
+import com.mojang.minecraft.particle.ParticleEngine;
+import com.mojang.minecraft.phys.AABB;
+import java.util.Random;
+
+public class Tile {
+	public static final Tile[] tiles = new Tile[256];
+	public static final Tile empty = null;
+	public static final Tile rock = new Tile(1, 1);
+	public static final Tile grass = new GrassTile(2);
+	public static final Tile dirt = new DirtTile(3, 2);
+	public static final Tile stoneBrick = new Tile(4, 16);
+	public static final Tile wood = new Tile(5, 4);
+	public static final Tile bush = new Bush(6);
+	
+	public static final Tile newBlock1 = new Tile(7, 17);
+	public static final Tile newBlock2 = new Tile(8, 18);
+	public static final Tile newBlock3 = new Tile(9, 19);
+	public static final Tile newBlock4 = new Tile(10, 20);
+	public static final Tile newBlock5 = new Tile(11, 21);
+	public static final Tile newBlock6 = new Tile(12, 22);
+	public static final Tile newBlock7 = new Tile(13, 23);
+	public static final Tile newBlock8 = new Tile(14, 24);
+	public static final Tile newBlock9 = new Tile(15, 25);
+	public static final Tile newBlock10 = new Tile(16, 26);
+	public static final Tile newBlock11 = new Tile(17, 27);
+	public static final Tile newBlock12 = new Tile(18, 28);
+	public static final Tile newBlock13 = new Tile(19, 29);
+	public static final Tile newBlock14 = new Tile(20, 30);
+	public static final Tile newBlock15 = new Tile(21, 31);
+	public static final Tile newBlock16 = new Tile(22, 32);
+	public static final Tile newBlock17 = new Tile(23, 33);
+	public static final Tile newBlock18 = new Tile(24, 34);
+	public static final Tile newBlock19 = new Tile(25, 35);
+	public static final Tile newBlock20 = new Tile(26, 36);
+	public static final Tile newBlock21 = new Tile(27, 37);
+	public static final Tile newBlock22 = new Tile(28, 38);
+	public static final Tile newBlock23 = new Tile(29, 39);
+	public static final Tile newBlock24 = new Tile(30, 40);
+	public static final Tile newBlock25 = new Tile(31, 41);
+	public static final Tile newBlock26 = new Tile(32, 42);
+	public static final Tile newBlock27 = new Tile(33, 43);
+	public static final Tile newBlock28 = new Tile(34, 44);
+	public static final Tile newBlock29 = new Tile(35, 45);
+	public static final Tile newBlock30 = new Tile(36, 46);
+	public static final Tile newBlock31 = new Tile(37, 47);
+	public static final Tile newBlock32 = new Tile(38, 48);
+	public static final Tile newBlock33 = new Tile(39, 49);
+	public static final Tile newBlock34 = new Tile(40, 50);
+	public static final Tile newBlock35 = new Tile(41, 51);
+	public static final Tile newBlock36 = new Tile(42, 52);
+	public static final Tile newBlock37 = new Tile(43, 53);
+	public static final Tile newBlock38 = new Tile(44, 54);
+	public static final Tile newBlock39 = new Tile(45, 55);
+	public static final Tile newBlock40 = new Tile(46, 56);
+	public static final Tile newBlock41 = new Tile(47, 57);
+	public static final Tile newBlock42 = new Tile(48, 58);
+	public static final Tile newBlock43 = new Tile(49, 59);
+	public static final Tile newBlock44 = new Tile(50, 60);
+	public static final Tile newBlock45 = new Tile(51, 61);
+	public static final Tile newBlock46 = new Tile(52, 62);
+	public static final Tile newBlock47 = new Tile(53, 63);
+	public static final Tile newBlock48 = new Tile(54, 64);
+	public static final Tile newBlock49 = new Tile(55, 65);
+	public static final Tile newBlock50 = new Tile(56, 66);
+	public static final Tile newBlock51 = new Tile(57, 67);
+	public static final Tile newBlock52 = new Tile(58, 68);
+	public static final Tile newBlock53 = new Tile(59, 69);
+	public static final Tile newBlock54 = new Tile(60, 70);
+	public static final Tile newBlock55 = new Tile(61, 71);
+	public static final Tile newBlock56 = new Tile(62, 72);
+	public static final Tile newBlock57 = new Tile(63, 73);
+	public static final Tile newBlock58 = new Tile(64, 74);
+	public static final Tile newBlock59 = new Tile(65, 75);
+	public static final Tile newBlock60 = new Tile(66, 76);
+	public static final Tile newBlock61 = new Tile(67, 77);
+	public static final Tile newBlock62 = new Tile(68, 78);
+	public static final Tile newBlock63 = new Tile(69, 79);
+	public static final Tile newBlock64 = new Tile(70, 80);
+	public static final Tile newBlock65 = new Tile(71, 81);
+	public static final Tile newBlock66 = new Tile(72, 82);
+	public static final Tile newBlock67 = new Tile(73, 83);
+	public static final Tile newBlock68 = new Tile(74, 84);
+	public static final Tile newBlock69 = new Tile(75, 85);
+	public static final Tile newBlock70 = new Tile(76, 86);
+	public static final Tile newBlock71 = new Tile(77, 87);
+	public static final Tile newBlock72 = new Tile(78, 88);
+	public static final Tile newBlock73 = new Tile(79, 89);
+	public static final Tile newBlock74 = new Tile(80, 90);
+	public static final Tile newBlock75 = new Tile(81, 91);
+	public static final Tile newBlock76 = new Tile(82, 92);
+	public static final Tile newBlock77 = new Tile(83, 93);
+	public static final Tile newBlock78 = new Tile(84, 94);
+	public static final Tile newBlock79 = new Tile(85, 95);
+	public static final Tile newBlock80 = new Tile(86, 96);
+	public static final Tile newBlock81 = new Tile(87, 97);
+	public static final Tile newBlock82 = new Tile(88, 98);
+	public static final Tile newBlock83 = new Tile(89, 99);
+	public static final Tile newBlock84 = new Tile(90, 100);
+	public static final Tile newBlock85 = new Tile(91, 101);
+	public static final Tile newBlock86 = new Tile(92, 102);
+	public static final Tile newBlock87 = new Tile(93, 103);
+	public static final Tile newBlock88 = new Tile(94, 104);
+	public static final Tile newBlock89 = new Tile(95, 105);
+	public static final Tile newBlock90 = new Tile(96, 106);
+	public static final Tile newBlock91 = new Tile(97, 107);
+	public static final Tile newBlock92 = new Tile(98, 108);
+	public static final Tile newBlock93 = new Tile(99, 109);
+	public static final Tile newBlock94 = new Tile(100, 110);
+	public static final Tile newBlock95 = new Tile(101, 111);
+	public static final Tile newBlock96 = new Tile(102, 112);
+	public static final Tile newBlock97 = new Tile(103, 113);
+	public static final Tile newBlock98 = new Tile(104, 114);
+	public static final Tile newBlock99 = new Tile(105, 115);
+	public static final Tile newBlock100 = new Tile(106, 116);
+	public static final Tile newBlock101 = new Tile(107, 117);
+	public static final Tile newBlock102 = new Tile(108, 118);
+	public static final Tile newBlock103 = new Tile(109, 119);
+	public static final Tile newBlock104 = new Tile(110, 120);
+	public static final Tile newBlock105 = new Tile(111, 121);
+	public static final Tile newBlock106 = new Tile(112, 122);
+	public static final Tile newBlock107 = new Tile(113, 123);
+	public static final Tile newBlock108 = new Tile(114, 124);
+	public static final Tile newBlock109 = new Tile(115, 125);
+	public static final Tile newBlock110 = new Tile(116, 126);
+	public static final Tile newBlock111 = new Tile(117, 127);
+	public static final Tile newBlock112 = new Tile(118, 128);
+	public static final Tile newBlock113 = new Tile(119, 129);
+	public static final Tile newBlock114 = new Tile(120, 130);
+	public static final Tile newBlock115 = new Tile(121, 131);
+	public static final Tile newBlock116 = new Tile(122, 132);
+	public static final Tile newBlock117 = new Tile(123, 133);
+	public static final Tile newBlock118 = new Tile(124, 134);
+	public static final Tile newBlock119 = new Tile(125, 135);
+	public static final Tile newBlock120 = new Tile(126, 136);
+	public static final Tile newBlock121 = new Tile(127, 137);
+	public static final Tile newBlock122 = new Tile(128, 138);
+	public static final Tile newBlock123 = new Tile(129, 139);
+	public static final Tile newBlock124 = new Tile(130, 140);
+	public static final Tile newBlock125 = new Tile(131, 141);
+	public static final Tile newBlock126 = new Tile(132, 142);
+	public static final Tile newBlock127 = new Tile(133, 143);
+	public static final Tile newBlock128 = new Tile(134, 144);
+	public static final Tile newBlock129 = new Tile(135, 145);
+	public static final Tile newBlock130 = new Tile(136, 146);
+	public static final Tile newBlock131 = new Tile(137, 147);
+	public static final Tile newBlock132 = new Tile(138, 148);
+	public static final Tile newBlock133 = new Tile(139, 149);
+	public static final Tile newBlock134 = new Tile(140, 150);
+	public static final Tile newBlock135 = new Tile(141, 151);
+	public static final Tile newBlock136 = new Tile(142, 152);
+	public static final Tile newBlock137 = new Tile(143, 153);
+	public static final Tile newBlock138 = new Tile(144, 154);
+	public static final Tile newBlock139 = new Tile(145, 155);
+	public static final Tile newBlock140 = new Tile(146, 156);
+	public static final Tile newBlock141 = new Tile(147, 157);
+	public static final Tile newBlock142 = new Tile(148, 158);
+	public static final Tile newBlock143 = new Tile(149, 159);
+	public static final Tile newBlock144 = new Tile(150, 160);
+	public static final Tile newBlock145 = new Tile(151, 161);
+	public static final Tile newBlock146 = new Tile(152, 162);
+	public static final Tile newBlock147 = new Tile(153, 163);
+	public static final Tile newBlock148 = new Tile(154, 164);
+	public static final Tile newBlock149 = new Tile(155, 165);
+	public static final Tile newBlock150 = new Tile(156, 166);
+	public static final Tile newBlock151 = new Tile(157, 167);
+	public static final Tile newBlock152 = new Tile(158, 168);
+	public static final Tile newBlock153 = new Tile(159, 169);
+	public static final Tile newBlock154 = new Tile(160, 170);
+	public static final Tile newBlock155 = new Tile(161, 171);
+	public static final Tile newBlock156 = new Tile(162, 172);
+	public static final Tile newBlock157 = new Tile(163, 173);
+	public static final Tile newBlock158 = new Tile(164, 174);
+	public static final Tile newBlock159 = new Tile(165, 175);
+	public static final Tile newBlock160 = new Tile(166, 176);
+	public static final Tile newBlock161 = new Tile(167, 177);
+	public static final Tile newBlock162 = new Tile(168, 178);
+	public static final Tile newBlock163 = new Tile(169, 179);
+	public static final Tile newBlock164 = new Tile(170, 180);
+	public static final Tile newBlock165 = new Tile(171, 181);
+	public static final Tile newBlock166 = new Tile(172, 182);
+	public static final Tile newBlock167 = new Tile(173, 183);
+	public static final Tile newBlock168 = new Tile(174, 184);
+	public static final Tile newBlock169 = new Tile(175, 185);
+	public static final Tile newBlock170 = new Tile(176, 186);
+	public static final Tile newBlock171 = new Tile(177, 187);
+	public static final Tile newBlock172 = new Tile(178, 188);
+	public static final Tile newBlock173 = new Tile(179, 189);
+	public static final Tile newBlock174 = new Tile(180, 190);
+	public static final Tile newBlock175 = new Tile(181, 191);
+	public static final Tile newBlock176 = new Tile(182, 192);
+	public static final Tile newBlock177 = new Tile(183, 193);
+	public static final Tile newBlock178 = new Tile(184, 194);
+	public static final Tile newBlock179 = new Tile(185, 195);
+	public static final Tile newBlock180 = new Tile(186, 196);
+	public static final Tile newBlock181 = new Tile(187, 197);
+	public static final Tile newBlock182 = new Tile(188, 198);
+	public static final Tile newBlock183 = new Tile(189, 199);
+	public static final Tile newBlock184 = new Tile(190, 200);
+	public static final Tile newBlock185 = new Tile(191, 201);
+	public static final Tile newBlock186 = new Tile(192, 202);
+	public static final Tile newBlock187 = new Tile(193, 203);
+	public static final Tile newBlock188 = new Tile(194, 204);
+	public static final Tile newBlock189 = new Tile(195, 205);
+	public static final Tile newBlock190 = new Tile(196, 206);
+	public static final Tile newBlock191 = new Tile(197, 207);
+	public static final Tile newBlock192 = new Tile(198, 208);
+	public static final Tile newBlock193 = new Tile(199, 209);
+	public static final Tile newBlock194 = new Tile(200, 210);
+	public static final Tile newBlock195 = new Tile(201, 211);
+	public static final Tile newBlock196 = new Tile(202, 212);
+	public static final Tile newBlock197 = new Tile(203, 213);
+	public static final Tile newBlock198 = new Tile(204, 214);
+	public static final Tile newBlock199 = new Tile(205, 215);
+	public static final Tile newBlock200 = new Tile(206, 216);
+	public static final Tile newBlock201 = new Tile(207, 217);
+	public static final Tile newBlock202 = new Tile(208, 218);
+	public static final Tile newBlock203 = new Tile(209, 219);
+	public static final Tile newBlock204 = new Tile(210, 220);
+	public static final Tile newBlock205 = new Tile(211, 221);
+	public static final Tile newBlock206 = new Tile(212, 222);
+	public static final Tile newBlock207 = new Tile(213, 223);
+	public static final Tile newBlock208 = new Tile(214, 224);
+	public static final Tile newBlock209 = new Tile(215, 225);
+	public static final Tile newBlock210 = new Tile(216, 226);
+	public static final Tile newBlock211 = new Tile(217, 227);
+	public static final Tile newBlock212 = new Tile(218, 228);
+	public static final Tile newBlock213 = new Tile(219, 229);
+	public static final Tile newBlock214 = new Tile(220, 230);
+	public static final Tile newBlock215 = new Tile(221, 231);
+	public static final Tile newBlock216 = new Tile(222, 232);
+	public static final Tile newBlock217 = new Tile(223, 233);
+	public static final Tile newBlock218 = new Tile(224, 234);
+	public static final Tile newBlock219 = new Tile(225, 235);
+	public static final Tile newBlock220 = new Tile(226, 236);
+	public static final Tile newBlock221 = new Tile(227, 237);
+	public static final Tile newBlock222 = new Tile(228, 238);
+	public static final Tile newBlock223 = new Tile(229, 239);
+	public static final Tile newBlock224 = new Tile(230, 240);
+	public static final Tile newBlock225 = new Tile(231, 241);
+	public static final Tile newBlock226 = new Tile(232, 242);
+	public static final Tile newBlock227 = new Tile(233, 243);
+	public static final Tile newBlock228 = new Tile(234, 244);
+	public static final Tile newBlock229 = new Tile(235, 245);
+	public static final Tile newBlock230 = new Tile(236, 246);
+	public static final Tile newBlock231 = new Tile(237, 247);
+	public static final Tile newBlock232 = new Tile(238, 248);
+	public static final Tile newBlock233 = new Tile(239, 249);
+	public static final Tile newBlock234 = new Tile(240, 250);
+	public static final Tile newBlock235 = new Tile(241, 251);
+	public static final Tile newBlock236 = new Tile(242, 252);
+	public static final Tile newBlock237 = new Tile(243, 253);
+	public static final Tile newBlock238 = new Tile(244, 254);
+	public static final Tile newBlock239 = new Tile(245, 255);
+	
+	public int tex;
+	public final int id;
+
+	
+	
+	protected Tile(int id) {
+		tiles[id] = this;
+		this.id = id;
+	}
+
+	public Tile(int id, int tex) {
+		this(id);
+		this.tex = tex;
+	}
+
+	public void render(Tesselator t, Level level, int layer, int x, int y, int z) {
+		float c1 = 1.0F;
+		float c2 = 0.8F;
+		float c3 = 0.6F;
+		if(this.shouldRenderFace(level, x, y - 1, z, layer)) {
+			t.color(c1, c1, c1);
+			this.renderFace(t, x, y, z, 0);
+		}
+
+		if(this.shouldRenderFace(level, x, y + 1, z, layer)) {
+			t.color(c1, c1, c1);
+			this.renderFace(t, x, y, z, 1);
+		}
+
+		if(this.shouldRenderFace(level, x, y, z - 1, layer)) {
+			t.color(c2, c2, c2);
+			this.renderFace(t, x, y, z, 2);
+		}
+
+		if(this.shouldRenderFace(level, x, y, z + 1, layer)) {
+			t.color(c2, c2, c2);
+			this.renderFace(t, x, y, z, 3);
+		}
+
+		if(this.shouldRenderFace(level, x - 1, y, z, layer)) {
+			t.color(c3, c3, c3);
+			this.renderFace(t, x, y, z, 4);
+		}
+
+		if(this.shouldRenderFace(level, x + 1, y, z, layer)) {
+			t.color(c3, c3, c3);
+			this.renderFace(t, x, y, z, 5);
+		}
+
+	}
+
+	private boolean shouldRenderFace(Level level, int x, int y, int z, int layer) {
+		return !level.isSolidTile(x, y, z) && level.isLit(x, y, z) ^ layer == 1;
+	}
+
+	protected int getTexture(int face) {
+		return this.tex;
+	}
+
+	public void renderFace(Tesselator t, int x, int y, int z, int face) {
+		int tex = this.getTexture(face);
+		float u0 = (float)(tex % 16) / 16.0F;
+		float u1 = u0 + 0.0624375F;
+		float v0 = (float)(tex / 16) / 16.0F;
+		float v1 = v0 + 0.0624375F;
+		float x0 = (float)x + 0.0F;
+		float x1 = (float)x + 1.0F;
+		float y0 = (float)y + 0.0F;
+		float y1 = (float)y + 1.0F;
+		float z0 = (float)z + 0.0F;
+		float z1 = (float)z + 1.0F;
+		if(face == 0) {
+			t.vertexUV(x0, y0, z1, u0, v1);
+			t.vertexUV(x0, y0, z0, u0, v0);
+			t.vertexUV(x1, y0, z0, u1, v0);
+			t.vertexUV(x1, y0, z1, u1, v1);
+		}
+
+		if(face == 1) {
+			t.vertexUV(x1, y1, z1, u1, v1);
+			t.vertexUV(x1, y1, z0, u1, v0);
+			t.vertexUV(x0, y1, z0, u0, v0);
+			t.vertexUV(x0, y1, z1, u0, v1);
+		}
+
+		if(face == 2) {
+			t.vertexUV(x0, y1, z0, u1, v0);
+			t.vertexUV(x1, y1, z0, u0, v0);
+			t.vertexUV(x1, y0, z0, u0, v1);
+			t.vertexUV(x0, y0, z0, u1, v1);
+		}
+
+		if(face == 3) {
+			t.vertexUV(x0, y1, z1, u0, v0);
+			t.vertexUV(x0, y0, z1, u0, v1);
+			t.vertexUV(x1, y0, z1, u1, v1);
+			t.vertexUV(x1, y1, z1, u1, v0);
+		}
+
+		if(face == 4) {
+			t.vertexUV(x0, y1, z1, u1, v0);
+			t.vertexUV(x0, y1, z0, u0, v0);
+			t.vertexUV(x0, y0, z0, u0, v1);
+			t.vertexUV(x0, y0, z1, u1, v1);
+		}
+
+		if(face == 5) {
+			t.vertexUV(x1, y0, z1, u0, v1);
+			t.vertexUV(x1, y0, z0, u1, v1);
+			t.vertexUV(x1, y1, z0, u1, v0);
+			t.vertexUV(x1, y1, z1, u0, v0);
+		}
+
+	}
+
+	public void renderFaceNoTexture(Tesselator t, int x, int y, int z, int face) {
+		float x0 = (float)x + 0.0F;
+		float x1 = (float)x + 1.0F;
+		float y0 = (float)y + 0.0F;
+		float y1 = (float)y + 1.0F;
+		float z0 = (float)z + 0.0F;
+		float z1 = (float)z + 1.0F;
+		if(face == 0) {
+			t.vertex(x0, y0, z1);
+			t.vertex(x0, y0, z0);
+			t.vertex(x1, y0, z0);
+			t.vertex(x1, y0, z1);
+		}
+
+		if(face == 1) {
+			t.vertex(x1, y1, z1);
+			t.vertex(x1, y1, z0);
+			t.vertex(x0, y1, z0);
+			t.vertex(x0, y1, z1);
+		}
+
+		if(face == 2) {
+			t.vertex(x0, y1, z0);
+			t.vertex(x1, y1, z0);
+			t.vertex(x1, y0, z0);
+			t.vertex(x0, y0, z0);
+		}
+
+		if(face == 3) {
+			t.vertex(x0, y1, z1);
+			t.vertex(x0, y0, z1);
+			t.vertex(x1, y0, z1);
+			t.vertex(x1, y1, z1);
+		}
+
+		if(face == 4) {
+			t.vertex(x0, y1, z1);
+			t.vertex(x0, y1, z0);
+			t.vertex(x0, y0, z0);
+			t.vertex(x0, y0, z1);
+		}
+
+		if(face == 5) {
+			t.vertex(x1, y0, z1);
+			t.vertex(x1, y0, z0);
+			t.vertex(x1, y1, z0);
+			t.vertex(x1, y1, z1);
+		}
+
+	}
+
+	public final AABB getTileAABB(int x, int y, int z) {
+		return new AABB((float)x, (float)y, (float)z, (float)(x + 1), (float)(y + 1), (float)(z + 1));
+	}
+
+	public AABB getAABB(int x, int y, int z) {
+		return new AABB((float)x, (float)y, (float)z, (float)(x + 1), (float)(y + 1), (float)(z + 1));
+	}
+
+	public boolean blocksLight() {
+		return true;
+	}
+
+	public boolean isSolid() {
+		return true;
+	}
+
+	public void tick(Level level, int x, int y, int z, Random random) {
+	}
+
+	public void destroy(Level level, int x, int y, int z, ParticleEngine particleEngine) {
+		byte SD = 4;
+
+		for(int xx = 0; xx < SD; ++xx) {
+			for(int yy = 0; yy < SD; ++yy) {
+				for(int zz = 0; zz < SD; ++zz) {
+					float xp = (float)x + ((float)xx + 0.5F) / (float)SD;
+					float yp = (float)y + ((float)yy + 0.5F) / (float)SD;
+					float zp = (float)z + ((float)zz + 0.5F) / (float)SD;
+					particleEngine.add(new Particle(level, xp, yp, zp, xp - (float)x - 0.5F, yp - (float)y - 0.5F, zp - (float)z - 0.5F, this.tex));
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,148 @@
+v2.3
+  * Updated MCInjector to not fail on certain Java 8 constructors (by updating the bundled ASM)
+  * Updated Retroguard to not fail to reobfuscate on Java 8+ classes
+====================================================
+v2.2
+  * Fixed third person freeze in inf-20100227
+  * Added --nolvt option when decompiling (No Local Variable Tables)
+  * Small change to a1.1.2/a1.1.1/a1.1.2_01 mappings
+====================================================
+v2.1
+  * Fixed betacraft dependencies
+  * Replaced SpecialSource with RetroGuard
+  * Moved version mappings and patches from conf to versions
+  * Downgraded Fernflower to reduce decompilation errors
+  * Changed indention string to a tab character
+  * Eclipse workspace setup for each version
+    - Server doesn't show up in the workspace if the version doesn't have it
+    - Workspace is automatically deleted upon cleanup
+    - Workspace is recopied when using setup or switchversion
+  * Fixed switchversion missing
+  * Fixed GL constant replacer not replacing constants inside isKeyDown
+  * Decompiling now outputs unpatched sources to temp/src
+  * Classes are now decompiled from temp/cls instead of minecraft_exc.jar
+  * Cleanup script allows any key to be pressed after the cleanup
+  * Added version support for:
+    - in-20100227
+    - a1.2.3
+    - a1.2.3_01
+    - a1.2.3_02
+    - a1.2.3_04
+    - a1.2.5
+    - a1.2.6
+    - b1.1-1
+    - b1.1-2
+    - b1.1_01
+    - b1.1_02
+    - b1.4
+====================================================
+v2.0
+  * Switched the mapping format from CSV to SRG
+    - SRG-based reobfuscation
+  * Reduced the amount of operations for certain versions
+  * Added checks for patch and exceptor files missing
+  * Added a switchversion script for a more proper version switching
+  * Improved version list display in the setup script
+    - It's sorted from newest to oldest version
+    - It displays in columns
+  * Added versions.json with all download links and dates
+  * Updated libraries and natives
+    - Exceptions related to Controller input are no longer thrown
+  * Changed download links
+  * Updated GL constant annotation
+    - Includes LWJGL input constants
+  * Removed unused code
+  * Renamed SpecialSource jar to a more generic name
+  * Added version support for:
+    - c0.0.17a
+    - c0.0.18a_02
+    - c0.0.19a_04
+    - c0.0.19a_06
+    - inf-20100624
+    - b1.2_01
+    - b1.2_02
+    - b1.3_01
+    - b1.5
+    - b1.6
+    - b1.6.1
+    - b1.6.2
+    - b1.6.3
+    - b1.7
+    - b1.7_01
+    - b1.8
+    - 1.0.0
+    - 1.1
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+====================================================
+v1.5
+  * Readded support for more betas
+  * Updated SpecialSource to 1.9.0
+  * Added version support for:
+    - b1.4_01
+    - b1.5_01
+    - b1.6.4
+    - b1.6.5
+    - b1.7.2
+    - b1.9-pre5
+====================================================
+v1.4
+  * Readded support for some betas (Standard MCP mappings)
+  * Updates to existing mappings
+  * Added version support for:
+    - inf-20100420 (by Strultz)
+    - inf-20100415
+    - b1.6.6
+    - b1.7.3
+    - b1.8.1
+====================================================
+v1.3
+  * Library zips are now deleted after extraction
+  * Classic server support introduced
+  * Changed the structure of conf folders for each version
+  * Updates to existing mappings
+  * Added version support for:
+    - c0.0.16a_02
+====================================================
+v1.2
+  * Infdev and Alpha versions now use a custom directory to save worlds (instead of %appdata%/.minecraft)
+  * Added version support for:
+    - c0.0.15a
+    - inf-20100625-1 (by MrLordSith)
+  * Fixed decompilation:
+    - inf-20100630-1
+    - inf-20100630-2
+  * Minor Updates to existing mappings
+====================================================
+v1.1
+  * Currently set up version (client and server) is now displayed upon running scripts
+  * Minor improvements to the setup script
+  * Fixed source detection to prevent decompiling
+  * Cleanup script only cancels when 'n' is inputted
+  * Added version support for:
+    - c0.0.13a_03
+    - rd-161348
+    - rd-160052
+    - rd-132328
+    - rd-132211
+====================================================
+v1.0:
+  * Fixed reobfuscation for versions with packages
+  * Modified mappings format
+  * Added version configurations
+  * Improved Start classes for applet-only versions
+  * Betacraft proxy
+  * An option for source cleanup in the cleanup script
+  * Added version support for:
+    - a1.0.1_01
+    - a1.1.1
+    - a1.1.2
+    - a1.1.2_01
+    - inf-20100630-1 (by Silver)
+    - inf-20100630-2
+    - in-20100223
+    - in-20100219
+    - c0.0.12a_03
+    - c0.0.14a_08
+====================================================
