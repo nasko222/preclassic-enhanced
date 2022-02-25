@@ -1,0 +1,15 @@
+package com.mojang.minecraft.render.md3;
+
+import com.mojang.minecraft.render.md3.MD3Frame;
+import com.mojang.minecraft.render.md3.MD3Surface;
+import java.util.HashMap;
+
+public final class MD3Model {
+
+   public int animFrames;
+   public MD3Frame[] frames;
+   public HashMap tags;
+   public MD3Surface[] surfaces;
+
+
+}

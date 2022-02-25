@@ -5,7 +5,7 @@ import com.mojang.minecraft.phys.AABB;
 import java.util.ArrayList;
 
 public class Entity {
-	protected Level level;
+	public Level level;
 	public float xo;
 	public float yo;
 	public float zo;

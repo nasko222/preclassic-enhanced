@@ -1,0 +1,45 @@
+package com.mojang.minecraft.render.md3;
+
+import com.mojang.minecraft.Entity;
+import com.mojang.minecraft.mob.Mob;
+import com.mojang.minecraft.render.md3.MD3Loader;
+import com.mojang.minecraft.render.md3.MD3Renderer;
+import java.io.IOException;
+import org.lwjgl.opengl.GL11;
+
+public final class RenderMD3Entity {
+
+   public MD3Renderer[] c = new MD3Renderer[1];
+   public int frame1 = 1;
+   public int frame2 = 1;
+
+
+   public RenderMD3Entity() {
+      try {
+         this.c[0] = new MD3Renderer((new MD3Loader()).newLoad("/ranger.md3"), true);
+      } catch (IOException var2) {
+         var2.printStackTrace();
+      }
+
+   }
+
+   public final void render(Entity entity, float n, float n2, float n3, float n4, float n5) {
+      Entity mob = (Entity)entity;
+      GL11.glPushMatrix();
+
+      try {
+         GL11.glTranslatef(n, n2, n3);
+         GL11.glBindTexture(3553, entity.level.rendererContext$5cd64a7f.textureManager.load("/ranger.png"));
+         GL11.glRotatef(-(mob.yBodyRotO + (mob.yBodyRot - mob.yBodyRotO) * n5) - 90.0F, 0.0F, 1.0F, 0.0F);
+         GL11.glRotatef(-90.0F, 1.0F, 0.0F, 0.0F);
+         GL11.glScalef(0.03F, -0.03F, 0.03F);
+         GL11.glEnable(2977);
+         this.c[0].render(this.frame1, this.frame2, 0.0F);
+         GL11.glDisable(2977);
+      } catch (Exception var9) {
+         var9.printStackTrace();
+      }
+
+      GL11.glPopMatrix();
+   }
+}

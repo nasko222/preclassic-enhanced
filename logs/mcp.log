@@ -1,5 +1,10 @@
-2022-02-23 22:48 -    commands.__init__ - INFO - == RetroMCP v2.3 (client: rd-161348, server: None) ==
-2022-02-23 22:48 -    commands.__init__ - DEBUG - OS : win32
-2022-02-23 22:48 -    commands.runmc - DEBUG - runmc: 'java.exe -Xms1024M -Xmx1024M -Djava.util.Arrays.useLegacyMergeSort=true -cp "../lib/;../lib/*;../bin/minecraft;../jars/bin/minecraft.jar;../jars/bin/jinput.jar;../jars/bin/lwjgl.jar;../jars/bin/lwjgl_util.jar" -Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11701 -Djava.library.path=../jars/bin/natives Start'
-2022-02-23 22:48 -    commands.runmc - DEBUG - /terrain.png -> 1
-2022-02-23 22:48 -    commands.runmc - DEBUG - 23 fps, 368
+2022-02-23 23:52 -    commands.__init__ - INFO - == RetroMCP v2.3 (client: rd-161348, server: None) ==
+2022-02-23 23:52 -    commands.__init__ - DEBUG - OS : win32
+2022-02-23 23:52 -    commands.runmc - DEBUG - runmc: 'java.exe -Xms1024M -Xmx1024M -Djava.util.Arrays.useLegacyMergeSort=true -cp "../lib/;../lib/*;../bin/minecraft;../jars/bin/minecraft.jar;../jars/bin/jinput.jar;../jars/bin/lwjgl.jar;../jars/bin/lwjgl_util.jar" -Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11701 -Djava.library.path=../jars/bin/natives Start'
+2022-02-23 23:52 -    commands.runmc - DEBUG - /terrain.png -> 1
+2022-02-23 23:52 -    commands.runmc - DEBUG - 1 fps, 16
+2022-02-23 23:52 -    commands.runmc - DEBUG - 76 fps, 1216
+2022-02-23 23:52 -    commands.runmc - DEBUG - 127 fps, 818
+2022-02-23 23:52 -    commands.runmc - DEBUG - 71 fps, 0
+2022-02-23 23:52 -    commands.runmc - DEBUG - 76 fps, 0
+2022-02-23 23:52 -    commands.runmc - DEBUG - 115 fps, 0

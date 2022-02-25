@@ -52,7 +52,7 @@ public class RubyDung implements Runnable {
 		this.fogColor1.put(new float[]{(float)(col1 >> 16 & 255) / 255.0F, (float)(col1 >> 8 & 255) / 255.0F, (float)(col1 & 255) / 255.0F, 1.0F});
 		this.fogColor1.flip();
 		Display.setDisplayMode(new DisplayMode(1280, 720));
-		Display.setTitle("Preclassic Enhanced by nasko222 v1.0 (Press Q & E to switch between blocks)");
+		Display.setTitle("Preclassic Enhanced by nasko222 v1.01 (Press Q & E to switch between blocks)");
 		Display.create();
 		Keyboard.create();
 		Mouse.create();
@@ -150,6 +150,11 @@ public class RubyDung implements Runnable {
 					}else {
 						this.paintTexture--;
 					}
+				}
+				
+				if (Keyboard.getEventKey() == Keyboard.KEY_G) {
+					for (int i = 0; i < 16; i++)
+					this.zombies.add(new Zombie(this.level, this.player.x, this.player.y, this.player.z)); 
 				}
 			}
 		}
@@ -250,6 +255,44 @@ public class RubyDung implements Runnable {
 		while(Mouse.next()) {
 			if(Mouse.getEventButton() == 1 && Mouse.getEventButtonState() && this.hitResult != null) {
 				Tile frustum = Tile.tiles[this.level.getTile(this.hitResult.x, this.hitResult.y, this.hitResult.z)];
+				if(this.level.getTile(this.hitResult.x,this.hitResult.y,this.hitResult.z) == 39){
+				    for (int i = 0; i < 127; i++){
+				        this.level.setTile(this.hitResult.x+i,this.hitResult.y-1,this.hitResult.z, 39);
+				        this.level.setTile(this.hitResult.x-i,this.hitResult.y-1,this.hitResult.z, 39);
+				        this.level.setTile(this.hitResult.x,this.hitResult.y-1,this.hitResult.z+i, 39);
+				        this.level.setTile(this.hitResult.x,this.hitResult.y-1,this.hitResult.z-i, 39);
+				        this.level.setTile(this.hitResult.x+i,this.hitResult.y-1,this.hitResult.z+i, 39);
+				        this.level.setTile(this.hitResult.x-i,this.hitResult.y-1,this.hitResult.z+i, 39);
+				        this.level.setTile(this.hitResult.x+i,this.hitResult.y-1,this.hitResult.z-i, 39);
+				        this.level.setTile(this.hitResult.x-i,this.hitResult.y-1,this.hitResult.z-i, 39);
+				    }
+				    this.level.setTile(this.hitResult.x-1,this.hitResult.y-1,this.hitResult.z-1, 39);
+				}
+				if(this.level.getTile(this.hitResult.x,this.hitResult.y,this.hitResult.z) == Tile.tnt.id){
+					final int explosionRadius = 6;
+					for (int i = 0; i < explosionRadius; i++){
+				        for (int j = 0; j < explosionRadius; j++) {
+				        	for (int k = (explosionRadius / 2) * -1; k < explosionRadius / 2; k++) {
+				        		this.level.setTile(this.hitResult.x+i,this.hitResult.y+k,this.hitResult.z+i, 0);
+						        this.level.setTile(this.hitResult.x-i,this.hitResult.y+k,this.hitResult.z+i, 0);
+						        this.level.setTile(this.hitResult.x+i,this.hitResult.y+k,this.hitResult.z-i, 0);
+						        this.level.setTile(this.hitResult.x-i,this.hitResult.y+k,this.hitResult.z-i, 0);
+						        this.level.setTile(this.hitResult.x+i,this.hitResult.y+k,this.hitResult.z+j, 0);
+						        this.level.setTile(this.hitResult.x-i,this.hitResult.y+k,this.hitResult.z+j, 0);
+						        this.level.setTile(this.hitResult.x+i,this.hitResult.y+k,this.hitResult.z-j, 0);
+						        this.level.setTile(this.hitResult.x-i,this.hitResult.y+k,this.hitResult.z-j, 0);
+						        this.level.setTile(this.hitResult.x+j,this.hitResult.y+k,this.hitResult.z+i, 0);
+						        this.level.setTile(this.hitResult.x-j,this.hitResult.y+k,this.hitResult.z+i, 0);
+						        this.level.setTile(this.hitResult.x+j,this.hitResult.y+k,this.hitResult.z-i, 0);
+						        this.level.setTile(this.hitResult.x-j,this.hitResult.y+k,this.hitResult.z-i, 0);
+						        this.level.setTile(this.hitResult.x+j,this.hitResult.y+k,this.hitResult.z+j, 0);
+						        this.level.setTile(this.hitResult.x-j,this.hitResult.y+k,this.hitResult.z+j, 0);
+						        this.level.setTile(this.hitResult.x+j,this.hitResult.y+k,this.hitResult.z-j, 0);
+						        this.level.setTile(this.hitResult.x-j,this.hitResult.y+k,this.hitResult.z-j, 0);
+				        	}
+				        }
+				    }
+				}
 				boolean i = this.level.setTile(this.hitResult.x, this.hitResult.y, this.hitResult.z, 0);
 				if(frustum != null && i) {
 					frustum.destroy(this.level, this.hitResult.x, this.hitResult.y, this.hitResult.z, this.particleEngine);

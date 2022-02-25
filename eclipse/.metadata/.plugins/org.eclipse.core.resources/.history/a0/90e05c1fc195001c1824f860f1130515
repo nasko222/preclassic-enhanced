@@ -1,0 +1,19 @@
+package com.mojang.minecraft.character;
+
+public class ZombieModel {
+	public Cube head = new Cube(0, 0);
+	public Cube head2 = new Cube(0, 0);
+	public Cube head3 = new Cube(0, 0);
+
+	public ZombieModel() {
+		this.head.addBox(-8.0F, 8.0F, -8.0F, 16, 16, 16);
+		this.head2.addBox(-8.0F, -8.0F, -8.0F, 16, 16, 16);
+		this.head3.addBox(-8.0F, -24.0F, -8.0F, 16, 16, 16);
+	}
+
+	public void render(float time) {
+		this.head.render();
+		this.head2.render();
+		this.head3.render();
+	}
+}

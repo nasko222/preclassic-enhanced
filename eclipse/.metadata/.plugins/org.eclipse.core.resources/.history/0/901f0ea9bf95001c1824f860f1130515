@@ -1,0 +1,6 @@
+package com.mojang.minecraft.render.md3;
+
+
+public class MD3Shader {
+
+}
