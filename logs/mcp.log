@@ -1,5 +1,16 @@
-2022-02-25 13:00 -    commands.__init__ - INFO - == RetroMCP v2.3 (client: rd-161348, server: None) ==
-2022-02-25 13:00 -    commands.__init__ - DEBUG - OS : win32
-2022-02-25 13:01 -    commands.checkforupdates - DEBUG - Current version: 2.3
-2022-02-25 13:01 -    commands.checkforupdates - DEBUG - Latest version: 2.3
-2022-02-25 13:01 -   decompile.decompile_side - WARNING - !! Client already decompiled. Run cleanup before decompiling again !!
+2022-02-25 13:03 -    commands.__init__ - INFO - == RetroMCP v2.3 (client: rd-161348, server: None) ==
+2022-02-25 13:03 -    commands.__init__ - DEBUG - OS : win32
+2022-02-25 13:03 -    commands.runmc - DEBUG - runmc: 'java.exe -Xms1024M -Xmx1024M -Djava.util.Arrays.useLegacyMergeSort=true -cp "../lib/;../lib/*;../bin/minecraft;../jars/bin/minecraft.jar;../jars/bin/jinput.jar;../jars/bin/lwjgl.jar;../jars/bin/lwjgl_util.jar" -Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11701 -Djava.library.path=../jars/bin/natives Start'
+2022-02-25 13:04 -    commands.runmc - DEBUG - /terrain.png -> 1
+2022-02-25 13:04 -    commands.runmc - DEBUG - 13 fps, 208
+2022-02-25 13:04 -    commands.runmc - DEBUG - 68 fps, 1088
+2022-02-25 13:04 -    commands.runmc - DEBUG - 46 fps, 736
+2022-02-25 13:04 -    commands.runmc - DEBUG - 51 fps, 92
+2022-02-25 13:04 -    commands.runmc - DEBUG - 49 fps, 40
+2022-02-25 13:04 -    commands.runmc - DEBUG - 48 fps, 30
+2022-02-25 13:04 -    commands.runmc - DEBUG - 43 fps, 32
+2022-02-25 13:04 -    commands.runmc - DEBUG - 47 fps, 28
+2022-02-25 13:04 -    commands.runmc - DEBUG - 103 fps, 48
+2022-02-25 13:04 -    commands.runmc - DEBUG - 86 fps, 44
+2022-02-25 13:04 -    commands.runmc - DEBUG - 133 fps, 14
+2022-02-25 13:04 -    commands.runmc - DEBUG - 43 fps, 56
