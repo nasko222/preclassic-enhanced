@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.lwjgl.input.Mouse"/>
+<fullyQualifiedTypeName name="com.mojang.minecraft.phys.AABB"/>
+<fullyQualifiedTypeName name="com.mojang.minecraft.level.Tesselator"/>
+<fullyQualifiedTypeName name="com.mojang.minecraft.render.md3.RenderMD3Entity"/>
+</qualifiedTypeNameHistroy>

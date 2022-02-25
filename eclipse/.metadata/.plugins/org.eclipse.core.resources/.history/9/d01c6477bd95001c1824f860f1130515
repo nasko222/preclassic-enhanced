@@ -1,0 +1,14 @@
+package com.mojang.minecraft.render.md3;
+
+import com.mojang.minecraft.model.Vec3D;
+
+public class MD3Frame {
+
+   Vec3D min;
+   Vec3D max;
+   Vec3D origin;
+   float radius;
+   String name;
+
+
+}

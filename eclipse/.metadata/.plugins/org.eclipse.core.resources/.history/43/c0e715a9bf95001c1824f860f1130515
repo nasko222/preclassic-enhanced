@@ -1,0 +1,20 @@
+package com.mojang.minecraft.render.md3;
+
+import com.mojang.minecraft.model.Vec3D;
+
+public final class MD3Tag {
+
+   public String name;
+   public Vec3D[] coords;
+   public Vec3D[] c;
+   public Vec3D[] d;
+   public Vec3D[] e;
+
+
+   public MD3Tag(int var1) {
+      this.coords = new Vec3D[var1];
+      this.c = new Vec3D[var1];
+      this.d = new Vec3D[var1];
+      this.e = new Vec3D[var1];
+   }
+}
